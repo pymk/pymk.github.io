@@ -1,69 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@pymk.dev</title>
-    <style type="text/css">
-      body {
-        margin: 40px auto;
-        max-width: 650px;
-        line-height: 1.6;
-        font-size: 18px;
-        color: #444;
-        padding: 0 10px
-      }
+<html lang="en">
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=">
+<title>pymk</title>
+<style>
+	@media (prefers-color-scheme: dark){
+		body {color:#fff;background:#000}
+		a:link {color:#cdf}
+		a:hover, a:visited:hover {color:#def}
+		a:visited {color:#dcf}
+	}
+	body{
+		margin:1em auto;
+		max-width:40em;
+		padding:0 .62em;
+		font:1.2em/1.62 sans-serif
+	}
+	h1,h2,h3 {
+		line-height:1.2
+	}
+	@media print{
+		body{
+			max-width:none
+		}
+	}
+	span.reverse {
+		unicode-bidi: bidi-override;
+		direction: rtl;
+	}
 
-      h1,
-      h2,
-      h3 {
-        line-height: 1.2
-      }
-
-      a {
-        outline: none;
-        text-decoration: none;
-        padding: 2px 1px 0;
-      }
-
-      a:link {
-        color: #ee6275;
-      }
-
-      a:visited {
-        color: #ee6275;
-      }
-
-      a:focus {
-        border-bottom: 1px solid;
-        background: #e4df98;
-      }
-
-      a:hover {
-        border-bottom: 1px solid;
-        background: #e4df98;
-      }
-
-      a:active {
-        background: #444;
-        color: #e4df98;
-      }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <header>
-      <h1>Hello, friends...</h1>
-    </header>
-    <div style="font-size: 2rem;">
-      <div>
-        <i class="fa-brands fa-github fa-fw"></i>
-        <a href="https://github.com/pymk?tab=repositories">Projects</a>
-      </div>
-      <div>
-        <i class="fa-solid fa-circle-arrow-down fa-fw"></i>
-        <a href="https://drive.google.com/file/d/11ljgpgzOz_0jb8Co513A5R0oByiC7Y1R/view">Resume</a>
-      </div>
-    </div>
-  </body>
-</html>
+</style>
+<article>
+	<header>
+		<h1>pymk</h1>
+		<aside><code><span class="reverse">&#118;&#101;&#100;&#46;&#107;&#109;&#121;&#112;&#64;&#111;&#108;&#108;&#101;&#104;</span></code></aside>
+	</header>
+	<ul>
+		<li><a href="https://github.com/pymk?tab=repositories" title="projects">projects</a>
+	</ul>
+</article>
