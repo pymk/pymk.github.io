@@ -1,0 +1,9 @@
+---
+title: "My Cat"
+date: "2022-12-18"
+categories: [pet]
+---
+
+She is a Russian Blue, super chill, and loves to loose her collar once a week.
+
+![](cat.jpg)

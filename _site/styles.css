@@ -1,0 +1,4 @@
+ /* Sets the width for the title so it is not cutoff */
+.navbar-brand {
+    width: 100px
+}

@@ -1,0 +1,36 @@
+---
+title: "About"
+about:
+  id: hero-heading
+  template: solana
+---
+
+:::{#hero-heading}
+
+Hello!
+
+My name is Payam and I am a data engineer analyst, working with clinical data. My expertise include creating Shiny dashboards, cleaning and validating data, setting up pipelines, and making analytical reports using R.
+
+On my free time, I enjoy reading, working out, and playing with my cat.
+
+For my complete resume, please reach out to me at `hello@pymk.dev`.
+
+---
+
+## Experience
+
+Delfi Diagnostics | Data Engineer Analyst | April 2021 - Present
+
+Grail | Data Analyst | February 2020 - October 2021
+
+Gilead | Clinical Data Management | November 2015 - January 2018
+
+## Education
+
+M.S. Molecular Biology | August 2015
+San Jose State University | San Jose, CA
+
+B.A. General Biology | May 2012
+San Francisco State University | San Francisco, CA
+
+:::

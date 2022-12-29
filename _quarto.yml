@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "{pymk}"
+  site-url: "https://pymk.dev"
+  description: "my personal website"
+  favicon: ./img/logo.png
+  page-footer: 
+    border: false
+    background: light
+    left: "" 
+    right: 
+      - icon: code-slash
+        href: https://github.com/pymk/pymk.github.io
+  search: false
+  navbar:
+    right:
+      - text: "about"
+        file: about.qmd
+      - icon: person-fill
+        href: https://pymk.dev
+      - icon: github
+        href: https://github.com/pymk
+      - icon: linkedin
+        href: https://linkedin.com/in/payamk/
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+
+# freeze computational output
+# https://quarto.org/docs/publishing/github-pages.html#freezing-computations
+execute:
+  freeze: auto

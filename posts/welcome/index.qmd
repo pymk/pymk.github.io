@@ -1,0 +1,9 @@
+---
+title: "Welcome"
+date: "2022-10-01"
+categories: [news]
+---
+
+First post! Not much to say, just wanted to initialize the blog post.
+
+![](welcome.jpg)
