@@ -2,42 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pymk.dev/posts/my-cat/index.html</loc>
-    <lastmod>2022-12-29T19:18:49.816Z</lastmod>
+    <lastmod>2022-12-29T23:27:28.262Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/zurich-switzerland/index.html</loc>
-    <lastmod>2022-12-29T19:18:50.114Z</lastmod>
+    <lastmod>2022-12-29T23:27:28.568Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/oslo-norway/index.html</loc>
-    <lastmod>2022-12-29T19:18:50.412Z</lastmod>
+    <lastmod>2022-12-29T23:27:28.873Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/welcome/index.html</loc>
-    <lastmod>2022-12-29T19:18:50.704Z</lastmod>
+    <lastmod>2022-12-29T23:27:29.168Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/athens-greece/index.html</loc>
-    <lastmod>2022-12-29T19:18:51.012Z</lastmod>
+    <lastmod>2022-12-29T23:27:29.496Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/euro-trip-2022/index.html</loc>
-    <lastmod>2022-12-29T19:18:51.331Z</lastmod>
+    <lastmod>2022-12-29T23:27:29.832Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pymk.dev/posts/xkcd-package/index.html</loc>
+    <lastmod>2022-12-29T23:27:30.883Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/vienna-austria/index.html</loc>
-    <lastmod>2022-12-29T19:18:51.621Z</lastmod>
+    <lastmod>2022-12-29T23:27:31.621Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/istanbul-turkey/index.html</loc>
-    <lastmod>2022-12-29T19:18:51.912Z</lastmod>
+    <lastmod>2022-12-29T23:27:31.921Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/index.html</loc>
-    <lastmod>2022-12-29T19:18:52.293Z</lastmod>
+    <lastmod>2022-12-29T23:27:32.374Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/about.html</loc>
-    <lastmod>2022-12-29T19:18:52.619Z</lastmod>
+    <lastmod>2022-12-29T23:27:32.669Z</lastmod>
   </url>
 </urlset>

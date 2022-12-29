@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/xkcd-package/index.html",
       "/posts/my-cat/index.html",
       "/posts/zurich-switzerland/index.html",
       "/posts/vienna-austria/index.html",

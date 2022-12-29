@@ -42,6 +42,13 @@
     "text": "So I thought to take advantage of the remote work situation and travel a bit. In the past few years, I’ve only gone to a couple of places (RStudio Conference in Washington and a visit to the Grand Canyon in Arizona).\nI don’t travel much because I find it stressful a bit. I think it’s the planning part that I find tiring. BUT that’s a minor inconvenience and no reason for staying in one place and not see the world other cultures.\nSo I have family in Norway and Turkey, so I am starting this journey there. Going from California to Oslo, then Istanbul. After that, I have the flexibility to go anywhere."
   },
   {
+    "objectID": "posts/xkcd-package/index.html",
+    "href": "posts/xkcd-package/index.html",
+    "title": "xkcdr Package",
+    "section": "",
+    "text": "I wanted to get more practice using the {covr} package, so I built a small R package that uses the xkcd comic’s API.\nYou can install the package from :\npak::pkg_install(\"pymk/xkcdr\")\nThere is only one exported function for this package: get_xkcd(). There is an optional parameter that can be passed to get a specific comic. Without it, the latest comic will be returned.\nWhat is returned is a {gt} table, which looks very polished as an HTML output.\nFor example, to view the comic 936, “Password Strength”, we run:\n\nxkcdr::get_xkcd(936)\n\n\n\n\n\n  \n    \n      Password Strength\n    \n    \n      Aug 10, 2011\n    \n  \n  \n    \n      xkcd #936\n    \n  \n  \n    \n  \n  \n    \n      https://xkcd.com/936/\n    \n  \n  \n    \n       To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize.\n    \n  \n\n\n\n\n\nSource: pymk/xkcdr"
+  },
+  {
     "objectID": "posts/vienna-austria/index.html",
     "href": "posts/vienna-austria/index.html",
     "title": "Vienna, Austria",
@@ -60,7 +67,7 @@
     "href": "index.html",
     "title": "home",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nMy Cat\n\n\nDec 18, 2022\n\n\npet\n\n\n0 min\n\n\n\n\n\n\n\nZurich, Switzerland\n\n\nOct 29, 2022\n\n\ntravel\n\n\n1 min\n\n\n\n\n\n\n\nVienna, Austria\n\n\nOct 27, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nAthens, Greece\n\n\nOct 22, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nIstanbul, Turkey\n\n\nOct 18, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nOslo, Norway\n\n\nOct 12, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nEuro Trip 2022\n\n\nOct 5, 2022\n\n\nnews,travel\n\n\n0 min\n\n\n\n\n\n\n\nWelcome\n\n\nOct 1, 2022\n\n\nnews\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nxkcdr Package\n\n\nDec 28, 2022\n\n\ncode,R\n\n\n0 min\n\n\n\n\n\n\n\nMy Cat\n\n\nDec 18, 2022\n\n\npet\n\n\n0 min\n\n\n\n\n\n\n\nZurich, Switzerland\n\n\nOct 29, 2022\n\n\ntravel\n\n\n1 min\n\n\n\n\n\n\n\nVienna, Austria\n\n\nOct 27, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nAthens, Greece\n\n\nOct 22, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nIstanbul, Turkey\n\n\nOct 18, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nOslo, Norway\n\n\nOct 12, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nEuro Trip 2022\n\n\nOct 5, 2022\n\n\nnews,travel\n\n\n0 min\n\n\n\n\n\n\n\nWelcome\n\n\nOct 1, 2022\n\n\nnews\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

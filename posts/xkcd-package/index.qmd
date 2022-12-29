@@ -1,0 +1,38 @@
+---
+title: "xkcdr Package"
+date: "2022-12-28"
+draft: false
+categories: [code, R]
+image: "xkcd.png"
+highlight-style: gruvbox
+format:
+    html:
+        code-copy: true
+        code-fold: true
+        code-tools: true
+        code-line-numbers: true     
+---
+
+I wanted to get more practice using the [{covr}](https://covr.r-lib.org) package, so I built a small R package that uses the xkcd comic's API.
+
+You can install the package from {{< fa brands github >}}:
+
+```r
+pak::pkg_install("pymk/xkcdr")
+```
+
+There is only one exported function for this package: `get_xkcd()`. There is an optional parameter that can be passed to get a specific comic. Without it, the latest comic will be returned.
+
+What is returned is a {gt} table, which looks very polished as an HTML output.
+
+For example, to view the comic 936, "Password Strength", we run:
+
+```{r}
+#| echo: true
+#| code-fold: false
+xkcdr::get_xkcd(936)
+```
+
+---
+
+Source: [pymk/xkcdr](https://github.com/pymk/xkcdr)
