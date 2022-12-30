@@ -3,9 +3,9 @@ project:
 
 website:
   title: "{pymk}"
-  site-url: "https://pymk.dev"
-  description: "my personal website"
-  favicon: ./img/logo.png
+  site-url: "https://pymk.dev/"
+  description: "pymkd::blog"
+  favicon: ./img/favicon.ico
   page-footer: 
     border: false
     background: light

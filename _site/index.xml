@@ -8,7 +8,7 @@
 <title>{pymk}</title>
 <link>https://pymk.dev/index.html</link>
 <atom:link href="https://pymk.dev/index.xml" rel="self" type="application/rss+xml"/>
-<description>my personal website</description>
+<description>pymkd::blog</description>
 <generator>quarto-1.2.280</generator>
 <lastBuildDate>Wed, 28 Dec 2022 08:00:00 GMT</lastBuildDate>
 <item>

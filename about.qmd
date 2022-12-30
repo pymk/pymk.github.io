@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "::about"
 about:
   id: hero-heading
   template: solana
@@ -17,7 +17,7 @@ For my complete resume, please reach out to me at `hello@pymk.dev`.
 
 ---
 
-## Experience
+## ::experience
 
 Delfi Diagnostics | Data Engineer Analyst | April 2021 - Present
 
@@ -25,7 +25,7 @@ Grail | Data Analyst | February 2020 - October 2021
 
 Gilead | Clinical Data Management | November 2015 - January 2018
 
-## Education
+## ::education
 
 M.S. Molecular Biology | August 2015
 San Jose State University | San Jose, CA

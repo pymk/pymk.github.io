@@ -65,14 +65,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "home",
+    "title": "::blog",
     "section": "",
     "text": "Title\n\n\nDate\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nxkcdr Package\n\n\nDec 28, 2022\n\n\ncode,R\n\n\n0 min\n\n\n\n\n\n\n\nMy Cat\n\n\nDec 18, 2022\n\n\npet\n\n\n0 min\n\n\n\n\n\n\n\nZurich, Switzerland\n\n\nOct 29, 2022\n\n\ntravel\n\n\n1 min\n\n\n\n\n\n\n\nVienna, Austria\n\n\nOct 27, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nAthens, Greece\n\n\nOct 22, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nIstanbul, Turkey\n\n\nOct 18, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nOslo, Norway\n\n\nOct 12, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nEuro Trip 2022\n\n\nOct 5, 2022\n\n\nnews,travel\n\n\n0 min\n\n\n\n\n\n\n\nWelcome\n\n\nOct 1, 2022\n\n\nnews\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "::about",
     "section": "",
     "text": "Hello!\nMy name is Payam and I am a data engineer analyst. My interests and expertise include creating Shiny dashboards and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports. I work in a clinical setting and primarily use R.\nOn my free time, I enjoy reading, working out, and playing with my cat.\nFor my complete resume, please reach out to me at hello@pymk.dev.\n\n\n\nDelfi Diagnostics | Data Engineer Analyst | April 2021 - Present\nGrail | Data Analyst | February 2020 - October 2021\nGilead | Clinical Data Management | November 2015 - January 2018\n\n\n\nM.S. Molecular Biology | August 2015 San Jose State University | San Jose, CA\nB.A. General Biology | May 2012 San Francisco State University | San Francisco, CA"
   }
