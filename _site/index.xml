@@ -10,7 +10,87 @@
 <atom:link href="https://pymk.dev/index.xml" rel="self" type="application/rss+xml"/>
 <description>pymkd::blog</description>
 <generator>quarto-1.2.280</generator>
-<lastBuildDate>Wed, 28 Dec 2022 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 31 Dec 2022 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>dbt Tutorial</title>
+  <link>https://pymk.dev/posts/dbt-tutorial/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We were thinking about using <a href="https://www.getdbt.com/product/what-is-dbt/">dbt</a> at work to help with our data pipeline, so I thought this winter break would be a good time to learn the basics.</p>
+<p>They offer two products: “dbt Cloud” and “dbt Core”. As the name suggests, “Cloud” is their subscription service and “Core” is free CLI tool.</p>
+<p>They have lots of nice guides, docs, and tutorials for learning. The one I started with is their <code>jaffle_shop</code> <a href="https://docs.getdbt.com/docs/get-started/getting-started-dbt-core">dbt Core tutorial</a>.</p>
+<p>One of the prerequisites is to set up BigQuery to access the data, but for learning purposes, I just wanted to run things locally. Could not find a guide or the dataset on their official channels, but I managed to find CSV files for the tables in an old repo on Github. It was probably from their earlier version of the tutorial.</p>
+<p>Anyway, I created this guide to use a local Postgres dataset for the <code>jaffle_shop</code> tutorial.</p>
+<hr>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Download the <a href="https://github.com/pymk/dbt-tutorial/tree/master/jaffle_shop/data">datasets from here</a> and put them in <code>data/</code> directory within the project (i.e.&nbsp;<code>~/../dbt-tutorial/jaffle_shop/data/</code>)</li>
+<li>Ensure you are in the project directory (i.e.&nbsp;<code>~/../dbt-tutorial/jaffle_shop/</code>) for running the Postgres and <code>dbt</code> commands</li>
+</ul>
+<hr>
+<p>First, install <a href="https://postgresapp.com">Postgres app</a>.</p>
+<p>In terminal, we can login to Postgres as sudo with:</p>
+<p><code>psql -U postgres</code></p>
+<p>And use the command <code>\l</code> to list of current databases available.</p>
+<p>Next, we create a user and database for <code>jaffle_shop</code>. In my example, the user is <code>dbt_test</code> (password: <code>dbt_test</code>) and the database is called <code>jaffle_shop</code>.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb1-1"><span class="kw" style="color: #003B4F;">CREATE</span> <span class="fu" style="color: #4758AB;">USER</span> dbt_test <span class="kw" style="color: #003B4F;">WITH</span> <span class="kw" style="color: #003B4F;">PASSWORD</span> <span class="st" style="color: #20794D;">'adb_test'</span>;</span>
+<span id="cb1-2"><span class="kw" style="color: #003B4F;">CREATE</span> <span class="kw" style="color: #003B4F;">DATABASE</span> jaffle_shop <span class="kw" style="color: #003B4F;">WITH</span> OWNER <span class="st" style="color: #20794D;">'dbt_test'</span>;</span></code></pre></div>
+<p>Using <code>\l</code>, we can see the new database is created. Now we can exist sudo with <code>\q</code></p>
+<p>Next, we login to <code>jaffle_shop</code> database as the new user (<code>dbt_test</code>) we just created:</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb2-1">psql <span class="op" style="color: #5E5E5E;">-</span>U dbt_test jaffle_shop</span></code></pre></div>
+<p>We can use <code>\dt</code> command to list all available tables (should be none right now) in this database.</p>
+<p>The following commands create our tables (schema is based on the CSV files in the <code>data/</code> folder).</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb3-1"><span class="kw" style="color: #003B4F;">CREATE</span> <span class="kw" style="color: #003B4F;">TABLE</span> customers</span>
+<span id="cb3-2"> (<span class="kw" style="color: #003B4F;">id</span> <span class="dt" style="color: #AD0000;">INTEGER</span>, first_name TEXT, last_name TEXT, email TEXT);</span>
+<span id="cb3-3"></span>
+<span id="cb3-4"><span class="kw" style="color: #003B4F;">CREATE</span> <span class="kw" style="color: #003B4F;">TABLE</span> orders</span>
+<span id="cb3-5"> (<span class="kw" style="color: #003B4F;">id</span> <span class="dt" style="color: #AD0000;">INTEGER</span>, user_id <span class="dt" style="color: #AD0000;">INTEGER</span>, order_date <span class="dt" style="color: #AD0000;">DATE</span>, status TEXT);</span>
+<span id="cb3-6"></span>
+<span id="cb3-7"><span class="kw" style="color: #003B4F;">CREATE</span> <span class="kw" style="color: #003B4F;">TABLE</span> payments</span>
+<span id="cb3-8"> (<span class="kw" style="color: #003B4F;">id</span> <span class="dt" style="color: #AD0000;">INTEGER</span>, order_id <span class="dt" style="color: #AD0000;">INTEGER</span>, payment_method TEXT, amount BigInt);</span></code></pre></div>
+<p>Now we can run <code>\dt</code> again to see a list of newly created tables.</p>
+<p>To copy the contents of the CSV files into these tables, we use these commands:</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb4-1">\<span class="kw" style="color: #003B4F;">copy</span> customers(<span class="kw" style="color: #003B4F;">id</span>,first_name,last_name,email) <span class="kw" style="color: #003B4F;">FROM</span> <span class="st" style="color: #20794D;">'./data/raw_customers.csv'</span> <span class="kw" style="color: #003B4F;">WITH</span> DELIMITER <span class="st" style="color: #20794D;">','</span> CSV <span class="kw" style="color: #003B4F;">header</span>;</span>
+<span id="cb4-2"></span>
+<span id="cb4-3">\<span class="kw" style="color: #003B4F;">copy</span> orders(<span class="kw" style="color: #003B4F;">id</span>,user_id,order_date,status) <span class="kw" style="color: #003B4F;">FROM</span> <span class="st" style="color: #20794D;">'./data/raw_orders.csv'</span> <span class="kw" style="color: #003B4F;">WITH</span> DELIMITER <span class="st" style="color: #20794D;">','</span> CSV <span class="kw" style="color: #003B4F;">header</span>;</span>
+<span id="cb4-4"></span>
+<span id="cb4-5">\<span class="kw" style="color: #003B4F;">copy</span> payments(<span class="kw" style="color: #003B4F;">id</span>,order_id,payment_method,amount) <span class="kw" style="color: #003B4F;">FROM</span> <span class="st" style="color: #20794D;">'./data/raw_payments.csv'</span> <span class="kw" style="color: #003B4F;">WITH</span> DELIMITER <span class="st" style="color: #20794D;">','</span> CSV <span class="kw" style="color: #003B4F;">header</span>;</span></code></pre></div>
+<p>And a quick sanity check to ensure we have the data:</p>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode numberSource sql number-lines code-with-copy"><code class="sourceCode sql"><span id="cb5-1"><span class="kw" style="color: #003B4F;">SELECT</span> <span class="op" style="color: #5E5E5E;">*</span> <span class="kw" style="color: #003B4F;">FROM</span> customers <span class="kw" style="color: #003B4F;">ORDER</span> <span class="kw" style="color: #003B4F;">BY</span> <span class="kw" style="color: #003B4F;">id</span> <span class="kw" style="color: #003B4F;">ASC</span> <span class="kw" style="color: #003B4F;">LIMIT</span> <span class="dv" style="color: #AD0000;">10</span>;</span>
+<span id="cb5-2"><span class="kw" style="color: #003B4F;">SELECT</span> <span class="op" style="color: #5E5E5E;">*</span> <span class="kw" style="color: #003B4F;">FROM</span> orders <span class="kw" style="color: #003B4F;">ORDER</span> <span class="kw" style="color: #003B4F;">BY</span> <span class="kw" style="color: #003B4F;">id</span> <span class="kw" style="color: #003B4F;">ASC</span> <span class="kw" style="color: #003B4F;">LIMIT</span> <span class="dv" style="color: #AD0000;">10</span>;</span>
+<span id="cb5-3"><span class="kw" style="color: #003B4F;">SELECT</span> <span class="op" style="color: #5E5E5E;">*</span> <span class="kw" style="color: #003B4F;">FROM</span> payments <span class="kw" style="color: #003B4F;">ORDER</span> <span class="kw" style="color: #003B4F;">BY</span> <span class="kw" style="color: #003B4F;">id</span> <span class="kw" style="color: #003B4F;">ASC</span> <span class="kw" style="color: #003B4F;">LIMIT</span> <span class="dv" style="color: #AD0000;">10</span>;</span></code></pre></div>
+<p>And that’s it. We can quit at anytime with <code>\q</code> and continue with the tutorial.</p>
+<p>The example models created for this tutorial are also in <a href="https://github.com/pymk/dbt-tutorial/tree/master/jaffle_shop">my repo</a> for reference.</p>
+<hr>
+<p>The configuration for <code>~/.dbt/profiles.yml</code> looks like this:</p>
+<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><span class="fu" style="color: #4758AB;">jaffle_shop</span><span class="kw" style="color: #003B4F;">:</span></span>
+<span id="cb6-2"><span class="at" style="color: #657422;">  </span><span class="fu" style="color: #4758AB;">outputs</span><span class="kw" style="color: #003B4F;">:</span><span class="at" style="color: #657422;">    </span></span>
+<span id="cb6-3"><span class="at" style="color: #657422;">    </span><span class="fu" style="color: #4758AB;">dev</span><span class="kw" style="color: #003B4F;">:</span></span>
+<span id="cb6-4"><span class="at" style="color: #657422;">        </span><span class="fu" style="color: #4758AB;">type</span><span class="kw" style="color: #003B4F;">:</span><span class="at" style="color: #657422;"> postgres</span></span>
+<span id="cb6-5"><span class="at" style="color: #657422;">        </span><span class="fu" style="color: #4758AB;">threads</span><span class="kw" style="color: #003B4F;">:</span><span class="at" style="color: #657422;"> </span><span class="dv" style="color: #AD0000;">4</span></span>
+<span id="cb6-6"><span class="at" style="color: #657422;">        </span><span class="fu" style="color: #4758AB;">host</span><span class="kw" style="color: #003B4F;">:</span><span class="at" style="color: #657422;"> localhost</span></span>
+<span id="cb6-7"><span class="at" style="color: #657422;">        </span><span class="fu" style="color: #4758AB;">port</span><span class="kw" style="color: #003B4F;">:</span><span class="at" style="color: #657422;"> </span><span class="dv" style="color: #AD0000;">5432</span></span>
+<span id="cb6-8"><span class="at" style="color: #657422;">        </span><span class="fu" style="color: #4758AB;">user</span><span class="kw" style="color: #003B4F;">:</span><span class="at" style="color: #657422;"> dbt_test</span></span>
+<span id="cb6-9"><span class="at" style="color: #657422;">        </span><span class="fu" style="color: #4758AB;">pass</span><span class="kw" style="color: #003B4F;">:</span><span class="at" style="color: #657422;"> dbt_test</span></span>
+<span id="cb6-10"><span class="at" style="color: #657422;">        </span><span class="fu" style="color: #4758AB;">dbname</span><span class="kw" style="color: #003B4F;">:</span><span class="at" style="color: #657422;"> jaffle_shop</span></span>
+<span id="cb6-11"><span class="at" style="color: #657422;">        </span><span class="fu" style="color: #4758AB;">schema</span><span class="kw" style="color: #003B4F;">:</span><span class="at" style="color: #657422;"> public</span></span>
+<span id="cb6-12"><span class="at" style="color: #657422;">  </span></span>
+<span id="cb6-13"><span class="at" style="color: #657422;">  </span><span class="fu" style="color: #4758AB;">target</span><span class="kw" style="color: #003B4F;">:</span><span class="at" style="color: #657422;"> dev</span></span></code></pre></div>
+
+
+<!-- -->
+
+
+ ]]></description>
+  <category>code</category>
+  <category>dbt</category>
+  <guid>https://pymk.dev/posts/dbt-tutorial/index.html</guid>
+  <pubDate>Sat, 31 Dec 2022 08:00:00 GMT</pubDate>
+  <media:content url="https://pymk.dev/posts/dbt-tutorial/dbt.png" medium="image" type="image/png" height="126" width="144"/>
+</item>
 <item>
   <title>xkcdr Package</title>
   <link>https://pymk.dev/posts/xkcd-package/index.html</link>

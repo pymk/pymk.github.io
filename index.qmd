@@ -5,6 +5,7 @@ listing:
   feed: true
   type: table
   fields: [image, title, date, categories, reading-time]
+  table-striped: true
   sort: "date desc"
   categories: true
   sort-ui: false
