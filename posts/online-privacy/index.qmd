@@ -1,0 +1,67 @@
+---
+title: "Online Privacy"
+date: "2023-01-02"
+image: "1password.jpg"
+categories: [update]
+---
+
+Initially I was writing about how at the beginning of each year, I go through my accounts and delete my online presence for services I no longer use. But that got me thinking about the different ways I try to keep my privacy online, which might be a fun thing to jot down.
+
+## Email Accounts
+
+First things first, I have 4 main email accounts:
+
+1. Personal use that I give to friends and family or sign up for important services (e.g. AWS, Steam, banking)
+2. One that I use with accounts that I regularly use or have to tie to my identity (e.g. Comcast, vet, insurance)
+3. Professional one that I only put on my resume
+4. A catch-all for disposable online accounts (e.g. stores)
+
+All these email accounts have unique and strong, randomly generated passwords with multi-factor authentication enabled (MFA through auth app, not through SMS).
+
+For random websites, I go the extra mile and use a separate email address on for every site (see [Email Masking section](#email-masking)).
+
+## Password Manager
+
+I use [1Password](https://1password.com) and have been very happy with it (previously used KeePass). What I really like about it is how easy it is to organize and tag different records. You can also have multiple "vaults". I have a personal one, a family one that I share with my family, one for [traveling](https://support.1password.com/travel-mode/), and one for work credentials.
+
+It also allows you to store different categories of credentials. For a simple login, you can even store the MFA code.
+
+**Other Options:** [Bitwarden](https://bitwarden.com/pricing/)
+
+## Email Masking
+
+I really like email masking feature and often use them even with my catch-all email accounts. I generate them through [Firefox Relay](https://relay.firefox.com), [SimpleLogin](https://simplelogin.io) and [iCloud](https://support.apple.com/en-us/HT210425).
+
+Firefox Relay recently added [phone number masking](https://blog.mozilla.org/en/privacy-security/hide-your-phone-number-with-firefox-relay/), which is fantastic.
+
+**Other Options:** [SimpleLogin](https://simplelogin.io) | [iCloud](https://support.apple.com/en-us/HT210425) | [Fastmail](https://1password.com/fastmail/)
+
+## VPN
+
+I also use [Mullvad VPN](https://mullvad.net), which is who [Mozilla partnered with](https://mullvad.net/en/blog/2019/12/3/mullvad-partnerships-page-has-been-updated-mozilla/) to provide their VPN service.
+
+**Other Options:** [Mozilla VPN](https://vpn.mozilla.org/) | [Proton VPN](https://protonvpn.com)
+
+## Browsing
+
+I use [Firefox](https://www.mozilla.org/en-US/firefox/) {{< fa brands firefox-browser >}} and [Orion](https://browser.kagi.com) as my main browsers. The only browser I am signed into with my Google account is Chrome {{< fa brands chrome >}}, which is what I use to check my email or do anything related to my Google account. Outside of that, I only use Firefox or Orion.
+
+Extensions:
+
+Orion browser already comes with a bunch of privacy-focused defaults, but you can also install [the same Firefox and Chrome extensions](https://browser.kagi.com/faq.html#extensions). The list below is the main extensions I use with Firefox and Chrome.
+
+- [Temporary Containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/) | [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) {{< fa brands firefox-browser >}}
+- [ublock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) {{< fa brands firefox-browser >}} {{< fa brands chrome >}}
+- [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/) {{< fa brands firefox-browser >}} {{< fa brands chrome >}}
+- [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) {{< fa brands firefox-browser >}} {{< fa brands chrome >}}
+- [Clear URLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) {{< fa brands firefox-browser >}} {{< fa brands chrome >}}
+
+## Extras Fun
+
+- Quit social media
+- Subscribe to [Firefox Monitor](https://monitor.firefox.com)
+- [Kagi](https://kagi.com) instead of Google
+- Place a [credit report freeze](https://consumer.ftc.gov/articles/what-know-about-credit-freezes-fraud-alerts#freeze)
+- Use a hardware authentication device for important accounts (I use [Titan](https://cloud.google.com/titan-security-key))
+- [Delete](https://justdeleteme.xyz) your old/unused accounts to reduce your online footprint
+- [Request](https://yourdigitalrights.org) organizations to delete your account
