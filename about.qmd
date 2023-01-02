@@ -9,7 +9,7 @@ about:
 
 Hello!
 
-My name is Payam and I am a data engineer analyst. My interests and expertise include creating Shiny dashboards and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports. I work in a clinical setting and primarily use R.
+My name is Payam and I am a data engineer/analyst. My interests and expertise include creating Shiny dashboards and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports. I work in a clinical setting and primarily use R.
 
 On my free time, I enjoy reading, working out, and playing with my cat.
 
@@ -19,9 +19,9 @@ For my complete resume, please reach out to me at `hello@pymk.dev`.
 
 ## ::skills
 
-- R, Shiny, git, bash, SQL, Python, Github Actions
-- Data wrangling, reporting, validation, visualization
-- Experience working with sensitive datasets
+- R, Shiny, SQL, Python, bash, git, Github Actions
+- Data wrangling, reporting, validation, and visualization
+- Experience working with sensitive data
 
 ## ::experience
 
