@@ -4,7 +4,7 @@ listing:
   contents: posts
   feed: true
   type: table
-  fields: [image, title, date, categories, reading-time]
+  fields: [title, date, categories, reading-time]
   table-striped: true
   sort: "date desc"
   categories: true

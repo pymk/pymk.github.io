@@ -1,7 +1,6 @@
 ---
 title: "dbt Tutorial"
 date: "2022-12-31"
-draft: false
 categories: [code, dbt]
 image: "dbt.png"
 highlight-style: gruvbox

@@ -9,34 +9,37 @@ about:
 
 Hello!
 
-My name is Payam and I am a data engineer/analyst. My interests and expertise include creating Shiny dashboards and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports. I work in a clinical setting and primarily use R.
+My name is Payam and I am an analytics engineer.
 
-On my free time, I enjoy reading, working out, and playing with my cat.
+My interests and expertise include creating dashboards using Shiny and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports for stakeholders. I work in a clinical setting and primarily use R.
+
+On my free time, I enjoy reading, tinkering, working out, and consuming media with [my cat](./posts/my-cat/).
 
 For my complete resume, please reach out to me at `hello@pymk.dev`.
 
 ---
 
-## ::skills
+## -- skills --
 
-- R, Shiny, SQL, Python, bash, git, Github Actions
-- Data wrangling, reporting, validation, and visualization
-- Experience working with sensitive data
+- R, Shiny, SQL, Python, bash, git, AWS, Github Actions
+- Data engineering: data wrangling, cleaning, validation, and setting up data pipelines
+- Data visualization: generating reports and creating dashboards
+- Experience working with sensitive data (PII, PHI, clinical, HR, sequestered)
 
-## ::experience
+## -- experience --
 
 | Title | Company | Dates |
 | --- | --- | --- |
-| Data Engineer Analyst | Delfi Diagnostics | Apr 2022 - Present |
+| Analytics Engineer | Delfi Diagnostics | Apr 2022 - Present |
 | Program Manager | N-Power Medicine | Oct 2021 - Apr 2022 |
 | Data Analyst | GRAIL | Jan 2018 - Oct 2021 |
 | Clinical Data Management | Gilead Sciences | Nov 2015 - Jan 2018 |
 
-## ::education
+## -- education --
 
 | Degree | School | Graduation Date |
 | --- | --- | --- |
-M.S. Molecular Biology | San Jose State University | Aug 2015 |
+| M.S. Molecular Biology | San Jose State University | Aug 2015 |
 | B.A. General Biology | San Francisco State University | May 2012 |
 
 :::

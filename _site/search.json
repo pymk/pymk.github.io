@@ -56,6 +56,55 @@
     "text": "I wanted to get more practice using the {covr} package, so I built a small R package that uses the xkcd comic’s API.\nYou can install the package from :\npak::pkg_install(\"pymk/xkcdr\")\nThere is only one exported function for this package: get_xkcd(). There is an optional parameter that can be passed to get a specific comic. Without it, the latest comic will be returned.\nWhat is returned is a {gt} table, which looks very polished as an HTML output.\nFor example, to view the comic 936, “Password Strength”, we run:\n\nxkcdr::get_xkcd(936)\n\n\n\n\n\n  \n    \n      Password Strength\n    \n    \n      Aug 10, 2011\n    \n  \n  \n    \n      xkcd #936\n    \n  \n  \n    \n  \n  \n    \n      https://xkcd.com/936/\n    \n  \n  \n    \n       To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize.\n    \n  \n\n\n\n\n\nSource: pymk/xkcdr"
   },
   {
+    "objectID": "posts/online-privacy/index.html",
+    "href": "posts/online-privacy/index.html",
+    "title": "Online Privacy",
+    "section": "",
+    "text": "Initially I was writing about how at the beginning of each year, I go through my accounts and delete my online presence for services I no longer use. But that got me thinking about the different ways I try to keep my privacy online, which might be a fun thing to jot down."
+  },
+  {
+    "objectID": "posts/online-privacy/index.html#email-accounts",
+    "href": "posts/online-privacy/index.html#email-accounts",
+    "title": "Online Privacy",
+    "section": "Email Accounts",
+    "text": "Email Accounts\nFirst things first, I have 4 main email accounts:\n\nPersonal use that I give to friends and family or sign up for important services (e.g. AWS, Steam, banking)\nOne that I use with accounts that I regularly use or have to tie to my identity (e.g. Comcast, vet, insurance)\nProfessional one that I only put on my resume\nA catch-all for disposable online accounts (e.g. stores)\n\nAll these email accounts have unique and strong, randomly generated passwords with multi-factor authentication enabled (MFA through auth app, not through SMS).\nFor random websites, I go the extra mile and use a separate email address on for every site (see Email Masking section)."
+  },
+  {
+    "objectID": "posts/online-privacy/index.html#password-manager",
+    "href": "posts/online-privacy/index.html#password-manager",
+    "title": "Online Privacy",
+    "section": "Password Manager",
+    "text": "Password Manager\nI use 1Password and have been very happy with it (previously used KeePass). What I really like about it is how easy it is to organize and tag different records. You can also have multiple “vaults”. I have a personal one, a family one that I share with my family, one for traveling, and one for work credentials.\nIt also allows you to store different categories of credentials. For a simple login, you can even store the MFA code.\nOther Options: Bitwarden"
+  },
+  {
+    "objectID": "posts/online-privacy/index.html#email-masking",
+    "href": "posts/online-privacy/index.html#email-masking",
+    "title": "Online Privacy",
+    "section": "Email Masking",
+    "text": "Email Masking\nI really like email masking feature and often use them even with my catch-all email accounts. I generate them through Firefox Relay, SimpleLogin and iCloud.\nFirefox Relay recently added phone number masking, which is fantastic.\nOther Options: SimpleLogin | iCloud | Fastmail"
+  },
+  {
+    "objectID": "posts/online-privacy/index.html#vpn",
+    "href": "posts/online-privacy/index.html#vpn",
+    "title": "Online Privacy",
+    "section": "VPN",
+    "text": "VPN\nI also use Mullvad VPN, which is who Mozilla partnered with to provide their VPN service.\nOther Options: Mozilla VPN | Proton VPN"
+  },
+  {
+    "objectID": "posts/online-privacy/index.html#browsing",
+    "href": "posts/online-privacy/index.html#browsing",
+    "title": "Online Privacy",
+    "section": "Browsing",
+    "text": "Browsing\nI use Firefox  and Orion as my main browsers. The only browser I am signed into with my Google account is Chrome , which is what I use to check my email or do anything related to my Google account. Outside of that, I only use Firefox or Orion.\nExtensions:\nOrion browser already comes with a bunch of privacy-focused defaults, but you can also install the same Firefox and Chrome extensions. The list below is the main extensions I use with Firefox and Chrome.\n\nTemporary Containers | Firefox Multi-Account Containers \nublock Origin  \nHTTPS Everywhere  \nPrivacy Badger  \nClear URLs"
+  },
+  {
+    "objectID": "posts/online-privacy/index.html#extras-fun",
+    "href": "posts/online-privacy/index.html#extras-fun",
+    "title": "Online Privacy",
+    "section": "Extras Fun",
+    "text": "Extras Fun\n\nQuit social media\nSubscribe to Firefox Monitor\nKagi instead of Google\nPlace a credit report freeze\nUse a hardware authentication device for important accounts (I use Titan)\nDelete your old/unused accounts to reduce your online footprint\nRequest organizations to delete your account"
+  },
+  {
     "objectID": "posts/vienna-austria/index.html",
     "href": "posts/vienna-austria/index.html",
     "title": "Vienna, Austria",
@@ -74,13 +123,13 @@
     "href": "index.html",
     "title": "::blog",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\n\n\n\ndbt Tutorial\n\n\nDec 31, 2022\n\n\ncode,dbt\n\n\n2 min\n\n\n\n\n\n\n\nxkcdr Package\n\n\nDec 28, 2022\n\n\ncode,R\n\n\n0 min\n\n\n\n\n\n\n\nMy Cat\n\n\nDec 18, 2022\n\n\npet\n\n\n0 min\n\n\n\n\n\n\n\nZurich, Switzerland\n\n\nOct 29, 2022\n\n\ntravel\n\n\n1 min\n\n\n\n\n\n\n\nVienna, Austria\n\n\nOct 27, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nAthens, Greece\n\n\nOct 22, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nIstanbul, Turkey\n\n\nOct 18, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nOslo, Norway\n\n\nOct 12, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\n\n\n\nEuro Trip 2022\n\n\nOct 5, 2022\n\n\nnews,travel\n\n\n0 min\n\n\n\n\n\n\n\nWelcome\n\n\nOct 1, 2022\n\n\nnews\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nOnline Privacy\n\n\nJan 2, 2023\n\n\nupdate\n\n\n2 min\n\n\n\n\ndbt Tutorial\n\n\nDec 31, 2022\n\n\ncode,dbt\n\n\n2 min\n\n\n\n\nxkcdr Package\n\n\nDec 28, 2022\n\n\ncode,R\n\n\n0 min\n\n\n\n\nMy Cat\n\n\nDec 18, 2022\n\n\npet\n\n\n0 min\n\n\n\n\nZurich, Switzerland\n\n\nOct 29, 2022\n\n\ntravel\n\n\n1 min\n\n\n\n\nVienna, Austria\n\n\nOct 27, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nAthens, Greece\n\n\nOct 22, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nIstanbul, Turkey\n\n\nOct 18, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nOslo, Norway\n\n\nOct 12, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nEuro Trip 2022\n\n\nOct 5, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nWelcome\n\n\nOct 1, 2022\n\n\nupdate\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "::about",
     "section": "",
-    "text": "Hello!\nMy name is Payam and I am a data engineer/analyst. My interests and expertise include creating Shiny dashboards and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports. I work in a clinical setting and primarily use R.\nOn my free time, I enjoy reading, working out, and playing with my cat.\nFor my complete resume, please reach out to me at hello@pymk.dev.\n\n\n\n\nR, Shiny, SQL, Python, bash, git, Github Actions\nData wrangling, reporting, validation, and visualization\nExperience working with sensitive data\n\n\n\n\n\n\n\nTitle\nCompany\nDates\n\n\n\n\nData Engineer Analyst\nDelfi Diagnostics\nApr 2022 - Present\n\n\nProgram Manager\nN-Power Medicine\nOct 2021 - Apr 2022\n\n\nData Analyst\nGRAIL\nJan 2018 - Oct 2021\n\n\nClinical Data Management\nGilead Sciences\nNov 2015 - Jan 2018\n\n\n\n\n\n\n\n\n\nDegree\nSchool\nGraduation Date\n\n\n\n\nM.S. Molecular Biology\nSan Jose State University\nAug 2015\n\n\nB.A. General Biology\nSan Francisco State University\nMay 2012"
+    "text": "Hello!\nMy name is Payam and I am an analytics engineer.\nMy interests and expertise include creating dashboards using Shiny and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports for stakeholders. I work in a clinical setting and primarily use R.\nOn my free time, I enjoy reading, tinkering, working out, and consuming media with my cat.\nFor my complete resume, please reach out to me at hello@pymk.dev.\n\n\n\n\nR, Shiny, SQL, Python, bash, git, AWS, Github Actions\nData engineering: data wrangling, cleaning, validation, and setting up data pipelines\nData visualization: generating reports and creating dashboards\nExperience working with sensitive data (PII, PHI, clinical, HR, sequestered)\n\n\n\n\n\n\n\nTitle\nCompany\nDates\n\n\n\n\nAnalytics Engineer\nDelfi Diagnostics\nApr 2022 - Present\n\n\nProgram Manager\nN-Power Medicine\nOct 2021 - Apr 2022\n\n\nData Analyst\nGRAIL\nJan 2018 - Oct 2021\n\n\nClinical Data Management\nGilead Sciences\nNov 2015 - Jan 2018\n\n\n\n\n\n\n\n\n\nDegree\nSchool\nGraduation Date\n\n\n\n\nM.S. Molecular Biology\nSan Jose State University\nAug 2015\n\n\nB.A. General Biology\nSan Francisco State University\nMay 2012"
   }
 ]

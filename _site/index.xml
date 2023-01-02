@@ -10,7 +10,79 @@
 <atom:link href="https://pymk.dev/index.xml" rel="self" type="application/rss+xml"/>
 <description>pymkd::blog</description>
 <generator>quarto-1.2.280</generator>
-<lastBuildDate>Sat, 31 Dec 2022 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 02 Jan 2023 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>Online Privacy</title>
+  <link>https://pymk.dev/posts/online-privacy/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Initially I was writing about how at the beginning of each year, I go through my accounts and delete my online presence for services I no longer use. But that got me thinking about the different ways I try to keep my privacy online, which might be a fun thing to jot down.</p>
+<section id="email-accounts" class="level2">
+<h2 class="anchored" data-anchor-id="email-accounts">Email Accounts</h2>
+<p>First things first, I have 4 main email accounts:</p>
+<ol type="1">
+<li>Personal use that I give to friends and family or sign up for important services (e.g.&nbsp;AWS, Steam, banking)</li>
+<li>One that I use with accounts that I regularly use or have to tie to my identity (e.g.&nbsp;Comcast, vet, insurance)</li>
+<li>Professional one that I only put on my resume</li>
+<li>A catch-all for disposable online accounts (e.g.&nbsp;stores)</li>
+</ol>
+<p>All these email accounts have unique and strong, randomly generated passwords with multi-factor authentication enabled (MFA through auth app, not through SMS).</p>
+<p>For random websites, I go the extra mile and use a separate email address on for every site (see Email Masking section).</p>
+</section>
+<section id="password-manager" class="level2">
+<h2 class="anchored" data-anchor-id="password-manager">Password Manager</h2>
+<p>I use <a href="https://1password.com">1Password</a> and have been very happy with it (previously used KeePass). What I really like about it is how easy it is to organize and tag different records. You can also have multiple “vaults”. I have a personal one, a family one that I share with my family, one for <a href="https://support.1password.com/travel-mode/">traveling</a>, and one for work credentials.</p>
+<p>It also allows you to store different categories of credentials. For a simple login, you can even store the MFA code.</p>
+<p><strong>Other Options:</strong> <a href="https://bitwarden.com/pricing/">Bitwarden</a></p>
+</section>
+<section id="email-masking" class="level2">
+<h2 class="anchored" data-anchor-id="email-masking">Email Masking</h2>
+<p>I really like email masking feature and often use them even with my catch-all email accounts. I generate them through <a href="https://relay.firefox.com">Firefox Relay</a>, <a href="https://simplelogin.io">SimpleLogin</a> and <a href="https://support.apple.com/en-us/HT210425">iCloud</a>.</p>
+<p>Firefox Relay recently added <a href="https://blog.mozilla.org/en/privacy-security/hide-your-phone-number-with-firefox-relay/">phone number masking</a>, which is fantastic.</p>
+<p><strong>Other Options:</strong> <a href="https://simplelogin.io">SimpleLogin</a> | <a href="https://support.apple.com/en-us/HT210425">iCloud</a> | <a href="https://1password.com/fastmail/">Fastmail</a></p>
+</section>
+<section id="vpn" class="level2">
+<h2 class="anchored" data-anchor-id="vpn">VPN</h2>
+<p>I also use <a href="https://mullvad.net">Mullvad VPN</a>, which is who <a href="https://mullvad.net/en/blog/2019/12/3/mullvad-partnerships-page-has-been-updated-mozilla/">Mozilla partnered with</a> to provide their VPN service.</p>
+<p><strong>Other Options:</strong> <a href="https://vpn.mozilla.org/">Mozilla VPN</a> | <a href="https://protonvpn.com">Proton VPN</a></p>
+</section>
+<section id="browsing" class="level2">
+<h2 class="anchored" data-anchor-id="browsing">Browsing</h2>
+<p>I use <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a> <i class="fa-brands fa-firefox-browser" aria-label="firefox-browser"></i> and <a href="https://browser.kagi.com">Orion</a> as my main browsers. The only browser I am signed into with my Google account is Chrome <i class="fa-brands fa-chrome" aria-label="chrome"></i>, which is what I use to check my email or do anything related to my Google account. Outside of that, I only use Firefox or Orion.</p>
+<p>Extensions:</p>
+<p>Orion browser already comes with a bunch of privacy-focused defaults, but you can also install <a href="https://browser.kagi.com/faq.html#extensions">the same Firefox and Chrome extensions</a>. The list below is the main extensions I use with Firefox and Chrome.</p>
+<ul>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/">Temporary Containers</a> | <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Firefox Multi-Account Containers</a> <i class="fa-brands fa-firefox-browser" aria-label="firefox-browser"></i></li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">ublock Origin</a> <i class="fa-brands fa-firefox-browser" aria-label="firefox-browser"></i> <i class="fa-brands fa-chrome" aria-label="chrome"></i></li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/">HTTPS Everywhere</a> <i class="fa-brands fa-firefox-browser" aria-label="firefox-browser"></i> <i class="fa-brands fa-chrome" aria-label="chrome"></i></li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/">Privacy Badger</a> <i class="fa-brands fa-firefox-browser" aria-label="firefox-browser"></i> <i class="fa-brands fa-chrome" aria-label="chrome"></i></li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/clearurls/">Clear URLs</a> <i class="fa-brands fa-firefox-browser" aria-label="firefox-browser"></i> <i class="fa-brands fa-chrome" aria-label="chrome"></i></li>
+</ul>
+</section>
+<section id="extras-fun" class="level2">
+<h2 class="anchored" data-anchor-id="extras-fun">Extras Fun</h2>
+<ul>
+<li>Quit social media</li>
+<li>Subscribe to <a href="https://monitor.firefox.com">Firefox Monitor</a></li>
+<li><a href="https://kagi.com">Kagi</a> instead of Google</li>
+<li>Place a <a href="https://consumer.ftc.gov/articles/what-know-about-credit-freezes-fraud-alerts#freeze">credit report freeze</a></li>
+<li>Use a hardware authentication device for important accounts (I use <a href="https://cloud.google.com/titan-security-key">Titan</a>)</li>
+<li><a href="https://justdeleteme.xyz">Delete</a> your old/unused accounts to reduce your online footprint</li>
+<li><a href="https://yourdigitalrights.org">Request</a> organizations to delete your account</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>update</category>
+  <guid>https://pymk.dev/posts/online-privacy/index.html</guid>
+  <pubDate>Mon, 02 Jan 2023 08:00:00 GMT</pubDate>
+  <media:content url="https://pymk.dev/posts/online-privacy/1password.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>dbt Tutorial</title>
   <link>https://pymk.dev/posts/dbt-tutorial/index.html</link>
@@ -113,13 +185,13 @@
 <div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1">xkcdr<span class="sc" style="color: #5E5E5E;">::</span><span class="fu" style="color: #4758AB;">get_xkcd</span>(<span class="dv" style="color: #AD0000;">936</span>)</span></code></pre></div>
 <div class="cell-output-display">
 
-<div id="qqhnjtywpy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="dknxbjvrdd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#qqhnjtywpy) .gt_table {
+:where(#dknxbjvrdd) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -129,7 +201,7 @@ html {
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
-  width: auto;
+  width: 740px;
   border-top-style: solid;
   border-top-width: 3px;
   border-top-color: #FFFFFF;
@@ -144,7 +216,7 @@ html {
   border-left-color: #D3D3D3;
 }
 
-:where(#qqhnjtywpy) .gt_heading {
+:where(#dknxbjvrdd) .gt_heading {
   background-color: #FFFFFF;
   text-align: left;
   border-bottom-color: #FFFFFF;
@@ -156,12 +228,12 @@ html {
   border-right-color: #D3D3D3;
 }
 
-:where(#qqhnjtywpy) .gt_caption {
+:where(#dknxbjvrdd) .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-:where(#qqhnjtywpy) .gt_title {
+:where(#dknxbjvrdd) .gt_title {
   color: #333333;
   font-size: 24px;
   font-weight: initial;
@@ -173,7 +245,7 @@ html {
   border-bottom-width: 0;
 }
 
-:where(#qqhnjtywpy) .gt_subtitle {
+:where(#dknxbjvrdd) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -185,13 +257,13 @@ html {
   border-top-width: 0;
 }
 
-:where(#qqhnjtywpy) .gt_bottom_border {
+:where(#dknxbjvrdd) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#qqhnjtywpy) .gt_col_headings {
+:where(#dknxbjvrdd) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -206,7 +278,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-:where(#qqhnjtywpy) .gt_col_heading {
+:where(#dknxbjvrdd) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -226,7 +298,7 @@ html {
   overflow-x: hidden;
 }
 
-:where(#qqhnjtywpy) .gt_column_spanner_outer {
+:where(#dknxbjvrdd) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -238,15 +310,15 @@ html {
   padding-right: 4px;
 }
 
-:where(#qqhnjtywpy) .gt_column_spanner_outer:first-child {
+:where(#dknxbjvrdd) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#qqhnjtywpy) .gt_column_spanner_outer:last-child {
+:where(#dknxbjvrdd) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#qqhnjtywpy) .gt_column_spanner {
+:where(#dknxbjvrdd) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -258,7 +330,7 @@ html {
   width: 100%;
 }
 
-:where(#qqhnjtywpy) .gt_group_heading {
+:where(#dknxbjvrdd) .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -284,7 +356,7 @@ html {
   text-align: left;
 }
 
-:where(#qqhnjtywpy) .gt_empty_group_heading {
+:where(#dknxbjvrdd) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -299,15 +371,15 @@ html {
   vertical-align: middle;
 }
 
-:where(#qqhnjtywpy) .gt_from_md > :first-child {
+:where(#dknxbjvrdd) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#qqhnjtywpy) .gt_from_md > :last-child {
+:where(#dknxbjvrdd) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#qqhnjtywpy) .gt_row {
+:where(#dknxbjvrdd) .gt_row {
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 5px;
@@ -326,7 +398,7 @@ html {
   overflow-x: hidden;
 }
 
-:where(#qqhnjtywpy) .gt_stub {
+:where(#dknxbjvrdd) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 80%;
@@ -339,7 +411,7 @@ html {
   padding-right: 5px;
 }
 
-:where(#qqhnjtywpy) .gt_stub_row_group {
+:where(#dknxbjvrdd) .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -353,11 +425,11 @@ html {
   vertical-align: top;
 }
 
-:where(#qqhnjtywpy) .gt_row_group_first td {
+:where(#dknxbjvrdd) .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-:where(#qqhnjtywpy) .gt_summary_row {
+:where(#dknxbjvrdd) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -367,16 +439,16 @@ html {
   padding-right: 5px;
 }
 
-:where(#qqhnjtywpy) .gt_first_summary_row {
+:where(#dknxbjvrdd) .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-:where(#qqhnjtywpy) .gt_first_summary_row.thick {
+:where(#dknxbjvrdd) .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-:where(#qqhnjtywpy) .gt_last_summary_row {
+:where(#dknxbjvrdd) .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -386,7 +458,7 @@ html {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#qqhnjtywpy) .gt_grand_summary_row {
+:where(#dknxbjvrdd) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -396,7 +468,7 @@ html {
   padding-right: 5px;
 }
 
-:where(#qqhnjtywpy) .gt_first_grand_summary_row {
+:where(#dknxbjvrdd) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -406,11 +478,11 @@ html {
   border-top-color: #D3D3D3;
 }
 
-:where(#qqhnjtywpy) .gt_striped {
+:where(#dknxbjvrdd) .gt_striped {
   background-color: #FAFAFA;
 }
 
-:where(#qqhnjtywpy) .gt_table_body {
+:where(#dknxbjvrdd) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -419,7 +491,7 @@ html {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#qqhnjtywpy) .gt_footnotes {
+:where(#dknxbjvrdd) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -433,7 +505,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-:where(#qqhnjtywpy) .gt_footnote {
+:where(#dknxbjvrdd) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -442,7 +514,7 @@ html {
   padding-right: 5px;
 }
 
-:where(#qqhnjtywpy) .gt_sourcenotes {
+:where(#dknxbjvrdd) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -456,7 +528,7 @@ html {
   border-right-color: #D3D3D3;
 }
 
-:where(#qqhnjtywpy) .gt_sourcenote {
+:where(#dknxbjvrdd) .gt_sourcenote {
   font-size: 12px;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -464,64 +536,64 @@ html {
   padding-right: 5px;
 }
 
-:where(#qqhnjtywpy) .gt_left {
+:where(#dknxbjvrdd) .gt_left {
   text-align: left;
 }
 
-:where(#qqhnjtywpy) .gt_center {
+:where(#dknxbjvrdd) .gt_center {
   text-align: center;
 }
 
-:where(#qqhnjtywpy) .gt_right {
+:where(#dknxbjvrdd) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#qqhnjtywpy) .gt_font_normal {
+:where(#dknxbjvrdd) .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#qqhnjtywpy) .gt_font_bold {
+:where(#dknxbjvrdd) .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#qqhnjtywpy) .gt_font_italic {
+:where(#dknxbjvrdd) .gt_font_italic {
   font-style: italic;
 }
 
-:where(#qqhnjtywpy) .gt_super {
+:where(#dknxbjvrdd) .gt_super {
   font-size: 65%;
 }
 
-:where(#qqhnjtywpy) .gt_footnote_marks {
+:where(#dknxbjvrdd) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-:where(#qqhnjtywpy) .gt_asterisk {
+:where(#dknxbjvrdd) .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-:where(#qqhnjtywpy) .gt_indent_1 {
+:where(#dknxbjvrdd) .gt_indent_1 {
   text-indent: 5px;
 }
 
-:where(#qqhnjtywpy) .gt_indent_2 {
+:where(#dknxbjvrdd) .gt_indent_2 {
   text-indent: 10px;
 }
 
-:where(#qqhnjtywpy) .gt_indent_3 {
+:where(#dknxbjvrdd) .gt_indent_3 {
   text-indent: 15px;
 }
 
-:where(#qqhnjtywpy) .gt_indent_4 {
+:where(#dknxbjvrdd) .gt_indent_4 {
   text-indent: 20px;
 }
 
-:where(#qqhnjtywpy) .gt_indent_5 {
+:where(#dknxbjvrdd) .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -716,7 +788,6 @@ html {
 
 
  ]]></description>
-  <category>news</category>
   <category>travel</category>
   <guid>https://pymk.dev/posts/euro-trip-2022/index.html</guid>
   <pubDate>Wed, 05 Oct 2022 07:00:00 GMT</pubDate>
@@ -735,7 +806,7 @@ html {
 
 
  ]]></description>
-  <category>news</category>
+  <category>update</category>
   <guid>https://pymk.dev/posts/welcome/index.html</guid>
   <pubDate>Sat, 01 Oct 2022 07:00:00 GMT</pubDate>
   <media:content url="https://pymk.dev/posts/welcome/welcome.jpg" medium="image" type="image/jpeg"/>

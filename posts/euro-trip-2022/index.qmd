@@ -1,7 +1,7 @@
 ---
 title: "Euro Trip 2022"
 date: "2022-10-05"
-categories: [news, travel]
+categories: [travel]
 image: "map.jpg"
 ---
 

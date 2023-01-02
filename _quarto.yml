@@ -9,17 +9,17 @@ website:
   page-footer: 
     border: false
     background: light
-    left: "" 
+    left: ""
     right: 
+      - icon: rss-fill
+        href: ./index.xml
       - icon: code-slash
         href: https://github.com/pymk/pymk.github.io/
   search: false
   navbar:
     right:
-      - text: "about"
+      - text: "{{< fa folder-open >}}"
         file: about.qmd
-      - icon: person-fill
-        href: https://pymk.dev/
       - icon: github
         href: https://github.com/pymk/
       - icon: linkedin
