@@ -2,7 +2,7 @@
 title: "Online Privacy"
 date: "2023-01-02"
 image: "1password.jpg"
-categories: [update]
+categories: [tech]
 ---
 
 Initially I was writing about how at the beginning of each year, I go through my accounts and delete my online presence for services I no longer use. But that got me thinking about the different ways I try to keep my privacy online, which might be a fun thing to jot down.

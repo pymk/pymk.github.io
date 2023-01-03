@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "posts/subscriptions-2023/index.html",
+    "href": "posts/subscriptions-2023/index.html",
+    "title": "Subscriptions 2023",
+    "section": "",
+    "text": "I thought to start the year right and make a budget.\nSubscriptions are sneaky… \n\n\nCode\ntibble::tribble(\n  ~Description, ~Category, ~Amount,\n  \"1Password\", \"Technology\", 3,\n  \"Car Insurance\", \"Insurance\", 140,\n  \"Firefox Relay\", \"Technology\", 5,\n  \"Google Domains\", \"Technology\", 10,\n  \"Google Fi\", \"Utilities\", 55,\n  \"HBO Max\", \"Entertainment\", 15,\n  \"iCloud\", \"Technology\", 1,\n  \"Internet\", \"Utilities\", 60,\n  \"Kagi\", \"Technology\", 10,\n  \"Mullvad VPN\", \"Technology\", 5,\n  \"Netflix\", \"Entertainment\", 20,\n  \"Pet Insurance\", \"Insurance\", 40,\n  \"Simple Login\", \"Technology\", 3,\n  \"Storage Unit\", \"Insurance\", 215,\n  \"TV\", \"Entertainment\", 60,\n  \"YouTube Premium\", \"Entertainment\", 15\n) |>\n  dplyr::arrange(Amount) |>\n  gt::gt() |>\n  gt::summary_rows(\n    groups = NULL,\n    columns = \"Amount\",\n    fns = list(Total = ~ sum(., na.rm = TRUE)),\n    formatter = gt::fmt_currency,\n    currency = \"USD\",\n    decimals = 0\n  ) |>\n  gt::fmt_currency(\n    columns = Amount,\n    currency = \"USD\",\n    decimals = 0\n  ) |>\n  gt::tab_header(\n    title = \"Monthly Subscriptions\",\n    subtitle = \"2023\"\n  ) |>\n  gt::tab_options(\n    grand_summary_row.background.color = \"#E9E9E9\"\n  ) |>\n  gtExtras::gt_theme_nytimes()\n\n\n\n\n\n\n  \n    \n      Monthly Subscriptions\n    \n    \n      2023\n    \n  \n  \n    \n      \n      Description\n      Category\n      Amount\n    \n  \n  \n    \niCloud\nTechnology\n$1\n    \n1Password\nTechnology\n$3\n    \nSimple Login\nTechnology\n$3\n    \nFirefox Relay\nTechnology\n$5\n    \nMullvad VPN\nTechnology\n$5\n    \nGoogle Domains\nTechnology\n$10\n    \nKagi\nTechnology\n$10\n    \nHBO Max\nEntertainment\n$15\n    \nYouTube Premium\nEntertainment\n$15\n    \nNetflix\nEntertainment\n$20\n    \nPet Insurance\nInsurance\n$40\n    \nGoogle Fi\nUtilities\n$55\n    \nInternet\nUtilities\n$60\n    \nTV\nEntertainment\n$60\n    \nCar Insurance\nInsurance\n$140\n    \nStorage Unit\nInsurance\n$215\n    Total\n—\n—\n$657"
+  },
+  {
     "objectID": "posts/dbt-tutorial/index.html",
     "href": "posts/dbt-tutorial/index.html",
     "title": "dbt Tutorial",
@@ -123,7 +130,7 @@
     "href": "index.html",
     "title": "::blog",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nOnline Privacy\n\n\nJan 2, 2023\n\n\nupdate\n\n\n2 min\n\n\n\n\ndbt Tutorial\n\n\nDec 31, 2022\n\n\ncode,dbt\n\n\n2 min\n\n\n\n\nxkcdr Package\n\n\nDec 28, 2022\n\n\ncode,R\n\n\n0 min\n\n\n\n\nMy Cat\n\n\nDec 18, 2022\n\n\npet\n\n\n0 min\n\n\n\n\nZurich, Switzerland\n\n\nOct 29, 2022\n\n\ntravel\n\n\n1 min\n\n\n\n\nVienna, Austria\n\n\nOct 27, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nAthens, Greece\n\n\nOct 22, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nIstanbul, Turkey\n\n\nOct 18, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nOslo, Norway\n\n\nOct 12, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nEuro Trip 2022\n\n\nOct 5, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nWelcome\n\n\nOct 1, 2022\n\n\nupdate\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nOnline Privacy\n\n\nJan 2, 2023\n\n\ntech\n\n\n2 min\n\n\n\n\nSubscriptions 2023\n\n\nJan 1, 2023\n\n\nupdate\n\n\n1 min\n\n\n\n\ndbt Tutorial\n\n\nDec 31, 2022\n\n\ncode,dbt\n\n\n2 min\n\n\n\n\nxkcdr Package\n\n\nDec 28, 2022\n\n\ncode,R\n\n\n0 min\n\n\n\n\nMy Cat\n\n\nDec 18, 2022\n\n\npet\n\n\n0 min\n\n\n\n\nZurich, Switzerland\n\n\nOct 29, 2022\n\n\ntravel\n\n\n1 min\n\n\n\n\nVienna, Austria\n\n\nOct 27, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nAthens, Greece\n\n\nOct 22, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nIstanbul, Turkey\n\n\nOct 18, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nOslo, Norway\n\n\nOct 12, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nEuro Trip 2022\n\n\nOct 5, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nWelcome\n\n\nOct 1, 2022\n\n\nupdate\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

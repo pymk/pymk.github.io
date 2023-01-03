@@ -1,55 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pymk.dev/posts/subscriptions-2023/index.html</loc>
+    <lastmod>2023-01-03T01:52:16.543Z</lastmod>
+  </url>
+  <url>
     <loc>https://pymk.dev/posts/dbt-tutorial/index.html</loc>
-    <lastmod>2023-01-02T21:39:46.233Z</lastmod>
+    <lastmod>2023-01-03T01:52:17.147Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/my-cat/index.html</loc>
-    <lastmod>2023-01-02T21:39:46.950Z</lastmod>
+    <lastmod>2023-01-03T01:52:17.842Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/zurich-switzerland/index.html</loc>
-    <lastmod>2023-01-02T21:39:47.287Z</lastmod>
+    <lastmod>2023-01-03T01:52:18.145Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/oslo-norway/index.html</loc>
-    <lastmod>2023-01-02T21:39:47.596Z</lastmod>
+    <lastmod>2023-01-03T01:52:18.446Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/welcome/index.html</loc>
-    <lastmod>2023-01-02T21:39:47.894Z</lastmod>
+    <lastmod>2023-01-03T01:52:18.725Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/athens-greece/index.html</loc>
-    <lastmod>2023-01-02T21:39:48.194Z</lastmod>
+    <lastmod>2023-01-03T01:52:19.035Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/euro-trip-2022/index.html</loc>
-    <lastmod>2023-01-02T21:39:48.506Z</lastmod>
+    <lastmod>2023-01-03T01:52:19.338Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/xkcd-package/index.html</loc>
-    <lastmod>2023-01-02T21:39:49.576Z</lastmod>
+    <lastmod>2023-01-03T01:52:20.299Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/online-privacy/index.html</loc>
-    <lastmod>2023-01-02T21:39:50.411Z</lastmod>
+    <lastmod>2023-01-03T01:52:21.062Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/vienna-austria/index.html</loc>
-    <lastmod>2023-01-02T21:39:50.763Z</lastmod>
+    <lastmod>2023-01-03T01:52:21.355Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/posts/istanbul-turkey/index.html</loc>
-    <lastmod>2023-01-02T21:39:51.100Z</lastmod>
+    <lastmod>2023-01-03T01:52:21.634Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/index.html</loc>
-    <lastmod>2023-01-02T21:39:51.538Z</lastmod>
+    <lastmod>2023-01-03T01:52:22.072Z</lastmod>
   </url>
   <url>
     <loc>https://pymk.dev/about.html</loc>
-    <lastmod>2023-01-02T21:39:51.857Z</lastmod>
+    <lastmod>2023-01-03T01:52:22.385Z</lastmod>
   </url>
 </urlset>
