@@ -10,7 +10,65 @@
 <atom:link href="https://pymk.dev/index.xml" rel="self" type="application/rss+xml"/>
 <description>pymkd::blog</description>
 <generator>quarto-1.2.280</generator>
-<lastBuildDate>Mon, 02 Jan 2023 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 07 Jan 2023 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>Software Design</title>
+  <link>https://pymk.dev/posts/software-design/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Found a book called <em>A Philosophy of Software Design</em> by John Ousterhout and I am thoroughly enjoying it. I will write down the notes in this blog as I continue to read it to help me retain the information and refer back to it.</p>
+<hr>
+<section id="code-complexity" class="level3">
+<h3 class="anchored" data-anchor-id="code-complexity">Code Complexity</h3>
+<p>A complex code can be identified by the amount of time the developer has to spend learning and understanding the code (“<strong>cognitive load</strong>”) in order to make even simple changes.</p>
+<p>An example would be when making a simple update requires a lot of code modification throughout the code base. Or when updating part of the code unintentionally changes or breaks something else (“<strong>unknown unknowns</strong>”).</p>
+<p>In order to reduce complexity, we can do a few things:</p>
+<ol type="1">
+<li>Having a simpler code
+<ul>
+<li>Write simple, obvious code vs a clever, more complex one</li>
+</ul></li>
+<li>Reduce special cases
+<ul>
+<li>Helps with reduce cognitive load</li>
+</ul></li>
+<li>Abstractions and encapsulation of complexities
+<ul>
+<li>So developers are only expose to it when needed</li>
+</ul></li>
+</ol>
+<p>The two main culprits of code complexity are <strong>dependencies</strong> and <strong>obscurity</strong>.</p>
+<p>An example of dependency would be when a piece of code cannot be modified without having to update other code pieces and making changes.</p>
+<p>An example of obscurity would be lack of documentation or when important information in the code is not obvious.</p>
+<p>Complexities are introduced incrementally, so a <strong>“zero tolerance” philosophy</strong> (more on this later) is required to stay vigilant.</p>
+</section>
+<section id="tactical-vs-strategic" class="level3">
+<h3 class="anchored" data-anchor-id="tactical-vs-strategic">Tactical vs Strategic</h3>
+<p>The book discusses two types of programming: tactical and strategic.</p>
+<p><strong>Tactical programming</strong> is when we quickly push out code just to get the job done or meet a deadline. It is that instant gratification or the fastest way to get something done.</p>
+<p>This is the sure way to incur technical debt and, in the long-term, will require more time and effort for maintaining and updating.</p>
+<p><strong>Strategic programming</strong> is when developers spend some time to come up with a design for the system. Think through a few alternative approaches before deciding the right one. When mistakes are identified, they should be fixed rather than patched around it.</p>
+</section>
+<section id="modular-design-and-abstractions" class="level3">
+<h3 class="anchored" data-anchor-id="modular-design-and-abstractions">Modular Design and Abstractions</h3>
+<p>Ideally, each module should be independent of the other ones, so the complexities of a given module are self-contained. But interactivity and dependencies between modules are unavoidable, but the goal should be to minimize these dependencies.</p>
+<p>When creating a model, think about the <strong>interface</strong> (what it does) and <strong>implementation</strong> (how it does it) of the module.</p>
+<p>The module’s interface should be simple to reduce complexity of the overall system. Having a simple interface allows the developer to modify the implementation without affecting modules that are dependent on it.</p>
+<p>Abstractions are a way to hide away unimportant information or details that allow for easier understanding of the system. For example, a function that deletes a file can abstract away the exact mechanism of how it does it.</p>
+<p>We should strive for <strong>“deep”</strong> module/classes/functions (powerful functionality, but simple interface) rather than <strong>“shallow”</strong> ones (complex interface, but simple functionality). A shallow module does not contribute much functionality, but adds complexity to the system.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>tech</category>
+  <guid>https://pymk.dev/posts/software-design/index.html</guid>
+  <pubDate>Sat, 07 Jan 2023 08:00:00 GMT</pubDate>
+  <media:content url="https://pymk.dev/posts/software-design/software-design.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Online Privacy</title>
   <link>https://pymk.dev/posts/online-privacy/index.html</link>

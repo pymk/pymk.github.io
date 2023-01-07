@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/software-design/index.html",
       "/posts/online-privacy/index.html",
       "/posts/subscriptions-2023/index.html",
       "/posts/dbt-tutorial/index.html",
