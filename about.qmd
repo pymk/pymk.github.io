@@ -11,7 +11,7 @@ Hello!
 
 My name is Payam and I am an analytics engineer.
 
-My interests and expertise include creating dashboards using Shiny and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports for stakeholders. I work in a clinical setting and primarily use R.
+My interests and expertise include creating dashboards using Shiny and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports. I work in a clinical setting and primarily use R.
 
 On my free time, I enjoy reading, tinkering, working out, and consuming media with [my cat](./posts/my-cat/).
 
