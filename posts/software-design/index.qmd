@@ -5,7 +5,7 @@ image: "software-design.jpg"
 categories: [tech]
 ---
 
-Found a book called *A Philosophy of Software Design* by John Ousterhout and I am thoroughly enjoying it. I will write down the notes in this blog as I continue to read it to help me retain the information and refer back to it.
+Found this great book called *A Philosophy of Software Design* by John Ousterhout and I am thoroughly enjoying it. I will use this post to write down my notes and summary to help retain the information.
 
 ---
 
@@ -15,12 +15,9 @@ A complex code can be identified by the amount of time the developer has to spen
 
 In order to reduce complexity, we can do a few things:
 
-1. Having a simpler code
-   - Write simple, obvious code vs a clever, more complex one
-2. Reduce special cases
-   - Helps with reduce cognitive load
-3. Abstractions and encapsulation of complexities
-   - So developers are only expose to it when needed
+1. Having a simpler code by writing obvious code vs a clever, more complex ones
+2. Reduce special cases, which helps reduce cognitive load
+3. Abstractions and encapsulation of complexities, so developers are only expose to it when needed
 
 Complexities are introduced incrementally, so a "zero tolerance" philosophy (more on this later) is required to stay vigilant. The two main culprits of code complexity are *dependencies* and *obscurity*. An example of dependency would be when a piece of code cannot be modified without having to update other code pieces and making changes. An example of obscurity would be lack of documentation or when important information in the code is not obvious.
 
@@ -30,6 +27,6 @@ Instead of quickly pushing out code just to get the job done or meet a deadline 
 
 Modular design is a way of breaking down a system into smaller parts. Abstraction is a way to hide away unimportant information or details that allow for easier understanding of the system.
 
-Ideally, each module should be independent of the other ones, so the complexities of a given module are self-contained. But interactivity and dependencies between modules are unavoidable, but the goal should be to minimize these dependencies.
+Ideally, each module should be independent of the other ones, so the complexities of a given module are self-contained. But interactivity and dependencies between modules are unavoidable, so the goal should be to minimize these dependencies.
 
 When creating a model, we should think about the *interface* (what it does) and *implementation* (how it does it) of the module. The module's interface should be simple to reduce complexity of the overall system. We should also create "deep" module/classes/functions (powerful functionality, but simple interface) rather than "shallow" ones (complex interface, but simple functionality).
