@@ -22,6 +22,7 @@ Subscriptions are sneaky... {{< fa regular face-meh-blank >}}
 #| code-fold: true
 tibble::tribble(
   ~Description, ~Category, ~Amount,
+  "NextDNS", "Technology", 2,
   "1Password", "Technology", 3,
   "Car Insurance", "Insurance", 140,
   "Firefox Relay", "Technology", 5,
