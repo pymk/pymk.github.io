@@ -38,6 +38,10 @@
 <p>Modular design is a way of breaking down a system into smaller parts. Abstraction is a way to hide away unimportant information or details that allow for easier understanding of the system.</p>
 <p>Ideally, each module should be independent of the other ones, so the complexities of a given module are self-contained. But interactivity and dependencies between modules are unavoidable, so the goal should be to minimize these dependencies.</p>
 <p>When creating a model, we should think about the <em>interface</em> (what it does) and <em>implementation</em> (how it does it) of the module. The module’s interface should be simple to reduce complexity of the overall system. We should also create “deep” module/classes/functions (powerful functionality, but simple interface) rather than “shallow” ones (complex interface, but simple functionality).</p>
+</section>
+<section id="design-it-twice" class="level3">
+<h3 class="anchored" data-anchor-id="design-it-twice">Design it Twice</h3>
+<p>Rather than implementing the first idea that comes to your head, spend some time and think about alternative approaches. For a more complex system, make a list of pros and cons. This should be applied to system, modules, or functions. It is better to spend some time up front to think about the design instead of spending days or weeks refactoring a bad design.</p>
 
 
 </section>

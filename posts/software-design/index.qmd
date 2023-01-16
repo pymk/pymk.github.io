@@ -30,3 +30,7 @@ Modular design is a way of breaking down a system into smaller parts. Abstractio
 Ideally, each module should be independent of the other ones, so the complexities of a given module are self-contained. But interactivity and dependencies between modules are unavoidable, so the goal should be to minimize these dependencies.
 
 When creating a model, we should think about the *interface* (what it does) and *implementation* (how it does it) of the module. The module's interface should be simple to reduce complexity of the overall system. We should also create "deep" module/classes/functions (powerful functionality, but simple interface) rather than "shallow" ones (complex interface, but simple functionality).
+
+### Design it Twice
+
+Rather than implementing the first idea that comes to your head, spend some time and think about alternative approaches. For a more complex system, make a list of pros and cons. This should be applied to system, modules, or functions. It is better to spend some time up front to think about the design instead of spending days or weeks refactoring a bad design.
