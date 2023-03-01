@@ -30,14 +30,12 @@ tibble::tribble(
   "Google Fi", "Utilities", 55,
   "HBO Max", "Entertainment", 15,
   "iCloud", "Technology", 1,
-  "Internet", "Utilities", 60,
+  "Internet", "Utilities", 50,
   "Kagi", "Technology", 10,
   "Mullvad VPN", "Technology", 5,
   "Netflix", "Entertainment", 20,
   "Pet Insurance", "Insurance", 40,
   "Simple Login", "Technology", 3,
-  "Storage Unit", "Insurance", 215,
-  "TV", "Entertainment", 60,
   "YouTube Premium", "Entertainment", 15
 ) |>
   dplyr::arrange(Amount) |>
