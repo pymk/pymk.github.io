@@ -1,7 +1,7 @@
 ---
 title: "First Home"
 date: "2023-04-09"
-categories: [update, home]
+categories: [update]
 image: "house.jpg"
 ---
 
