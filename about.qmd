@@ -15,16 +15,16 @@ My interests and expertise include creating dashboards using Shiny and other BI 
 
 On my free time, I enjoy reading, tinkering, working out, and consuming media with [my cat](./posts/my-cat/).
 
-For my complete resume, please reach out to me at `hello@pymk.dev`.
+For my complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 ---
 
 ## -- skills --
 
-- R, Shiny, SQL, Python, bash, git, AWS, Github Actions
-- Data engineering: data wrangling, cleaning, validation, and setting up data pipelines
-- Data visualization: generating reports and creating dashboards
-- Experience working with sensitive data (PII, PHI, clinical, HR, sequestered)
+- R, Python, SQL, bash, git, dbt, Dagster, Docker, AWS, Github Actions
+- Data engineering: ETL/ELT data processing
+- Data visualization: creating dashboards (Shiny) and generating reports (Quarto)
+- Experience handling sensitive data
 
 ## -- experience --
 
