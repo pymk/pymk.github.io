@@ -137,13 +137,27 @@
     "href": "index.html",
     "title": "::blog",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nSoftware Design\n\n\nJan 7, 2023\n\n\ntech\n\n\n2 min\n\n\n\n\nOnline Privacy\n\n\nJan 2, 2023\n\n\ntech\n\n\n2 min\n\n\n\n\nSubscriptions 2023\n\n\nJan 1, 2023\n\n\nupdate\n\n\n1 min\n\n\n\n\ndbt Tutorial\n\n\nDec 31, 2022\n\n\ncode,dbt\n\n\n2 min\n\n\n\n\nxkcdr Package\n\n\nDec 28, 2022\n\n\ncode,R\n\n\n0 min\n\n\n\n\nMy Cat\n\n\nDec 18, 2022\n\n\npet\n\n\n0 min\n\n\n\n\nZurich, Switzerland\n\n\nOct 29, 2022\n\n\ntravel\n\n\n1 min\n\n\n\n\nVienna, Austria\n\n\nOct 27, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nAthens, Greece\n\n\nOct 22, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nIstanbul, Turkey\n\n\nOct 18, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nOslo, Norway\n\n\nOct 12, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nEuro Trip 2022\n\n\nOct 5, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nWelcome\n\n\nOct 1, 2022\n\n\nupdate\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nSummer 2023\n\n\nAug 19, 2023\n\n\nupdate\n\n\n0 min\n\n\n\n\nFirst Home\n\n\nApr 9, 2023\n\n\nupdate\n\n\n0 min\n\n\n\n\nSoftware Design\n\n\nJan 7, 2023\n\n\ntech\n\n\n2 min\n\n\n\n\nOnline Privacy\n\n\nJan 2, 2023\n\n\ntech\n\n\n2 min\n\n\n\n\nSubscriptions 2023\n\n\nJan 1, 2023\n\n\nupdate\n\n\n1 min\n\n\n\n\ndbt Tutorial\n\n\nDec 31, 2022\n\n\ncode,dbt\n\n\n2 min\n\n\n\n\nxkcdr Package\n\n\nDec 28, 2022\n\n\ncode,R\n\n\n0 min\n\n\n\n\nMy Cat\n\n\nDec 18, 2022\n\n\npet\n\n\n0 min\n\n\n\n\nZurich, Switzerland\n\n\nOct 29, 2022\n\n\ntravel\n\n\n1 min\n\n\n\n\nVienna, Austria\n\n\nOct 27, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nAthens, Greece\n\n\nOct 22, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nIstanbul, Turkey\n\n\nOct 18, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nOslo, Norway\n\n\nOct 12, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nEuro Trip 2022\n\n\nOct 5, 2022\n\n\ntravel\n\n\n0 min\n\n\n\n\nWelcome\n\n\nOct 1, 2022\n\n\nupdate\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "::about",
     "section": "",
-    "text": "Hello!\nMy name is Payam and I am an analytics engineer.\nMy interests and expertise include creating dashboards using Shiny and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports. I work in a clinical setting and primarily use R.\nOn my free time, I enjoy reading, tinkering, working out, and consuming media with my cat.\nFor my complete resume, please reach out to me at hello@pymk.dev.\n\n\n\n\nR, Shiny, SQL, Python, bash, git, AWS, Github Actions\nData engineering: data wrangling, cleaning, validation, and setting up data pipelines\nData visualization: generating reports and creating dashboards\nExperience working with sensitive data (PII, PHI, clinical, HR, sequestered)\n\n\n\n\n\n\n\nTitle\nCompany\nDates\n\n\n\n\nAnalytics Engineer\nDelfi Diagnostics\nApr 2022 - Present\n\n\nProgram Manager\nN-Power Medicine\nOct 2021 - Apr 2022\n\n\nData Analyst\nGRAIL\nJan 2018 - Oct 2021\n\n\nClinical Data Management\nGilead Sciences\nNov 2015 - Jan 2018\n\n\n\n\n\n\n\n\n\nDegree\nSchool\nGraduation Date\n\n\n\n\nM.S. Molecular Biology\nSan Jose State University\nAug 2015\n\n\nB.A. General Biology\nSan Francisco State University\nMay 2012"
+    "text": "Hello!\nMy name is Payam and I am an analytics engineer.\nMy interests and expertise include creating dashboards using Shiny and other BI tools, cleaning and validating data, setting up pipelines, and making analytical reports. I work in a clinical setting and primarily use R.\nOn my free time, I enjoy reading, tinkering, working out, and consuming media with my cat.\nFor my complete resume, please reach out to me at pymkdb@gmail.com.\n\n\n\n\nR, Python, SQL, bash, git, dbt, Dagster, Docker, AWS, Github Actions\nData engineering: ETL/ELT data processing\nData visualization: creating dashboards (Shiny) and generating reports (Quarto)\nExperience handling sensitive data\n\n\n\n\n\n\n\nTitle\nCompany\nDates\n\n\n\n\nAnalytics Engineer\nDelfi Diagnostics\nApr 2022 - Present\n\n\nProgram Manager\nN-Power Medicine\nOct 2021 - Apr 2022\n\n\nData Analyst\nGRAIL\nJan 2018 - Oct 2021\n\n\nClinical Data Management\nGilead Sciences\nNov 2015 - Jan 2018\n\n\n\n\n\n\n\n\n\nDegree\nSchool\nGraduation Date\n\n\n\n\nM.S. Molecular Biology\nSan Jose State University\nAug 2015\n\n\nB.A. General Biology\nSan Francisco State University\nMay 2012"
+  },
+  {
+    "objectID": "posts/first-home/index.html",
+    "href": "posts/first-home/index.html",
+    "title": "First Home",
+    "section": "",
+    "text": "I started looking for a small house in the beginning of the year right as the rates were going up. It took a while, but I managed to find a place I like and placed an offer, which was accepted. Over the past month, I have been going through the purchase, which takes longer than I thought.\nFinally I was given the keys last week, so I am working with a contractor to clean it up a bit before I move in (hopefully by the end of the month)."
+  },
+  {
+    "objectID": "posts/summer-2023/index.html",
+    "href": "posts/summer-2023/index.html",
+    "title": "Summer 2023",
+    "section": "",
+    "text": "I usually spend a couple of weeks traveling or go on a road trip over the summer, but I did not do that this year. I was planning a trip to Japan, but after purchasing a tiny home a few months back, I decided to save up a bit more before going on an expensive trip. Plus, I will be attending a conference next month in Chicago, so that sort of counts.\nBesides, I’ve been thoroughly enjoying my time by going to the gym 3-5 times a week, reading every night (finished the Mistborn trilogy recently), play through my backlog of games (Elden Ring is my new favorite), and overall having a good time."
   }
 ]

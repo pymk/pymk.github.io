@@ -10,7 +10,45 @@
 <atom:link href="https://pymk.dev/index.xml" rel="self" type="application/rss+xml"/>
 <description>pymkd::blog</description>
 <generator>quarto-1.2.335</generator>
-<lastBuildDate>Sat, 07 Jan 2023 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 19 Aug 2023 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Summer 2023</title>
+  <link>https://pymk.dev/posts/summer-2023/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I usually spend a couple of weeks traveling or go on a road trip over the summer, but I did not do that this year. I was planning a trip to Japan, but after purchasing a tiny home a few months back, I decided to save up a bit more before going on an expensive trip. Plus, I will be attending a conference next month in Chicago, so that sort of counts.</p>
+<p>Besides, I’ve been thoroughly enjoying my time by going to the gym 3-5 times a week, reading every night (finished the Mistborn trilogy recently), play through my backlog of games (Elden Ring is my new favorite), and overall having a good time.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <guid>https://pymk.dev/posts/summer-2023/index.html</guid>
+  <pubDate>Sat, 19 Aug 2023 07:00:00 GMT</pubDate>
+  <media:content url="https://pymk.dev/posts/summer-2023/elden-ring.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>First Home</title>
+  <link>https://pymk.dev/posts/first-home/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I started looking for a small house in the beginning of the year right as the rates were going up. It took a while, but I managed to find a place I like and placed an offer, which was accepted. Over the past month, I have been going through the purchase, which takes longer than I thought.</p>
+<p>Finally I was given the keys last week, so I am working with a contractor to clean it up a bit before I move in (hopefully by the end of the month).</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <guid>https://pymk.dev/posts/first-home/index.html</guid>
+  <pubDate>Sun, 09 Apr 2023 07:00:00 GMT</pubDate>
+  <media:content url="https://pymk.dev/posts/first-home/house.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Software Design</title>
   <link>https://pymk.dev/posts/software-design/index.html</link>

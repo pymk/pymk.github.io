@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/summer-2023/index.html",
+      "/posts/first-home/index.html",
       "/posts/software-design/index.html",
       "/posts/online-privacy/index.html",
       "/posts/subscriptions-2023/index.html",
