@@ -1,8 +1,0 @@
----
-title: "Welcome"
-date: "2022-10-01"
-categories: [update]
-image: "welcome.jpg"
----
-
-First post! Not much to say, just wanted to initialize the blog post.
