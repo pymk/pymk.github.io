@@ -1,0 +1,36 @@
+base_url = "https://pymk.dev/"
+title = "pymk"
+description = "p::y::m::k"
+
+default_language = "en"
+theme = "no-style-please"
+
+compile_sass = true
+generate_feed = true
+
+external_links_no_follow = true
+external_links_no_referrer = true
+
+taxonomies = [
+    { name = "tags" },
+    { name = "categories" },
+]
+
+[markdown]
+highlight_code = true
+
+[extra]
+author = "pymk"
+logo = "images/logo.png"
+
+add_toc = false
+list_pages = false
+twitter_card = false
+
+header_nav = [
+    { name = "~", url = "/" },
+    { name = "ls", url = "/posts" },
+    { name = "?", url = "/about" },
+]
+
+footer_nav = []
