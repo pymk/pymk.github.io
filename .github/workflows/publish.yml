@@ -1,4 +1,7 @@
-on: push
+on: 
+  push:
+    paths-ignore:
+      - 'README.md'
 name: Build and Deploy Github Pages
 jobs:
   build:
