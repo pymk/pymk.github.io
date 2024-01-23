@@ -1,25 +1,14 @@
-on:
-  workflow_dispatch:
-  push:
-    branches: master
-
-name: Quarto Publish
-
+on: push
+name: Build and Deploy Github Pages
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v2
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+      - name: Build and Deploy Zola
+        uses: shalzz/zola-deploy-action@v0.17.2
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES_BRANCH: gh-pages
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
