@@ -6,25 +6,25 @@ taxonomies:
   tags: [r, code, subscriptions]
 ---
 
-Here's the updated subscription table from last year. The `Amount` is price per month.
+Here's the updated subscription table from last year.
 
 |Description     |Category      | Amount|
 |:---------------|:-------------|------:|
-|Domain          |Technology    |     $1|
+|Domain Name     |Technology    |     $1|
+|Firefox Relay   |Technology    |     $1|
 |iCloud          |Technology    |     $1|
 |1Password       |Technology    |     $3|
-|Simple Login    |Technology    |     $3|
-|Firefox Relay   |Technology    |     $5|
 |Mullvad VPN     |Technology    |     $5|
+|Github Copilot  |Technology    |     $8|
 |Kagi            |Technology    |    $10|
-|HBO Max         |Entertainment |    $16|
 |YouTube Premium |Entertainment |    $15|
+|HBO Max         |Entertainment |    $16|
 |Netflix         |Entertainment |    $23|
 |Pet Insurance   |Insurance     |    $40|
 |Internet        |Utilities     |    $50|
 |Phone           |Utilities     |    $55|
 |Car Insurance   |Insurance     |   $140|
-|Total           |-             |   $367|
+|Total           |-             |   $368|
 
 Source:
 
@@ -34,9 +34,9 @@ tibble::tribble(
   ~Description, ~Category, ~Amount,
   "1Password", "Technology", 3,
   "Car Insurance", "Insurance", 140,
-  "Firefox Relay", "Technology", 5,
-  "Domain", "Technology", 1,
-  "Phone", "Utilities", 55,
+  "Domain Name", "Technology", 1,
+  "Firefox Relay", "Technology", 1,
+  "Github Copilot", "Technology", 8,
   "HBO Max", "Entertainment", 16,
   "iCloud", "Technology", 1,
   "Internet", "Utilities", 50,
@@ -44,7 +44,7 @@ tibble::tribble(
   "Mullvad VPN", "Technology", 5,
   "Netflix", "Entertainment", 23,
   "Pet Insurance", "Insurance", 40,
-  "Simple Login", "Technology", 3,
+  "Phone", "Utilities", 55,
   "YouTube Premium", "Entertainment", 15
 ) |>
   dplyr::arrange(Amount) |>
