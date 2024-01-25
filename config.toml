@@ -29,6 +29,8 @@ twitter_card = false
 
 header_nav = [
     { name = "~", url = "/" },
+    { name = "ls", url = "/posts" },
+    { name = "?", url = "/about" },
 ]
 
 footer_nav = []
