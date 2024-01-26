@@ -4,7 +4,7 @@ title: "::about"
 
 My name is Payam and I am an analytics engineer.
 
-My interests include data processes, creating R and Python packages, developing dashboards, and setting up automation. I work in biotech and primarily work in R and Python.
+My interests include data processes, creating R and Python packages, developing dashboards, and setting up automation. I work in biotech and primarily work with clinical and sample data using R and Python.
 
 On my free time, I enjoy reading, tinkering, working out, gaming, and walking my cat.
 
@@ -15,7 +15,7 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 ## skills
 
 - R, Python, SQL, bash, Docker, Github Actions
-- ETL/ELT, data validation and cleaning
+- ETL/ELT, analytics, data validation, and and cleaning
 - Shiny dashboards, BI tools, R Markdown, Quarto
 - Experience handling sensitive data
 
@@ -30,7 +30,5 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 ## education
 
-| Degree | School | Graduation Date |
-| --- | --- | --- |
-| M.S. Molecular Biology | San Jose State University | Aug 2015 |
-| B.A. General Biology | San Francisco State University | May 2012 |
+- M.S. Molecular Biology :: San Jose State University :: Aug 2015
+- B.A. General Biology :: San Francisco State University :: May 2012
