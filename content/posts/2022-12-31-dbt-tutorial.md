@@ -31,7 +31,7 @@ First, install [Postgres](https://www.postgresql.org/download/) (I'm using [Post
 
 In terminal, we can login to Postgres as sudo with:
 
-```shell
+```sh
 psql -U postgres
 ```
 
