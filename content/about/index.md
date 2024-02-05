@@ -16,7 +16,7 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 - R, Python, SQL, Bash
 - Docker, Github Actions, AWS S3, EC2, ECR, QuickSight
-- Shiny dashboard, R Markdown, Quarto, BI tools
+- Shiny, R Markdown, Quarto, dashboards
 - ETL/ELT, data cleaning & validation, documentation & standardization
 - Experience handling sensitive data
 
@@ -31,7 +31,7 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 ### Analytics Engineer
 
-**Delfi Diagnostics** || Apr 2022 - Present
+**Delfi Diagnostics** :: Apr 2022 - Present
 
 - Set up pipelines to manage CI/CD of team services and dashboards using Github Actions and Docker.
 - Implement automated data quality checks, data validation, and alerts.
@@ -43,7 +43,7 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 ### Program Manager
 
-**N-Power Medicine** || Oct 2021 - Apr 2022
+**N-Power Medicine** :: Oct 2021 - Apr 2022
 
 - Collaborate with program leads in planning, coordinating, and tracking cross-functional and external activities.
 - Partner with other Program Managers for coordination and alignment of workstreams with the overall strategy.
@@ -52,18 +52,17 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 ### Data Analyst
 
-**GRAIL** || Jan 2018 - Oct 2021
+**GRAIL** :: Jan 2018 - Oct 2021
 
 - Develop data pipelines to automate data quality review for completeness, accuracy, and consistency.
-- Create R packages, ad hoc reports, and dashboards based on specifications and project requirements.
-- Use business intelligence visualization to create interactive dashboards based on business needs in AWS QuickSight.
+- Create R packages, ad hoc reports, and dashboards.
 - Perform ETL on large heterogeneous datasets with AWS services (S3, Glue, Athena, EC2).
 - Technical lead working with the engineering team to develop an internal sample management system.
-- Lead biospecimen visualization, reporting, and reconciliation of clinical and research samples.
+- Lead visualization, reporting, and reconciliation of clinical and biosample data.
 
 ### Clinical Data Manager
 
-**Gilead Sciences** || Nov 2015 - Jan 2018
+**Gilead Sciences** :: Nov 2015 - Jan 2018
 
 - Drive biomarker data management activities of a Phase I clinical trial from start to finish.
 - Implementation of CDMP to outline data quality checks, data transfers, and data reporting.
