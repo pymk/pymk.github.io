@@ -1,5 +1,5 @@
 ---
-title: "vienna, austria"
+title: "Vienna, Austria"
 date: "2022-10-27"
 taxonomies:
   categories: [travel]

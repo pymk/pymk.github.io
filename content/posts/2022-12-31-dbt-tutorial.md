@@ -1,5 +1,5 @@
 ---
-title: "dbt tutorial"
+title: "dbt Tutorial"
 date: "2022-12-31"
 taxonomies:
   categories: [code]
@@ -85,7 +85,7 @@ Now we can run `\dt` again to see a list of newly created tables.
 To copy the contents of the CSV files into these tables, we use these commands:
 
 ```sql
-\COPY customers(id,first_name,last_name,email) 
+\COPY customers(id,first_name,last_name,email)
 FROM './data/raw_customers.csv'
 WITH DELIMITER ','
 CSV HEADER;

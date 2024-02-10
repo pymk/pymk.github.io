@@ -1,5 +1,5 @@
 ---
-title: "subscriptions 2023"
+title: "Subscriptions 2023"
 date: "2023-01-01"
 taxonomies:
   categories: [update]

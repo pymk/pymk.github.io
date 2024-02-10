@@ -1,5 +1,5 @@
 ---
-title: "istanbul, turkey"
+title: "Istanbul, Turkey"
 date: "2022-10-18"
 taxonomies:
   categories: [travel]

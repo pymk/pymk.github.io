@@ -1,5 +1,5 @@
 ---
-title: "athens, greece"
+title: "Athens, Greece"
 date: "2022-10-22"
 taxonomies:
   categories: [travel]

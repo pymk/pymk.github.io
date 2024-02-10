@@ -1,5 +1,5 @@
 ---
-title: "software design"
+title: "Software Design"
 date: "2023-01-07"
 taxonomies:
   categories: [tech]

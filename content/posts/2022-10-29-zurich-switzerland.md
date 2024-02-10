@@ -1,5 +1,5 @@
 ---
-title: "zurich, switzerland"
+title: "Zurich, Switzerland"
 date: "2022-10-29"
 taxonomies:
   categories: [travel]

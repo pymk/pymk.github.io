@@ -1,5 +1,5 @@
 ---
-title: "xkcdr package"
+title: "xkcdr Package"
 date: "2022-12-28"
 taxonomies:
   categories: [code]

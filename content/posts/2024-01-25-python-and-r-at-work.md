@@ -1,5 +1,5 @@
 ---
-title: "python and r at work"
+title: "Python and R at Work"
 date: "2024-01-25"
 taxonomies:
   categories: [work]

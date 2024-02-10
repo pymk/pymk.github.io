@@ -1,5 +1,5 @@
 ---
-title: "oslo, norway"
+title: "Oslo, Norway"
 date: "2022-10-12"
 taxonomies:
   categories: [travel]
