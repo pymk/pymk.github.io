@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>pymk</title>
+    <subtitle>p::y::m::k</subtitle>
+    <link href="https://pymk.dev/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://pymk.dev/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-02-07T00:00:00+00:00</updated>
+    <id>https://pymk.dev/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The Lands Between</title>
+        <published>2024-02-07T00:00:00+00:00</published>
+        <updated>2024-02-07T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/the-lands-between/" type="text/html"/>
+        <id>https://pymk.dev/posts/the-lands-between/</id>
+        
+        <content type="html">&lt;p&gt;My interpretation of &lt;em&gt;Elden Ring&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;In the world of &lt;em&gt;Elden Ring&lt;&#x2F;em&gt;, there are powerful forces known as the &lt;strong&gt;Outer Gods&lt;&#x2F;strong&gt;. Not a lot is known about them or their motivations. We know that they do not have a physical form but exert their influence upon the world to bend events to their will through their envoys and vassals.&lt;&#x2F;p&gt;
+&lt;p&gt;The known entities are:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Greater Will&lt;&#x2F;li&gt;
+&lt;li&gt;The Frenzied Flame&lt;&#x2F;li&gt;
+&lt;li&gt;The Formless Mother&lt;&#x2F;li&gt;
+&lt;li&gt;The Fell God of the Giants&lt;&#x2F;li&gt;
+&lt;li&gt;The God of the Ancient Dragons&lt;&#x2F;li&gt;
+&lt;li&gt;The God of the Moons&lt;&#x2F;li&gt;
+&lt;li&gt;The God of the Twinbird&lt;&#x2F;li&gt;
+&lt;li&gt;The God of Scarlet Rot&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Most of these beings are mentioned in passing, but a few are important to the story and the events that take place in the &lt;strong&gt;Lands Between&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;the-lands-between.jpg&quot; alt=&quot;The Lands Between&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;age-of-the-crucible&quot;&gt;Age of the Crucible&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The primordial form of the Erdtree is close in nature to life itself.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Long ago, the &lt;strong&gt;Crucible&lt;&#x2F;strong&gt; was the primal source of all life in the Lands Between. It was a great tree, within which aspects of every living creature were merged together. This great tree was the primordial form of what later became the &lt;strong&gt;Erdtree&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;erdtree.jpg&quot; alt=&quot;Erdtree&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In the primordial lands, the crucible gives life to all sorts of creatures. As they evolve and gain intelligence, some continue to exhibit vestigial features, which are considered divine signifiers.&lt;&#x2F;p&gt;
+&lt;p&gt;The ancient dragons ruled these lands, and the other creatures served them. It is said that the &lt;strong&gt;Dragonlord Placidusax&lt;&#x2F;strong&gt; becomes the Elden Lord and presides over the lands until his Outer God flees from the Lands Between, ending the Dragonlord&#x27;s reign.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;placidusax.jpg&quot; alt=&quot;Placidusax&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The Outer Gods take notice of this evolving land, and some begin exerting their influence in varying degrees. The most influential one being the &lt;strong&gt;Greater Will&lt;&#x2F;strong&gt; who sends a golden star carrying an &lt;strong&gt;Elden Beast&lt;&#x2F;strong&gt; into the Lands Between to spread its teaching and control over the land&#x27;s civilization.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;elden-beast.jpg&quot; alt=&quot;Elden Beast&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;As the vassal of the Greater Will, the Elden Beast takes over the Primordial Crucible, creating the Erdtree, and becoming the &lt;strong&gt;Elden Ring&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;elden-ring.jpg&quot; alt=&quot;Elden Ring&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;age-of-the-erdtree&quot;&gt;Age of the Erdtree&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the beginning, everything is in opposition to the Erdtree. But through countless victories in war, it becomes the embodiment of Order.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The Elden Ring is a metaphysical embodiment of the concept of &lt;strong&gt;Order&lt;&#x2F;strong&gt;: the amalgamation of laws that govern the reality of the Lands Between as envisioned by the Greater Will. A vassal of the Greater Will can then represent this Order and apply and enforce these laws on the world.&lt;&#x2F;p&gt;
+&lt;p&gt;The physical manifestation of the Order is the &lt;strong&gt;Great Runes&lt;&#x2F;strong&gt; that each hold a special power. For example, the &lt;strong&gt;Rune of Death&lt;&#x2F;strong&gt; dictates that everything is destined to die.&lt;&#x2F;p&gt;
+&lt;p&gt;Besides having the Elden Beast as its vassal, the Greater Will also has envoys called the &lt;strong&gt;Two Fingers&lt;&#x2F;strong&gt;. The Two Fingers can communicate with the Greater Will to enforce its will and provide guidance to the people of the land.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;two-fingers.jpg&quot; alt=&quot;Two Fingers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;However, the Fingers &amp;quot;speak&amp;quot; through trembling, so their words need to be interpreted by ancient women known as the &lt;strong&gt;Finger Readers&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The Fingers select potential candidates, called &lt;strong&gt;Empyreans&lt;&#x2F;strong&gt;, to become the head of the Order and lead the populace. The Empyrean who is then chosen becomes the Elden Ring&#x27;s vessel to carry out Greater Will&#x27;s vision. Her consort will become the &lt;strong&gt;Elden Lord&lt;&#x2F;strong&gt;, and her children will become demigods.&lt;&#x2F;p&gt;
+&lt;p&gt;Out of all the Empyreans, &lt;strong&gt;Marika&lt;&#x2F;strong&gt; is chosen. She is to serve as the head of the Order and as its goddess, to spread the influence of the Greater Will. She takes a mighty warrior named &lt;strong&gt;Hoarah Loux&lt;&#x2F;strong&gt; as her consort to lead battles and wage war on behalf of the Erdtree.&lt;&#x2F;p&gt;
+&lt;p&gt;Marika ascends to godhood, becoming &lt;strong&gt;Queen Marika&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;marika-1.jpg&quot; alt=&quot;Marika&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;After becoming Queen Marika&#x27;s consort, Hoarah Loux pledges to put aside his bloodthirsty nature, takes the name &lt;strong&gt;Godfrey&lt;&#x2F;strong&gt;, and is given the title of the First Elden Lord.&lt;&#x2F;p&gt;
+&lt;p&gt;Marika and Godfrey have three offspring:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Godwyn&lt;&#x2F;strong&gt;, the Golden&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Morgott&lt;&#x2F;strong&gt;, the Omen King&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Mohg&lt;&#x2F;strong&gt;, Lord of Blood&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;godfrey-s-conquest&quot;&gt;Godfrey’s Conquest&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Erdtree governs all. The choice is thine. Become one with the Order. Or divest thyself of it. To wallow at the fringes; a powerless upstart.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;godfrey.jpg&quot; alt=&quot;Godfrey and his Beast Regent Serosh&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Queen Marika wages war on other forces and fractions on the Lands Between to expand the Order and impose the Greater Will&#x27;s dominance on the land. Godfrey wins battle after battle on her behalf, helping to establish the Age of the Erdtree after the fight against the Giants.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;war-against-the-giants&quot;&gt;War Against the Giants&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Once worshiped by the Giants, this evil deity is believed to have been slain by Queen Marika.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;fire-giant.jpg&quot; alt=&quot;Fire Giant&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The Giants live in the mountain tops to the north. They worship the One-Eyed Fell God and are bound to tend the flame of their god for eternity. Queen Marika fights the Giants as their flame has the power to burn the Erdtree.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hark, brave warriors. Hark, my lord Godfrey. [...] Put the giants to the sword and confine the flame atop the mount. [...] Brandish the Elden Ring, for the Age of the Erdtree!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Upon defeating the Giants, Queen Marika realizes that their fire is eternal, so to keep the flame contained, she curses the last remaining survivor of the Giants, the Fire Giant, with the task to tend and guard the inextinguishable Flame of Ruin. This ensures that anyone who intends to use the flame against the Erdtree would have to go through the Fire Giant.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-gloam-eyed-queen&quot;&gt;The Gloam-Eyed Queen&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The apostles, once said to serve Destined Death, are wielders of the god-slaying black flame. But after their defeat by Maliketh, the Black Blade, the source of their power was sealed away.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The Gloam-Eyed Queen possesses the Rune of Death. Her followers, the Godskin Apostles, are able to slay gods using its powers. Wanting to limit the influence of death, Marika orders her half-brother, &lt;strong&gt;Maliketh&lt;&#x2F;strong&gt;, to defeat the Gloam-Eyed Queen and seal away the Rune of Death in his sword.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;maliketh.jpg&quot; alt=&quot;Maliketh&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Golden Order is founded on the principle that Marika is the one true god.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Marika plucks the Rune of Death from the Order, thus removing Destined Death from the Lands Between and forging the &lt;strong&gt;Golden Order&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;People who die in the Lands Between are reabsorbed, body and soul, by the Erdtree and born again. This is the &lt;strong&gt;Grace&lt;&#x2F;strong&gt; given by the Erdtree. So long as this blessing is bestowed on them, they have golden light in their eyes and live an eternal life.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;liurnian-wars&quot;&gt;Liurnian Wars&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;First and the Second Liurnian Wars, during which the red-haired Radagon joined the heroes&#x27; ranks.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Liurnia of the Lakes is a misty region on the west side of the Lands Between, housing the Carian royal family&#x27;s manor and the Academy of Raya Lucaria. The Carian family is descendants of astrologers and practitioners of the glinstone sorcerers.&lt;&#x2F;p&gt;
+&lt;p&gt;The head of house Carian and the Academy of Raya Lucaria is &lt;strong&gt;Rennala&lt;&#x2F;strong&gt; of the Full Moon. She is a powerful sorcerer who defends Liurnia of the Lakes against Marika&#x27;s forces.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;rennala.jpg&quot; alt=&quot;Rennala&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Two wars are fought in the Liurnian Wars, where &lt;strong&gt;Radagon&lt;&#x2F;strong&gt; of the Golden Order leads the battle, but there is no victory.&lt;&#x2F;p&gt;
+&lt;p&gt;However, something unexpected happens: Radagon repents his territorial aggressions and pledges his love to Rennala. The Golden Order and the Carian family are conjoined, and all past war-related grievances are forgiven.&lt;&#x2F;p&gt;
+&lt;p&gt;Radagon and Rennala have three offspring:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Praetor &lt;strong&gt;Rykard&lt;&#x2F;strong&gt;, Lord of Blasphemy&lt;&#x2F;li&gt;
+&lt;li&gt;Starscourge &lt;strong&gt;Radahn&lt;&#x2F;strong&gt;, Conqueror of the Stars&lt;&#x2F;li&gt;
+&lt;li&gt;Lunar Princess &lt;strong&gt;Ranni&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;godfrey-s-banishment&quot;&gt;Godfrey&#x27;s Banishment&lt;&#x2F;h3&gt;
+&lt;audio controls src=&quot;&amp;#x2F;audio&amp;#x2F;2024-02-07&amp;#x2F;melina-my-lord-and-thy-warriors.mp3&quot;&gt;&lt;&#x2F;audio&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My Lord, and thy warriors. I divest each of thee of thy grace. With thine eyes dimmed, ye will be driven from the Lands Between. Ye will wage war in a land afar, where ye will live, and die.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;At the end of Godfrey&#x27;s campaign when his last enemy falls, it is at that moment when Erdtree&#x27;s Grace is taken from Godfrey and his warriors. And they are banished from the Lands Between.&lt;&#x2F;p&gt;
+&lt;p&gt;However, Marika also declares her intention to summon them back after their death. To return to the Lands Between under the Grace of the Erdtree. And so Godfrey relinquishes his title and status, becoming Hoarah Loux once more. He and his warriors embark on a journey to leave the Land Between, becoming the first &lt;strong&gt;Tarnished&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;tarnished.jpg&quot; alt=&quot;Tarnished&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;marika-radagon&quot;&gt;Marika &amp;amp; Radagon&lt;&#x2F;h3&gt;
+&lt;p&gt;Radagon, who is closely linked with Golden Order, leaves Rennala and returns to the capital after Godfrey&#x27;s banishment from the Lands Between.&lt;&#x2F;p&gt;
+&lt;p&gt;Queen Marika takes him as her King Consort, and he becomes the second Elden Lord. As stepchildren of Queen Marika, Radagon&#x27;s three children with Rennala are then elevated to demigod status.&lt;&#x2F;p&gt;
+&lt;p&gt;However, Radagon&#x27;s departure causes Rennala heartbreak and her subsequent imprisonment by the academy when they see her broken. Over time, she descends into madness, dedicating herself to the art of reincarnation.&lt;&#x2F;p&gt;
+&lt;p&gt;Being protective of her mother, Ranni employs her magic to shield Rennala in her vulnerable condition. Though unspoken, this also fuels Ranni&#x27;s desire for revenge against the Two Fingers and the Erdtree.&lt;&#x2F;p&gt;
+&lt;audio controls src=&quot;&amp;#x2F;audio&amp;#x2F;2024-02-07&amp;#x2F;ranni-defiler-of-mother.mp3&quot;&gt;&lt;&#x2F;audio&gt;
+&lt;p&gt;Queen Marika and Radagon have two children: the twins Malenia and Miquella who are both Empyreans.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Malenia&lt;&#x2F;strong&gt;, Blade of Miquella&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Miquella&lt;&#x2F;strong&gt;, The Unalloyed&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;However, Malenia suffers from Scarlet Rot while Miquella is afflicted with eternal childhood.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;night-of-the-black-knives&quot;&gt;Night of the Black Knives&lt;&#x2F;h2&gt;
+&lt;audio controls src=&quot;&amp;#x2F;audio&amp;#x2F;2024-02-07&amp;#x2F;ranni-empyrean.mp3&quot;&gt;&lt;&#x2F;audio&gt;
+&lt;p&gt;To stop the Greater Will from having control over her, &lt;strong&gt;Ranni&lt;&#x2F;strong&gt; orchestrates the Night of the Black Knives, an event that brings an end to the Age of the Erdtree.&lt;&#x2F;p&gt;
+&lt;p&gt;Her assassins steal a fragment of the Rune of Death from Maliketh&#x27;s sword and imbue it in their knives, which they use to kill &lt;strong&gt;Godwyn the Golden&lt;&#x2F;strong&gt;. This is the first recorded death of a demigod, which serves as a catalyst to the shattering of the Elden Ring.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;godwyn-1.jpg&quot; alt=&quot;Godwyn&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;On the same night, Ranni has the assassins brand her with one half of the Cursemark of Death (the other half was used on Godwyn), in a ritual that kills her flesh but preserves her soul. Whereas Godwyn&#x27;s soul is destroyed, but his body remains.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;ranni-2.jpg&quot; alt=&quot;Ranni&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The body of Godwyn, devoid of a soul and incapable of experiencing true death, mutates into an unrecognizable entity known as the &lt;strong&gt;Prince of Death&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Deathroot emerges from it, spreading throughout the Lands Between via the Erdtree&#x27;s roots and giving birth to beings known as Those Who Live in Death.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;godwyn-2.jpg&quot; alt=&quot;Godwyn&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shattering-of-the-elden-ring&quot;&gt;Shattering of the Elden Ring&lt;&#x2F;h2&gt;
+&lt;p&gt;After Godwyn&#x27;s assassination, Queen Marika shatters the Elden Ring, fracturing the Golden Order and bringing instability to the lands. Because of her transgression, Queen Marika is imprisoned within the Erdtree by the Greater Will as her punishment.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;marika-3.jpg&quot; alt=&quot;Marika&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In contrast, Radagon stays faithful to the Golden Order and endeavors to mend the Elden Ring using the same hammer Marika had used to shatter it.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;radagon-2.jpg&quot; alt=&quot;Radagon&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-shattering&quot;&gt;The Shattering&lt;&#x2F;h2&gt;
+&lt;p&gt;Following the shattering of the Elden Ring, the demigods who inherit the broken shards of the Elden Ring are referred to as Shardbearers. Influenced by the power of these Great Runes, the Shardbearers engage in war for control of the Lands Between, leading to the event known as the Shattering.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;the-shattering-war.jpg&quot; alt=&quot;The Shattering&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Ranni discards her Great Rune, with its current location unknown.&lt;&#x2F;p&gt;
+&lt;audio controls src=&quot;&amp;#x2F;audio&amp;#x2F;2024-02-07&amp;#x2F;ranni-tell-the-two-fingers.mp3&quot;&gt;&lt;&#x2F;audio&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;ranni-1.jpg&quot; alt=&quot;Ranni&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Rykard&#x27;s ambitions turn to depravity, leading to his demise when he feeds himself to a giant serpent. His consort, Tanith, leads the recusants of Volcano Manor in a war against the Erdtree.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;rykard.jpg&quot; alt=&quot;Rykard&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Godrick, a distant relative of Marika, seeks power through grafting.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;godrick.jpg&quot; alt=&quot;Godrick&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Morgott becomes the Lord of Leyndell, defending the Erdtree by slaughtering any champions that challenge it.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;morgott.jpg&quot; alt=&quot;Morgott&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Mohg, who aims to build his dynasty, abducts Miquella to raise him to full godhood, so Mohg can become his consort. However, Miquella remains unresponsive in his cocoon.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;mohg.jpg&quot; alt=&quot;Mohg&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Radahn, leading the Redmane Knights, clashes with Malenia&#x27;s Cleanrot Knights. The battle ends in a stalemate until Malenia unleashes her Scarlet Rot, driving Radahn mad and leaving herself in a state of comatose.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;the-shattering.jpg&quot; alt=&quot;The Shattering&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-tarnished&quot;&gt;The Tarnished&lt;&#x2F;h2&gt;
+&lt;audio controls src=&quot;&amp;#x2F;audio&amp;#x2F;2024-02-07&amp;#x2F;melina-make-of-thyselves.mp3&quot;&gt;&lt;&#x2F;audio&gt;
+&lt;p&gt;Forsaken by the Greater Will, none of the demigods manage to become the Elden Lord in the aftermath of The Shattering. Thus, the Grace is extended to the Tarnished once again, and they are recalled to the Lands Between. Compelled by the Two Fingers in search for Shardbearers to take their Great Runes and restore the Elden Ring and the Golden Order.&lt;&#x2F;p&gt;
+&lt;p&gt;It is here where our story begins. We meet &lt;strong&gt;Melina&lt;&#x2F;strong&gt;, a spectral girl who becomes our companion throughout our journey to become the Elden Lord.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;melina.jpg&quot; alt=&quot;Melina&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;marika-s-secret&quot;&gt;Marika&#x27;s Secret&lt;&#x2F;h2&gt;
+&lt;audio controls src=&quot;&amp;#x2F;audio&amp;#x2F;2024-02-07&amp;#x2F;melina-o-radagon.mp3&quot;&gt;&lt;&#x2F;audio&gt;
+&lt;p&gt;It is revealed that Radagon and Marika are one entity, with Radagon being Marika&#x27;s male &amp;quot;other self.&amp;quot; It is not known whether this was always the case or if Radagon merged with Marika at some point.&lt;&#x2F;p&gt;
+&lt;p&gt;Regardless, despite sharing the same body, they do not share the same will.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;marika-4.jpg&quot; alt=&quot;Marika&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;2024-02-07&#x2F;radagon-1.jpg&quot; alt=&quot;Radagon&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;marika-s-plan&quot;&gt;Marika&#x27;s Plan&lt;&#x2F;h2&gt;
+&lt;audio controls src=&quot;&amp;#x2F;audio&amp;#x2F;2024-02-07&amp;#x2F;melina-blissful-early-days.mp3&quot;&gt;&lt;&#x2F;audio&gt;
+&lt;p&gt;It is hinted that the shattering of the Elden Ring was conspired by Marika.&lt;&#x2F;p&gt;
+&lt;p&gt;She started off as a champion of the Greater Will and a strong believer of the Order, but with time, she began to have doubts and wanted to break free from the control of the Greater Will.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Use my masterpiece to slay a god. That is all that I have lived for. And my promise to Queen Marika.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The banishment of the Tarnished, guiding them with Grace upon their return, orchestrating the Night of the Black Knives with the help of Ranni and Melina, and the shattering of the Elden Ring was part of her plan all along. She sets this plan in motion, in hopes of having a Tarnished kill the Elden Beast, removing Radagon from within her and the Greater Will&#x27;s influence from the Lands Between.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Python and R at Work</title>
+        <published>2024-01-25T00:00:00+00:00</published>
+        <updated>2024-01-25T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/python-and-r-at-work/" type="text/html"/>
+        <id>https://pymk.dev/posts/python-and-r-at-work/</id>
+        
+        <content type="html">&lt;p&gt;I really enjoy doing data wrangling and analysis in R, primarly because of the &lt;code&gt;dplyr&lt;&#x2F;code&gt; and its sister Tidyverse packages, like &lt;code&gt;tidyr&lt;&#x2F;code&gt; and &lt;code&gt;purrr&lt;&#x2F;code&gt;, thanks to their &lt;a href=&quot;https:&#x2F;&#x2F;dplyr.tidyverse.org&#x2F;&quot;&gt;wonderful API&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Over the past year, our team at work has been working on becoming language-agnostic (at least in our group), using the right tool for the right job. For example, we refactor our pipeline to use Python to be compatible with our orchestration stack (Pulumi and Dagster), but kept our data analysis in R using or Shiny apps for dashboards as it works better for us (using Posit Connect for publishing, for example).&lt;&#x2F;p&gt;
+&lt;p&gt;Just to get some practice, I decided to use &lt;a href=&quot;https:&#x2F;&#x2F;pola.rs&#x2F;&quot;&gt;Polars&lt;&#x2F;a&gt; on one of the recent projects I worked on. I enjoyed the syntax more than Pandas, as it was closer to SQL and &lt;code&gt;dplyr&lt;&#x2F;code&gt;. I liked it a lot, but felt a bit verbose for my taste. Still, it was great getting some hands on experience with this library and get a better sense of its advantages and shortcomings.&lt;&#x2F;p&gt;
+&lt;p&gt;Just today, I was reminded of the &lt;a href=&quot;https:&#x2F;&#x2F;ibis-project.org&#x2F;&quot;&gt;Ibis&lt;&#x2F;a&gt; library, which I had heard about a few months back at the Posit Conference. Checking it out today, I am very excited to see the direction they are taking: the API, interactive mode, lazy expressions, DuckDB backend, etc.&lt;&#x2F;p&gt;
+&lt;p&gt;It definitely checks all the boxes for me, so I am very excited to give this a try on upcoming projects and reports.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>New Theme</title>
+        <published>2024-01-22T00:00:00+00:00</published>
+        <updated>2024-01-22T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/new-theme/" type="text/html"/>
+        <id>https://pymk.dev/posts/new-theme/</id>
+        
+        <content type="html">&lt;p&gt;I was running a &lt;a href=&quot;https:&#x2F;&#x2F;quarto.org&#x2F;docs&#x2F;websites&#x2F;&quot;&gt;Quarto website&lt;&#x2F;a&gt; previously, writing the posts in markdown and pushing updates through Github Actions. It worked pretty well, but I decided to change it up.&lt;&#x2F;p&gt;
+&lt;p&gt;Looking for a simple static site generator, I found &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;getzola&#x2F;zola&quot;&gt;Zola&lt;&#x2F;a&gt; that checks all the boxes: no dependencies, lightning fast, and uses markdown. It also has lots of beautiful &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;themes&#x2F;&quot;&gt;themes&lt;&#x2F;a&gt;, but the one that really got me excited was &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;atgumx&#x2F;no-style-please&quot;&gt;no-style-please&lt;&#x2F;a&gt;, which is what you see here, but with minor modifications.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Subscriptions 2024</title>
+        <published>2024-01-21T00:00:00+00:00</published>
+        <updated>2024-01-21T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/subscriptions-2024/" type="text/html"/>
+        <id>https://pymk.dev/posts/subscriptions-2024/</id>
+        
+        <content type="html">&lt;p&gt;Here&#x27;s the updated subscription table from last year.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Category&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;Amount&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Domain Name&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Firefox Relay&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;iCloud&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1Password&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Mullvad VPN&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$5&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Github Copilot&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$8&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Kagi&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$10&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;YouTube Premium&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Entertainment&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$15&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;HBO Max&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Entertainment&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$16&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Netflix&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Entertainment&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$23&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Pet Insurance&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Insurance&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$40&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Internet&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Utilities&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$50&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Phone&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Utilities&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$55&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Car Insurance&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Insurance&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$140&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Total&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;-&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$368&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Source:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;r&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-r &quot;&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# R
+&lt;&#x2F;span&gt;&lt;span&gt;tibble::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;tribble&lt;&#x2F;span&gt;&lt;span&gt;(
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;~&lt;&#x2F;span&gt;&lt;span&gt;Description, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;~&lt;&#x2F;span&gt;&lt;span&gt;Category, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;~&lt;&#x2F;span&gt;&lt;span&gt;Amount,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;1Password&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Car Insurance&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Insurance&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;140&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Domain Name&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Firefox Relay&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Github Copilot&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;8&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;HBO Max&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Entertainment&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;16&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;iCloud&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Internet&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Utilities&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;50&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Kagi&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Mullvad VPN&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Netflix&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Entertainment&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;23&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Pet Insurance&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Insurance&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;40&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Phone&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Utilities&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;55&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;YouTube Premium&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Entertainment&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;15
+&lt;&#x2F;span&gt;&lt;span&gt;) |&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  dplyr::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;arrange&lt;&#x2F;span&gt;&lt;span&gt;(Amount) |&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  janitor::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;adorn_totals&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;row&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;) |&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  dplyr::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mutate&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Amount &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;paste0&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, Amount)) |&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  knitr::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;kable&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;align &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;c&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;l&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;l&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;r&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;))
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Summer 2023</title>
+        <published>2023-08-19T00:00:00+00:00</published>
+        <updated>2023-08-19T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/summer-2023/" type="text/html"/>
+        <id>https://pymk.dev/posts/summer-2023/</id>
+        
+        <content type="html">&lt;p&gt;I usually spend a couple of weeks traveling or go on a road trip over the summer, but I did not do that this year. I was planning a trip to Japan, but after purchasing my tiny home a few months back, I decided to save up a bit more before going on an expensive trip. Plus, I will be attending a conference next month in Chicago, so that sort of counts.&lt;&#x2F;p&gt;
+&lt;p&gt;Besides, I&#x27;ve been thoroughly enjoying my time by going to the gym 3-5 times a week, reading every night (finished the &lt;em&gt;Mistborn&lt;&#x2F;em&gt; trilogy recently), play through my backlog of games (&lt;em&gt;Elden Ring&lt;&#x2F;em&gt; is now my all-time favorite), and overall having a good time.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>First Home</title>
+        <published>2023-04-09T00:00:00+00:00</published>
+        <updated>2023-04-09T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/first-home/" type="text/html"/>
+        <id>https://pymk.dev/posts/first-home/</id>
+        
+        <content type="html">&lt;p&gt;I started looking for a small place in the beginning of the year right as the rates were going up. It took a while, but I managed to find one that I liked. My offer was accepted, so over the past month, I have been going through the purchase process.&lt;&#x2F;p&gt;
+&lt;p&gt;Last week, everything was completed and I was finally given the keys. I am now working with a contractor to clean it up a bit before I move in... hopefully by the end of the month.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Software Design</title>
+        <published>2023-01-07T00:00:00+00:00</published>
+        <updated>2023-01-07T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/software-design/" type="text/html"/>
+        <id>https://pymk.dev/posts/software-design/</id>
+        
+        <content type="html">&lt;p&gt;Found this great book called &lt;em&gt;A Philosophy of Software Design&lt;&#x2F;em&gt; by John Ousterhout and I am thoroughly enjoying it. I will use this post to write down my notes and summary to help retain the information.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;code-complexity&quot;&gt;Code Complexity&lt;&#x2F;h3&gt;
+&lt;p&gt;A complex code can be identified by the amount of time the developer has to spend learning and understanding the code (&amp;quot;cognitive load&amp;quot;) in order to make even simple changes. An example would be when making a simple update requires a lot of code modification throughout the code base. Or when updating part of the code unintentionally changes or breaks something else.&lt;&#x2F;p&gt;
+&lt;p&gt;In order to reduce complexity, we can do a few things:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Having a simpler code by writing obvious code vs a clever, more complex ones&lt;&#x2F;li&gt;
+&lt;li&gt;Reduce special cases, which helps reduce cognitive load&lt;&#x2F;li&gt;
+&lt;li&gt;Abstractions and encapsulation of complexities, so developers are only expose to it when needed&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Complexities are introduced incrementally, so a &amp;quot;zero tolerance&amp;quot; philosophy (more on this later) is required to stay vigilant. The two main culprits of code complexity are &lt;em&gt;dependencies&lt;&#x2F;em&gt; and &lt;em&gt;obscurity&lt;&#x2F;em&gt;. An example of dependency would be when a piece of code cannot be modified without having to update other code pieces and making changes. An example of obscurity would be lack of documentation or when important information in the code is not obvious.&lt;&#x2F;p&gt;
+&lt;p&gt;Instead of quickly pushing out code just to get the job done or meet a deadline (and accumulate technical debt), we should spend some time to come up with a design for the system. Think through a few alternative approaches before deciding the right one. When mistakes are identified, they should be fixed rather than patched around it.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;modular-design-and-abstractions&quot;&gt;Modular Design and Abstractions&lt;&#x2F;h3&gt;
+&lt;p&gt;Modular design is a way of breaking down a system into smaller parts. Abstraction is a way to hide away unimportant information or details that allow for easier understanding of the system.&lt;&#x2F;p&gt;
+&lt;p&gt;Ideally, each module should be independent of the other ones, so the complexities of a given module are self-contained. But interactivity and dependencies between modules are unavoidable, so the goal should be to minimize these dependencies.&lt;&#x2F;p&gt;
+&lt;p&gt;When creating a model, we should think about the &lt;em&gt;interface&lt;&#x2F;em&gt; (what it does) and &lt;em&gt;implementation&lt;&#x2F;em&gt; (how it does it) of the module. The module&#x27;s interface should be simple to reduce complexity of the overall system. We should also create &amp;quot;deep&amp;quot; module&#x2F;classes&#x2F;functions (powerful functionality, but simple interface) rather than &amp;quot;shallow&amp;quot; ones (complex interface, but simple functionality).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;design-it-twice&quot;&gt;Design it Twice&lt;&#x2F;h3&gt;
+&lt;p&gt;Rather than implementing the first idea that comes to your head, spend some time and think about alternative approaches. For a more complex system, make a list of pros and cons. This should be applied to system, modules, or functions. It is better to spend some time up front to think about the design instead of spending days or weeks refactoring a bad design.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Online Privacy</title>
+        <published>2023-01-02T00:00:00+00:00</published>
+        <updated>2023-01-02T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/online-privacy/" type="text/html"/>
+        <id>https://pymk.dev/posts/online-privacy/</id>
+        
+        <content type="html">&lt;p&gt;Initially I was writing about how at the beginning of each year, I go through my accounts and delete my online presence for services I no longer use. But that got me thinking about the different ways I try to keep my privacy online, which might be a fun thing to jot down.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;email-accounts&quot;&gt;Email Accounts&lt;&#x2F;h2&gt;
+&lt;p&gt;First things first, I have 4 main email accounts:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Personal use that I give to friends and family.&lt;&#x2F;li&gt;
+&lt;li&gt;One that I use with important accounts that I regularly use or those have to ties to my identity (e.g. banking, insurance, utilities).&lt;&#x2F;li&gt;
+&lt;li&gt;Professional one that I only put on my resume.&lt;&#x2F;li&gt;
+&lt;li&gt;A catch-all for disposable online accounts (e.g. stores).&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;All four accounts have unique and strong, randomly generated passwords with multi-factor authentication enabled (MFA through auth app, not through SMS).&lt;&#x2F;p&gt;
+&lt;p&gt;For random websites, I use email masking for each site (see &lt;a href=&quot;https:&#x2F;&#x2F;pymk.dev&#x2F;posts&#x2F;online-privacy&#x2F;#email-masking&quot;&gt;Email Masking section&lt;&#x2F;a&gt;).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;password-manager&quot;&gt;Password Manager&lt;&#x2F;h2&gt;
+&lt;p&gt;I use &lt;a href=&quot;https:&#x2F;&#x2F;1password.com&quot;&gt;1Password&lt;&#x2F;a&gt; and have been very happy with it (previously used KeePass). What I really like about it is how easy it is to organize and tag different records. You can also have multiple &amp;quot;vaults&amp;quot;. I have a personal one, a family one that I share with my family, one for &lt;a href=&quot;https:&#x2F;&#x2F;support.1password.com&#x2F;travel-mode&#x2F;&quot;&gt;traveling&lt;&#x2F;a&gt;, and one for work credentials.&lt;&#x2F;p&gt;
+&lt;p&gt;It also allows you to store other things, such as MFA codes.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Other Options:&lt;&#x2F;strong&gt; &lt;a href=&quot;https:&#x2F;&#x2F;bitwarden.com&#x2F;pricing&#x2F;&quot;&gt;Bitwarden&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;email-masking&quot;&gt;Email Masking&lt;&#x2F;h2&gt;
+&lt;p&gt;I really like email masking feature and often use them even with my catch-all email accounts. I generate them through &lt;a href=&quot;https:&#x2F;&#x2F;relay.firefox.com&quot;&gt;Firefox Relay&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;support.apple.com&#x2F;en-us&#x2F;HT210425&quot;&gt;iCloud&lt;&#x2F;a&gt;, and &lt;a href=&quot;https:&#x2F;&#x2F;simplelogin.io&quot;&gt;SimpleLogin&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Firefox Relay recently added &lt;a href=&quot;https:&#x2F;&#x2F;blog.mozilla.org&#x2F;en&#x2F;privacy-security&#x2F;hide-your-phone-number-with-firefox-relay&#x2F;&quot;&gt;phone number masking&lt;&#x2F;a&gt;. However, it does not work with services that reject VOIP numbers.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Other Options:&lt;&#x2F;strong&gt; &lt;a href=&quot;https:&#x2F;&#x2F;support.apple.com&#x2F;en-us&#x2F;HT210425&quot;&gt;iCloud&lt;&#x2F;a&gt; | &lt;a href=&quot;https:&#x2F;&#x2F;1password.com&#x2F;fastmail&#x2F;&quot;&gt;Fastmail&lt;&#x2F;a&gt; | &lt;a href=&quot;https:&#x2F;&#x2F;simplelogin.io&quot;&gt;SimpleLogin&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;vpn&quot;&gt;VPN&lt;&#x2F;h2&gt;
+&lt;p&gt;I also use &lt;a href=&quot;https:&#x2F;&#x2F;mullvad.net&quot;&gt;Mullvad VPN&lt;&#x2F;a&gt;, which is who &lt;a href=&quot;https:&#x2F;&#x2F;mullvad.net&#x2F;en&#x2F;blog&#x2F;2019&#x2F;12&#x2F;3&#x2F;mullvad-partnerships-page-has-been-updated-mozilla&#x2F;&quot;&gt;Mozilla partnered with&lt;&#x2F;a&gt; to provide their VPN service.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Other Options:&lt;&#x2F;strong&gt; &lt;a href=&quot;https:&#x2F;&#x2F;vpn.mozilla.org&#x2F;&quot;&gt;Mozilla VPN&lt;&#x2F;a&gt; | &lt;a href=&quot;https:&#x2F;&#x2F;protonvpn.com&quot;&gt;Proton VPN&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;browsing&quot;&gt;Browsing&lt;&#x2F;h2&gt;
+&lt;p&gt;I use &lt;a href=&quot;https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;&quot;&gt;Firefox&lt;&#x2F;a&gt; as my main browser. The only browser I am signed into with my Google account is Chrome, which is what I use to check my email or do anything related to my Google account. Outside of that, I only use Firefox.&lt;&#x2F;p&gt;
+&lt;p&gt;Extensions:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;temporary-containers&#x2F;&quot;&gt;Temporary Containers&lt;&#x2F;a&gt; | &lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;multi-account-containers&#x2F;&quot;&gt;Firefox Multi-Account Containers&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;ublock-origin&#x2F;&quot;&gt;ublock Origin&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;https-everywhere&#x2F;&quot;&gt;HTTPS Everywhere&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;privacy-badger17&#x2F;&quot;&gt;Privacy Badger&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;clearurls&#x2F;&quot;&gt;Clear URLs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;extras-fun&quot;&gt;Extras Fun&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Quit social media.&lt;&#x2F;li&gt;
+&lt;li&gt;Subscribe to &lt;a href=&quot;https:&#x2F;&#x2F;monitor.firefox.com&quot;&gt;Firefox Monitor&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;kagi.com&#x2F;settings?p=billing_plan&quot;&gt;Kagi&lt;&#x2F;a&gt; instead of Google.&lt;&#x2F;li&gt;
+&lt;li&gt;Place a &lt;a href=&quot;https:&#x2F;&#x2F;consumer.ftc.gov&#x2F;articles&#x2F;what-know-about-credit-freezes-fraud-alerts#freeze&quot;&gt;credit report freeze&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Use a hardware authentication device for important accounts (I use &lt;a href=&quot;https:&#x2F;&#x2F;cloud.google.com&#x2F;titan-security-key&quot;&gt;Titan&lt;&#x2F;a&gt;).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;justdeleteme.xyz&quot;&gt;Delete&lt;&#x2F;a&gt; your old&#x2F;unused accounts to reduce your online footprint.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;yourdigitalrights.org&quot;&gt;Request&lt;&#x2F;a&gt; organizations to delete your account.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Subscriptions 2023</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/subscriptions-2023/" type="text/html"/>
+        <id>https://pymk.dev/posts/subscriptions-2023/</id>
+        
+        <content type="html">&lt;p&gt;I thought to start the year right and make a budget.&lt;&#x2F;p&gt;
+&lt;p&gt;Subscriptions are sneaky...&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Category&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;Amount&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;iCloud&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;NextDNS&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$2&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;1Password&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Simple Login&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Firefox Relay&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$5&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Mullvad VPN&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$5&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Google Domains&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$10&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Kagi&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Technology&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$10&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;HBO Max&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Entertainment&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$15&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;YouTube Premium&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Entertainment&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$15&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Netflix&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Entertainment&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$20&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Pet Insurance&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Insurance&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$40&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Internet&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Utilities&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$50&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Google Fi&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Utilities&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$55&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Car Insurance&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Insurance&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$140&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Total&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;-&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;$374&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Source:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;r&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-r &quot;&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# R
+&lt;&#x2F;span&gt;&lt;span&gt;tibble::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;tribble&lt;&#x2F;span&gt;&lt;span&gt;(
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;~&lt;&#x2F;span&gt;&lt;span&gt;Description, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;~&lt;&#x2F;span&gt;&lt;span&gt;Category, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;~&lt;&#x2F;span&gt;&lt;span&gt;Amount,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;NextDNS&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;1Password&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Car Insurance&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Insurance&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;140&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Firefox Relay&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Google Domains&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Google Fi&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Utilities&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;55&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;HBO Max&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Entertainment&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;15&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;iCloud&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Internet&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Utilities&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;50&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Kagi&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Mullvad VPN&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Netflix&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Entertainment&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;20&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Pet Insurance&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Insurance&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;40&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Simple Login&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Technology&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;YouTube Premium&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Entertainment&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;15
+&lt;&#x2F;span&gt;&lt;span&gt;) |&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  dplyr::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;arrange&lt;&#x2F;span&gt;&lt;span&gt;(Amount) |&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  janitor::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;adorn_totals&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;row&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;) |&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  dplyr::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mutate&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Amount &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;paste0&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, Amount)) |&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  knitr::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;kable&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;align &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;c&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;l&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;l&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;r&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;))
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>dbt Tutorial</title>
+        <published>2022-12-31T00:00:00+00:00</published>
+        <updated>2022-12-31T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/dbt-tutorial/" type="text/html"/>
+        <id>https://pymk.dev/posts/dbt-tutorial/</id>
+        
+        <content type="html">&lt;p&gt;We were thinking about using &lt;a href=&quot;https:&#x2F;&#x2F;www.getdbt.com&#x2F;product&#x2F;what-is-dbt&#x2F;&quot;&gt;dbt&lt;&#x2F;a&gt; at work to help with our data pipeline, so I thought this winter break would be a good time to learn the basics.&lt;&#x2F;p&gt;
+&lt;p&gt;They offer two products: dbt Cloud and dbt Core. As the name suggests, dbt Cloud is their subscription service and dbt Core is free CLI tool.&lt;&#x2F;p&gt;
+&lt;p&gt;I really like what they offer with this tool. Setting up models and creating tables with documentation and tests is really simple. Just gotta get used to writing SQL or Python commands instead of beautiful &lt;code&gt;dplyr&lt;&#x2F;code&gt; with pipes.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;They have lots of nice guides, docs, and tutorials for learning. The one I started with is their &lt;code&gt;jaffle_shop&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;docs.getdbt.com&#x2F;docs&#x2F;get-started&#x2F;getting-started-dbt-core&quot;&gt;dbt Core tutorial&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;One of the prerequisites is to set up BigQuery to access the data, but for learning purposes, I just wanted to run things locally. Could not find a guide or the dataset on their official channels, but I found the original CSV files for the tables in their &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dbt-labs&#x2F;jaffle_shop&#x2F;tree&#x2F;f72efd299dea41b17d84e02d49d364631cca2709&quot;&gt;repo history&lt;&#x2F;a&gt;. It was probably from their earlier version of the tutorial.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyway, I created this guide to use a local Postgres dataset for the &lt;code&gt;jaffle_shop&lt;&#x2F;code&gt; tutorial.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dbt-labs&#x2F;jaffle_shop&#x2F;tree&#x2F;f72efd299dea41b17d84e02d49d364631cca2709&quot;&gt;data&#x2F;&lt;&#x2F;a&gt; directory and its content to the project directory.&lt;&#x2F;li&gt;
+&lt;li&gt;Ensure you are in the project directory (i.e. &lt;code&gt;&#x2F;dbt-tutorial&#x2F;jaffle_shop&#x2F;&lt;&#x2F;code&gt;) for running the Postgres and &lt;code&gt;dbt&lt;&#x2F;code&gt; commands below.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;First, install &lt;a href=&quot;https:&#x2F;&#x2F;www.postgresql.org&#x2F;download&#x2F;&quot;&gt;Postgres&lt;&#x2F;a&gt; (I&#x27;m using &lt;a href=&quot;https:&#x2F;&#x2F;postgresapp.com&quot;&gt;Postgres app&lt;&#x2F;a&gt; for macOS).&lt;&#x2F;p&gt;
+&lt;p&gt;In terminal, we can login to Postgres as sudo with:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;psql -U&lt;&#x2F;span&gt;&lt;span&gt; postgres
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;And use the command &lt;code&gt;\l&lt;&#x2F;code&gt; to list of current databases available.&lt;&#x2F;p&gt;
+&lt;p&gt;Next, we create a user and database for &lt;code&gt;jaffle_shop&lt;&#x2F;code&gt;. In my example, the user is &lt;code&gt;dbt_test&lt;&#x2F;code&gt; (password: &lt;code&gt;dbt_test&lt;&#x2F;code&gt;) and the database is called &lt;code&gt;jaffle_shop&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sql&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sql &quot;&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;CREATE USER &lt;&#x2F;span&gt;&lt;span&gt;dbt_test WITH PASSWORD &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;adb_test&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;CREATE DATABASE &lt;&#x2F;span&gt;&lt;span&gt;jaffle_shop WITH OWNER &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;dbt_test&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Using &lt;code&gt;\l&lt;&#x2F;code&gt;, we can see the new database is created. Now we can exist sudo with &lt;code&gt;\q&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Now we can update the &lt;code&gt;~&#x2F;.dbt&#x2F;profiles.yml&lt;&#x2F;code&gt; config file with:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;yaml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-yaml &quot;&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;postgres
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;threads&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;4
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;host&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;localhost
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;port&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5432
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;user&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;dbt_test
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;pass&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;dbt_test
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;dbname&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;jaffle_shop
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;schema&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;public
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Next, we login to &lt;code&gt;jaffle_shop&lt;&#x2F;code&gt; database as the new user (&lt;code&gt;dbt_test&lt;&#x2F;code&gt;) we just created:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sql&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sql &quot;&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span&gt;psql -U dbt_test jaffle_shop
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;We can use &lt;code&gt;\dt&lt;&#x2F;code&gt; command to list all available tables (should be none right now) in this database.&lt;&#x2F;p&gt;
+&lt;p&gt;The following commands create our tables (schema is based on the CSV files in the &lt;code&gt;data&#x2F;&lt;&#x2F;code&gt; folder).&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sql&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sql &quot;&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;CREATE TABLE &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;customers
+&lt;&#x2F;span&gt;&lt;span&gt; (id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;INTEGER&lt;&#x2F;span&gt;&lt;span&gt;, first_name &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;TEXT&lt;&#x2F;span&gt;&lt;span&gt;, last_name &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;TEXT&lt;&#x2F;span&gt;&lt;span&gt;, email &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;TEXT&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;CREATE TABLE &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;orders
+&lt;&#x2F;span&gt;&lt;span&gt; (id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;INTEGER&lt;&#x2F;span&gt;&lt;span&gt;, user_id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;INTEGER&lt;&#x2F;span&gt;&lt;span&gt;, order_date &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;DATE&lt;&#x2F;span&gt;&lt;span&gt;, status &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;TEXT&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;CREATE TABLE &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;payments
+&lt;&#x2F;span&gt;&lt;span&gt; (id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;INTEGER&lt;&#x2F;span&gt;&lt;span&gt;, order_id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;INTEGER&lt;&#x2F;span&gt;&lt;span&gt;, payment_method &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;TEXT&lt;&#x2F;span&gt;&lt;span&gt;, amount &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;BigInt&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Now we can run &lt;code&gt;\dt&lt;&#x2F;code&gt; again to see a list of newly created tables.&lt;&#x2F;p&gt;
+&lt;p&gt;To copy the contents of the CSV files into these tables, we use these commands:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sql&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sql &quot;&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span&gt;\COPY customers(id,first_name,last_name,email)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;FROM &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;.&#x2F;data&#x2F;raw_customers.csv&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;WITH&lt;&#x2F;span&gt;&lt;span&gt; DELIMITER &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;span&gt;CSV HEADER;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;\COPY orders(id,user_id,order_date,status)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;FROM &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;.&#x2F;data&#x2F;raw_orders.csv&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;WITH&lt;&#x2F;span&gt;&lt;span&gt; DELIMITER &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;span&gt;CSV HEADER;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;\COPY payments(id,order_id,payment_method,amount)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;FROM &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;.&#x2F;data&#x2F;raw_payments.csv&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;WITH&lt;&#x2F;span&gt;&lt;span&gt; DELIMITER &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;span&gt;CSV HEADER;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;And a quick sanity check to ensure we have the data:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sql&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sql &quot;&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;SELECT &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;* &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;FROM&lt;&#x2F;span&gt;&lt;span&gt; customers &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;ORDER BY&lt;&#x2F;span&gt;&lt;span&gt; id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;ASC LIMIT &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;SELECT &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;* &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;FROM&lt;&#x2F;span&gt;&lt;span&gt; orders &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;ORDER BY&lt;&#x2F;span&gt;&lt;span&gt; id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;ASC LIMIT &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;SELECT &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;* &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;FROM&lt;&#x2F;span&gt;&lt;span&gt; payments &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;ORDER BY&lt;&#x2F;span&gt;&lt;span&gt; id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;ASC LIMIT &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;And that&#x27;s it. We can quit at anytime with &lt;code&gt;\q&lt;&#x2F;code&gt; and continue with the tutorial.&lt;&#x2F;p&gt;
+&lt;p&gt;The example models created for this tutorial are also in &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pymk&#x2F;dbt-tutorial&#x2F;tree&#x2F;master&#x2F;jaffle_shop&quot;&gt;here&lt;&#x2F;a&gt; for reference.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>xkcdr Package</title>
+        <published>2022-12-28T00:00:00+00:00</published>
+        <updated>2022-12-28T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/xkcd-package/" type="text/html"/>
+        <id>https://pymk.dev/posts/xkcd-package/</id>
+        
+        <content type="html">&lt;p&gt;I wanted to get more practice using the &lt;a href=&quot;https:&#x2F;&#x2F;covr.r-lib.org&quot;&gt;{covr}&lt;&#x2F;a&gt; package, so I built a small R package that uses the &lt;em&gt;xkcd&lt;&#x2F;em&gt; comic&#x27;s API.&lt;&#x2F;p&gt;
+&lt;p&gt;You can install the package from Github:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;r&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-r &quot;&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span&gt;pak::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;pak&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;pymk&#x2F;xkcdr&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;There is only one exported function for this package: &lt;code&gt;get_xkcd()&lt;&#x2F;code&gt;. There is an optional parameter that can be passed to get a specific comic. Without it, the latest comic will be returned.&lt;&#x2F;p&gt;
+&lt;p&gt;What is returned is a {gt} table, which looks very polished as an HTML output.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, to view the comic 936, &amp;quot;Password Strength&amp;quot;, we run:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;r&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-r &quot;&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span&gt;xkcdr::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;get_xkcd&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;936&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Source: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pymk&#x2F;xkcdr&quot;&gt;pymk&#x2F;xkcdr&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My Cat</title>
+        <published>2022-12-18T00:00:00+00:00</published>
+        <updated>2022-12-18T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/my-cat/" type="text/html"/>
+        <id>https://pymk.dev/posts/my-cat/</id>
+        
+        <content type="html">&lt;p&gt;She is a Russian Blue, super chill, and I walk her on a leash multiple times a day!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Zurich, Switzerland</title>
+        <published>2022-10-29T00:00:00+00:00</published>
+        <updated>2022-10-29T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/zurich-switzerland/" type="text/html"/>
+        <id>https://pymk.dev/posts/zurich-switzerland/</id>
+        
+        <content type="html">&lt;p&gt;Instead of flying, I took an 8-hour train ride from Vanna to Zurich. Was it worth it? Yup! The tickets for the first-class was still a whole lot cheaper than flying, but the main beauty of it was the scenery, especially when passing through towns like Salzburg or as you get closer to Switzerland.&lt;&#x2F;p&gt;
+&lt;p&gt;Once I arrived, I booked another hotel near the city center to be close to the attractions. Couldn&#x27;t do anything that first day because by the time I got there, it was already 4 P.M. and I had to login to work.&lt;&#x2F;p&gt;
+&lt;p&gt;The second day is when I went to exploring and see museums. Found a really good coffee shop that had the most amazing smoothies.&lt;&#x2F;p&gt;
+&lt;p&gt;Originally I wanted to stay here a few more days and go to Belgium after, but I decided not to exhaust myself. Traveling so frequently is tiring and working in the evenings until 10 P.M. isn&#x27;t ideal (I&#x27;m a morning person!).&lt;&#x2F;p&gt;
+&lt;p&gt;So I finished this journey here and booked a flight back to the Bay Area.&lt;&#x2F;p&gt;
+&lt;p&gt;For my next trip, I think I want to travel to different cities and states in the U.S. (already have a list!).&lt;&#x2F;p&gt;
+&lt;p&gt;Bucket-list for next visit: take a train ride (or stay at) some of the other cities like Vern, Geneva, Basel, and Lucerne (Mount Pilatus).&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Vienna, Austria</title>
+        <published>2022-10-27T00:00:00+00:00</published>
+        <updated>2022-10-27T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/vienna-austria/" type="text/html"/>
+        <id>https://pymk.dev/posts/vienna-austria/</id>
+        
+        <content type="html">&lt;p&gt;By far my favorite city has been Vienna. The art, the architecture, the cleanliness, the ease of commuting (very pedestrian- and bike-friendly place)...&lt;&#x2F;p&gt;
+&lt;p&gt;I stayed in a hotel near the city center and walking to my destinations was a breeze. So many coffee shops, so many historical buildings, I loved everything about it.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ll definitely come back again.&lt;&#x2F;p&gt;
+&lt;p&gt;Bucket-list for next visit: stay in other cities like Salzburg.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Athens, Greece</title>
+        <published>2022-10-22T00:00:00+00:00</published>
+        <updated>2022-10-22T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/athens-greece/" type="text/html"/>
+        <id>https://pymk.dev/posts/athens-greece/</id>
+        
+        <content type="html">&lt;p&gt;I picked Athens next because of all the historical places it has to offer. Plus, it was a quick 1.5 hour flight.&lt;&#x2F;p&gt;
+&lt;p&gt;Once I arrived, I had to start work again (&amp;quot;working from home&amp;quot;), so I&#x27;d go out in the mornings and come back to the hotel room in the afternoons and work until bed time. I honestly didn&#x27;t think it would be this taxing to work late at night. Plus, I wear myself out in the mornings, so by the time it was work time, I was already ready for bed.&lt;&#x2F;p&gt;
+&lt;p&gt;Bucket-list for next visit: visit one of the Greek islands&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Istanbul, Turkey</title>
+        <published>2022-10-18T00:00:00+00:00</published>
+        <updated>2022-10-18T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/istanbul-turkey/" type="text/html"/>
+        <id>https://pymk.dev/posts/istanbul-turkey/</id>
+        
+        <content type="html">&lt;p&gt;The second destination was Istanbul. My cousin and her family (and cat!) moved here a couple of years ago, so she really knew where to take us. She had lived here before when she was younger, so she even spoke the language. It was like having a personal concierge!&lt;&#x2F;p&gt;
+&lt;p&gt;Really had a wonderful time going around with her and eating all the food. So many pastries! I probably gained a few pounds this past week.&lt;&#x2F;p&gt;
+&lt;p&gt;One of my favorite things was sleeping on her couch in the living room. Her apartment was on the top floor with 270 degree view of the city, so it looked magical at nights. There is nothing like going to bed with that view and waking up to it in the morning.&lt;&#x2F;p&gt;
+&lt;p&gt;Bucket-list for next visit: none!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Oslo, Norway</title>
+        <published>2022-10-12T00:00:00+00:00</published>
+        <updated>2022-10-12T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/oslo-norway/" type="text/html"/>
+        <id>https://pymk.dev/posts/oslo-norway/</id>
+        
+        <content type="html">&lt;p&gt;I started off with Oslo. I know a lot of folks come here and enjoy the sceneries and the hikes, but I was visiting family, so didn&#x27;t do any of that. Just mainly walked around the city and saw some of its museums and art scenes.&lt;&#x2F;p&gt;
+&lt;p&gt;We visited Oslo in 2016, so it had been a few years. They&#x27;ve built a lot of things in the city center near the water (more restaurants and attractions) and it looks very modern. Because of the time zone difference, I didn&#x27;t really eat much when we were out, and by the time the jet-lag was wearing off, we were on the plane to the next destination.&lt;&#x2F;p&gt;
+&lt;p&gt;Bucket-list for next visit: go hiking and try the salmon.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Euro Trip 2022</title>
+        <published>2022-10-05T00:00:00+00:00</published>
+        <updated>2022-10-05T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/euro-trip-2022/" type="text/html"/>
+        <id>https://pymk.dev/posts/euro-trip-2022/</id>
+        
+        <content type="html">&lt;p&gt;So I thought to take advantage of the remote work situation and travel a bit. In the past few years, I&#x27;ve only gone to a couple of places (Posit Conference in Washington and a visit to the Grand Canyon in Arizona).&lt;&#x2F;p&gt;
+&lt;p&gt;I don&#x27;t travel much because I find it stressful a bit. I think it&#x27;s the planning part that is exhausting. But that&#x27;s just a minor inconvenience.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyway, I have family in Norway and Turkey, so I am starting this journey there. Going from California to Oslo, then Istanbul. After that, I have the flexibility to go anywhere.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Welcome</title>
+        <published>2022-10-01T00:00:00+00:00</published>
+        <updated>2022-10-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pymk.dev/posts/welcome/" type="text/html"/>
+        <id>https://pymk.dev/posts/welcome/</id>
+        
+        <content type="html">&lt;p&gt;First post! Not much to say, just wanted to initialize the blog post.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
