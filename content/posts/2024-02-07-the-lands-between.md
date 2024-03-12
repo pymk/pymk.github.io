@@ -202,6 +202,8 @@ Following the shattering of the Elden Ring, the demigods who inherit the broken 
 
 Ranni discards her Great Rune, with its current location unknown.
 
+{{ audio(path="/audio/2024-02-07/ranni-tell-the-two-fingers.mp3") }}
+
 ![Ranni](/images/2024-02-07/ranni-1.jpg)
 
 Rykard's ambitions turn to depravity, leading to his demise when he feeds himself to a giant serpent. His consort, Tanith, leads the recusants of Volcano Manor in a war against the Erdtree.
@@ -225,6 +227,8 @@ Radahn, leading the Redmane Knights, clashes with Malenia's Cleanrot Knights. Th
 ![The Shattering](/images/2024-02-07/the-shattering.jpg)
 
 ## The Tarnished
+
+{{ audio(path="/audio/2024-02-07/melina-make-of-thyselves.mp3") }}
 
 Forsaken by the Greater Will, none of the demigods manage to become the Elden Lord in the aftermath of The Shattering. Thus, the Grace is extended to the Tarnished once again, and they are recalled to the Lands Between. Compelled by the Two Fingers in search for Shardbearers to take their Great Runes and restore the Elden Ring and the Golden Order.
 
