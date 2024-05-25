@@ -96,6 +96,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Go](https://go.dev/)
 - [Hidden Bar](https://github.com/dwarvesf/hidden)
 - [IINA](https://iina.io/)
+- [Itsycal](https://github.com/sfsam/Itsycal)
 - [Keka](https://github.com/aonez/Keka)
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/)
 - [Meta](https://www.nightbirdsevolve.com/meta/)
