@@ -115,6 +115,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 ## Terminal
 
 - Ensure Xcode is installed: `xcode-select -p`.
+- Disable accented character when holding down keys: `defaults write -g ApplePressAndHoldEnabled -bool false`
 - Install [LazyVim](https://github.com/LazyVim/LazyVim).
 - Install [Homebrew](https://brew.sh/) and packages.
   - b2-tools: B2 Cloud Storage Command-Line Tools
@@ -163,5 +164,5 @@ I want to use this post as reference for setting up my macOS environment from sc
 My user settings are either synced in the program or through [yadm](https://yadm.io/), which is stored on my private Github repo.
 
 - Sign to VS Code.
-- Clone the yadm repo for other configs (.zshrc, .config/, etc).
+- Clone the yadm repo for other configs (notes, .zshrc, .config/, etc).
 
