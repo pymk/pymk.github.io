@@ -129,7 +129,6 @@ I want to use this post as reference for setting up my macOS environment from sc
   - git: Distributed revision control system
   - lftp: Sophisticated file transfer program
   - magic-wormhole: Securely transfers data between computers
-  - miller: Like sed, awk, cut, join & sort for name-indexed data such as CSV
   - neovim: Ambitious Vim-fork focused on extensibility and agility
   - nnn: Tiny, lightning fast, feature-packed file manager
   - pipx: Execute binaries from Python packages in isolated environments
