@@ -129,6 +129,7 @@ I want to use this post as reference for setting up my macOS environment from sc
   - git: Distributed revision control system
   - lftp: Sophisticated file transfer program
   - magic-wormhole: Securely transfers data between computers
+  - miller: Like sed, awk, cut, join & sort for name-indexed data such as CSV
   - neovim: Ambitious Vim-fork focused on extensibility and agility
   - nnn: Tiny, lightning fast, feature-packed file manager
   - pipx: Execute binaries from Python packages in isolated environments
@@ -164,5 +165,5 @@ I want to use this post as reference for setting up my macOS environment from sc
 My user settings are either synced in the program or through [yadm](https://yadm.io/), which is stored on my private Github repo.
 
 - Sign to VS Code.
-- Clone the yadm repo for other configs (notes, .zshrc, .config/, etc).
+- Clone the yadm repo for other configs (notes, .vimrc, .zshrc, .config/, etc).
 
