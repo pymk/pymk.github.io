@@ -116,7 +116,6 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 - Ensure Xcode is installed: `xcode-select -p`.
 - Disable accented character when holding down keys: `defaults write -g ApplePressAndHoldEnabled -bool false`
-- Install [LazyVim](https://github.com/LazyVim/LazyVim).
 - Install [Homebrew](https://brew.sh/) and packages.
   - b2-tools: B2 Cloud Storage Command-Line Tools
   - bat: Clone of cat(1) with syntax highlighting and Git integration
@@ -139,7 +138,8 @@ I want to use this post as reference for setting up my macOS environment from sc
   - yadm: Yet Another Dotfiles Manager
   - yt-dlp: Feature-rich command-line audio/video downloader
   - zola: Fast static site generator in a single binary with everything built-in
-- Install custom [zsh theme](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65).
+- Install custom [zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65).
+- Install Kanagawa theme for [nvim](https://github.com/rebelot/kanagawa.nvim), [Sublime](https://github.com/CodeAndGin/kanagawa-sublime-text), VS Code (synced in account), and Alacritty (`kanagawa_wave`).
 - VS Code: Install Go tools.
 - pipx: Install poetry, uv.
 - pyenv: Install latest and set as global.
