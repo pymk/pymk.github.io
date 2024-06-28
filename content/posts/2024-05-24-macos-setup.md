@@ -104,6 +104,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Mullvad VPN](https://mullvad.net/en)
 - [Notable](https://notable.app/)
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- [Positron](https://github.com/posit-dev/positron)
 - [Quarto](https://quarto.org/)
 - [Radiola](https://github.com/SokoloffA/radiola)
 - [Rectangle Pro](https://rectangleapp.com/pro)
@@ -139,7 +140,7 @@ I want to use this post as reference for setting up my macOS environment from sc
   - yt-dlp: Feature-rich command-line audio/video downloader
   - zola: Fast static site generator in a single binary with everything built-in
 - Install custom [zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65).
-- Install Kanagawa theme for [nvim](https://github.com/rebelot/kanagawa.nvim), [Sublime](https://github.com/CodeAndGin/kanagawa-sublime-text), VS Code (synced in account), and Alacritty (`kanagawa_wave`).
+- Install Kanagawa theme for [nvim](https://github.com/rebelot/kanagawa.nvim), [Sublime](https://github.com/CodeAndGin/kanagawa-sublime-text), [VS Code](https://github.com/metapho-re/kanagawa-vscode-theme), and Alacritty (`kanagawa_wave`).
 - VS Code: Install Go tools.
 - pipx: Install poetry, uv.
 - pyenv: Install latest and set as global.
@@ -166,4 +167,3 @@ My user settings are either synced in the program or through [yadm](https://yadm
 
 - Sign to VS Code.
 - Clone the yadm repo for other configs (notes, .vimrc, .zshrc, .config/, etc).
-
