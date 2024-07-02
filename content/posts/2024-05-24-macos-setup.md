@@ -94,7 +94,6 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Docker](https://www.docker.com/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
 - [Go](https://go.dev/)
-- [Heynote](https://heynote.com/)
 - [Hidden Bar](https://github.com/dwarvesf/hidden)
 - [IINA](https://iina.io/)
 - [Itsycal](https://github.com/sfsam/Itsycal)
