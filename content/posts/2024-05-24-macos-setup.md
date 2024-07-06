@@ -119,6 +119,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - Disable accented character when holding down keys: `defaults write -g ApplePressAndHoldEnabled -bool false`
 - Install [Homebrew](https://brew.sh/) and packages.
   - b2-tools: B2 Cloud Storage Command-Line Tools
+  - basictex: Compact TeX distribution as alternative to the full TeX Live / MacTeX
   - bat: Clone of cat(1) with syntax highlighting and Git integration
   - catimg: Insanely fast image printing in your terminal
   - cmus: Music player with an ncurses based interface
@@ -131,6 +132,7 @@ I want to use this post as reference for setting up my macOS environment from sc
   - magic-wormhole: Securely transfers data between computers
   - neovim: Ambitious Vim-fork focused on extensibility and agility
   - nnn: Tiny, lightning fast, feature-packed file manager
+  - pandoc: Swiss-army knife of markup format conversion
   - pipx: Execute binaries from Python packages in isolated environments
   - pyenv: Python version management
   - taskwarrior-tui: Terminal user interface for taskwarrior
