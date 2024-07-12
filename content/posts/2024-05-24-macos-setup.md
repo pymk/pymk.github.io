@@ -166,5 +166,5 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 My user settings are either synced in the program or through [yadm](https://yadm.io/), which is stored on my private Github repo.
 
-- Sign to VS Code.
 - Clone the yadm repo for other configs (notes, .vimrc, .zshrc, .config/, etc).
+- VS Code [user settings](https://gist.github.com/pymk/a9a90cc92996cdb7a409f98cfc1e2731) restored through account login.
