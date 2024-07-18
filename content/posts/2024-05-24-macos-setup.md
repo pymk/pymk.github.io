@@ -123,6 +123,7 @@ I want to use this post as reference for setting up my macOS environment from sc
   - bat: Clone of cat(1) with syntax highlighting and Git integration
   - catimg: Insanely fast image printing in your terminal
   - cmus: Music player with an ncurses based interface
+  - exiftool: Perl lib for reading and writing EXIF metadata
   - eza: Modern, maintained replacement for ls
   - fastfetch: Like neofetch, but much faster because written mostly in C
   - fzf: Command-line fuzzy finder written in Go
