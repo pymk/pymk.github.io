@@ -111,6 +111,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [RStudio](https://posit.co/download/rstudio-desktop/)
 - [Sublime Merge](https://www.sublimemerge.com/)
 - [Sublime Text](https://www.sublimetext.com/)
+- [Swinsian](https://swinsian.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Terminal
@@ -118,11 +119,12 @@ I want to use this post as reference for setting up my macOS environment from sc
 - Ensure Xcode is installed: `xcode-select -p`.
 - Disable accented character when holding down keys: `defaults write -g ApplePressAndHoldEnabled -bool false`
 - Install [Homebrew](https://brew.sh/) and packages.
-  - b2-tools: B2 Cloud Storage Command-Line Tools
+  - b2-tools: B2 Cloud storage command-line tools
   - basictex: Compact TeX distribution as alternative to the full TeX Live / MacTeX
   - bat: Clone of cat(1) with syntax highlighting and Git integration
   - catimg: Insanely fast image printing in your terminal
   - cmus: Music player with an ncurses based interface
+  - duckdb: Embeddable SQL OLAP database management system
   - exiftool: Perl lib for reading and writing EXIF metadata
   - eza: Modern, maintained replacement for ls
   - fastfetch: Like neofetch, but much faster because written mostly in C
