@@ -91,6 +91,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [1Password](https://1password.com/)
 - [Acorn](https://flyingmeat.com/acorn/)
 - [Alacritty](https://alacritty.org/)
+- [Aseprite](https://www.aseprite.org/)
 - [Docker](https://www.docker.com/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
 - [Go](https://go.dev/)
@@ -113,6 +114,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Sublime Text](https://www.sublimetext.com/)
 - [Swinsian](https://swinsian.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Zed](https://zed.dev/)
 
 ## Terminal
 
@@ -131,6 +133,7 @@ I want to use this post as reference for setting up my macOS environment from sc
   - fzf: Command-line fuzzy finder written in Go
   - gh: GitHub command-line tool
   - git: Distributed revision control system
+  - imagemagick: Tools and libraries to manipulate images in many formats
   - lftp: Sophisticated file transfer program
   - magic-wormhole: Securely transfers data between computers
   - neovim: Ambitious Vim-fork focused on extensibility and agility
@@ -144,7 +147,6 @@ I want to use this post as reference for setting up my macOS environment from sc
   - yt-dlp: Feature-rich command-line audio/video downloader
   - zola: Fast static site generator in a single binary with everything built-in
 - Install custom [zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65).
-- Install Kanagawa theme for [nvim](https://github.com/rebelot/kanagawa.nvim), [Sublime](https://github.com/CodeAndGin/kanagawa-sublime-text), [VS Code](https://github.com/metapho-re/kanagawa-vscode-theme), and Alacritty (`kanagawa_wave`).
 - VS Code: Install Go tools.
 - pipx: Install poetry, uv.
 - pyenv: Install latest and set as global.
@@ -171,3 +173,15 @@ My user settings are either synced in the program or through [yadm](https://yadm
 
 - Clone the yadm repo for other configs (notes, .vimrc, .zshrc, .config/, etc).
 - VS Code [user settings](https://gist.github.com/pymk/a9a90cc92996cdb7a409f98cfc1e2731) restored through account login.
+
+## Themes
+
+Here are the usual themes I switch between:
+
+- Alacritty: [Kanagawa](https://github.com/alacritty/alacritty-theme)
+- nvim: [Kanagawa](https://github.com/rebelot/kanagawa.nvim)
+- Positron: [Chalice theme](https://github.com/artlaman/chalice-color-theme) and [icons](https://github.com/artlaman/chalice-icon-theme)
+- RStudio: [Gruvbox](https://gist.github.com/pymk/5b3f086ad33a3a055ed612636d3f1408)
+- Sublime: [Gruvbox](https://packagecontrol.io/packages/gruvbox), [Kanagawa](https://github.com/CodeAndGin/kanagawa-sublime-text)
+- VS Code: [Chalice theme](https://github.com/artlaman/chalice-color-theme) and [icons](https://github.com/artlaman/chalice-icon-theme), [Kanagawa](https://github.com/metapho-re/kanagawa-vscode-theme)
+- Zed: [Gruvbox](https://zed-themes.com/themes)
