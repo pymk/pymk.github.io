@@ -110,6 +110,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Radiola](https://github.com/SokoloffA/radiola)
 - [Rectangle Pro](https://rectangleapp.com/pro)
 - [RStudio](https://posit.co/download/rstudio-desktop/)
+- [Spect](http://stevenf.com/spect/)
 - [Sublime Merge](https://www.sublimemerge.com/)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Swinsian](https://swinsian.com/)
