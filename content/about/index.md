@@ -34,7 +34,7 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 **Delfi Diagnostics** :: Apr 2022 - Present
 
-Analytical engineering developer for clinical data, ensuring data quality and accessibility across the organization.
+Analytics engineer for clinical data, ensuring data quality and accessibility across the organization.
 
 - Automated CI/CD infrastructure through Github Actions with Docker images for pipeline deployment.
 - Designed a comprehensive data quality system with automated checks and multi-channel alerting.
