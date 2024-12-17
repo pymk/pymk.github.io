@@ -4,9 +4,9 @@ title: "::about"
 
 My name is Payam and I am an analytics engineer.
 
-My interests include data processes, creating R and Python packages, developing dashboards, and setting up automation. I work in biotech and primarily work with clinical and sample data using R and Python.
+I am interested in automation, ETL processes, creating internal packages, and developing dashboards for insightful data visualization.
 
-On my free time, I enjoy reading, tinkering, working out, gaming, and walking my cat.
+On my free time, I enjoy reading, tinkering, working out, coding, and gaming.
 
 For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
