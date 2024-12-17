@@ -14,9 +14,10 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 ## Technical Skills
 
-- R, Python, SQL, Bash
-- Docker, Github Actions, AWS S3, EC2, ECR, QuickSight
-- Shiny, R Markdown, Quarto, dashboards
+- Python, R, SQL, Bash, Go
+- Docker, Github Actions, git
+- AWS, Dagster, dbt
+- BI & dashboards
 - ETL/ELT, data cleaning & validation, documentation & standardization
 - Experience handling sensitive data
 
@@ -33,41 +34,45 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 **Delfi Diagnostics** :: Apr 2022 - Present
 
-- Set up pipelines to manage CI/CD of team services and dashboards using Github Actions and Docker.
-- Implement automated data quality checks, data validation, and alerts.
-- Create R and Python packages to help users obtain internal datasets, check data quality, and generate reports.
-- Create Shiny dashboards to view enrollment, projections, and clinical data summaries.
-- Standardize datasets and create a centralized resource for teams to search, find, and use clean datasets.
-- Derive clinical variables based on CDISC/ADaM standards and input from clinical teams.
-- Select biosamples for clinical studies in accordance with the Statistical Analysis Plan.
+Analytical engineering developer for clinical data, ensuring data quality and accessibility across the organization.
+
+- Automated CI/CD infrastructure through Github Actions with Docker images for pipeline deployment.
+- Designed a comprehensive data quality system with automated checks and multi-channel alerting.
+- Developed enterprise R and Python packages for standardized data access and reporting capabilities.
+- Created interactive business intelligence dashboards for visualization and reporting.
+- Implemented standardized dataset architecture and searchable data catalog for cross-team usage.
+- Derived semantic layer and clinical variables adhering to CDISC/ADaM standards.
+- Executed biosample selection programmatically that followed the Statistical Analysis Plan.
 
 ### Program Manager
 
 **N-Power Medicine** :: Oct 2021 - Apr 2022
 
-- Collaborate with program leads in planning, coordinating, and tracking cross-functional and external activities.
-- Partner with other Program Managers for coordination and alignment of workstreams with the overall strategy.
-- Work with software development teams and identify priorities for software development and implementation.
-- Ensure communication and deliverables are in accordance with planned program objectives.
+Drove cross-functional program management and software development initiatives.
+
+- Led coordination of complex work-streams across internal teams and external partners.
+- Established program management frameworks to align deliverables with organizational strategy.
+- Managed software development prioritization and implementation roadmaps.
+- Implemented structured communication protocols to ensure project visibility and accountability.
 
 ### Data Analyst
 
 **GRAIL** :: Jan 2018 - Oct 2021
 
-- Develop data pipelines to automate data quality review for completeness, accuracy, and consistency.
-- Create R packages, ad hoc reports, and dashboards.
-- Perform ETL on large heterogeneous datasets with AWS services (S3, Glue, Athena, EC2).
-- Technical lead working with the engineering team to develop an internal sample management system.
-- Lead visualization, reporting, and reconciliation of clinical and biosample data.
+Led the development and workflows of biosample management systems.
+
+- Designed and implemented automated data quality pipelines for clinical and biosample data.
+- Developed custom R packages and interactive dashboards for business intelligence reporting.
+- Worked on AWS-based data warehouse, utilizing S3, Glue, Athena, and QuickSight.
+- Worked with software engineers as a project manager for technical development of internal biosample management systems.
+- Established SOP for external partner sample workflows.
+- Designed and deployed end-to-end biospecimen tracking and reconciliation processes.
 
 ### Clinical Data Manager
 
 **Gilead Sciences** :: Nov 2015 - Jan 2018
 
-- Drive biomarker data management activities of a Phase I clinical trial from start to finish.
-- Implementation of CDMP to outline data quality checks, data transfers, and data reporting.
-- Ensure completeness, accuracy, and consistency of data and structure by developing edit-checks.
-
+Managed data operations for Phase I clinical trials with focus on biomarker data.
 
 ## Education
 
