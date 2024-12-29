@@ -31,8 +31,12 @@ I want to use this post as reference for setting up my macOS environment from sc
 - Accessibility
   - Display: Shake mouse pointer to locate: Disable
 
-- Siri & Spotlight
+- Apple Intelligence & Siri
+  - Disable Apple Intelligence
   - Disable Siri
+
+- Spotlight
+  - Help Apple Improve Search: Disable
   - Disable Spotlight for everything except Applications, Calculator, and System Settings.
 
 - Desktop & Dock
@@ -117,6 +121,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Sublime Merge](https://www.sublimemerge.com/)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Swinsian](https://swinsian.com/)
+- [uv](https://github.com/astral-sh/uv/releases)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Zed](https://zed.dev/)
 
@@ -143,21 +148,19 @@ I want to use this post as reference for setting up my macOS environment from sc
   - neovim: Ambitious Vim-fork focused on extensibility and agility
   - nnn: Tiny, lightning fast, feature-packed file manager
   - pandoc: Swiss-army knife of markup format conversion
-  - pipx: Execute binaries from Python packages in isolated environments
   - pyenv: Python version management
   - taskwarrior-tui: Terminal user interface for taskwarrior
   - wget: Internet file retriever
   - yadm: Yet Another Dotfiles Manager
+  - youplot: Command-line tool that draw plots on the terminal
   - yt-dlp: Feature-rich command-line audio/video downloader
   - zola: Fast static site generator in a single binary with everything built-in
 - Install custom [zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65).
 - VS Code: Install Go tools.
-- pipx: Install poetry, uv.
 - pyenv: Install latest and set as global.
-- Add the PATHS to `/private/etc/paths.d` for
-  - pyenv: $HOME/.pyenv/shims
-  - pipx: $HOME/.local/bin
+- Add the PATHS to `/private/etc/paths.d`.
   - go: /usr/local/go/bin
+  - pyenv: $HOME/.pyenv/shims
 
 ## SSH Key & Github
 
@@ -167,7 +170,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 ## Firefox
 
 - Sign to Firefox.
-- Adjust privacy, search, and extension settings.
+- Adjust [privacy](https://github.com/allo-/ffprofile) and extension settings.
 - Setup [custom userChrome.css](https://gist.github.com/pymk/b9624ed1c4038648b2508df287d3616c).
 - Setup [Density](https://github.com/phil294/density-userstyle), [Github Dark](https://github.com/StylishThemes/GitHub-Dark), and use [dark theme template](https://gist.github.com/pymk/d2052d8e19634d71448bc4421136027a) for Stylus.
 
@@ -188,4 +191,4 @@ Here are the usual themes I switch between:
 - RStudio: [Gruvbox](https://gist.github.com/pymk/5b3f086ad33a3a055ed612636d3f1408)
 - Sublime: [Gruvbox](https://packagecontrol.io/packages/gruvbox), [Kanagawa](https://github.com/CodeAndGin/kanagawa-sublime-text)
 - VS Code: [Chalice theme](https://github.com/artlaman/chalice-color-theme) and [icons](https://github.com/artlaman/chalice-icon-theme), [Kanagawa](https://github.com/metapho-re/kanagawa-vscode-theme)
-- Zed: [Gruvbox](https://zed-themes.com/themes)
+- Zed: [Gruvbox](https://zed-themes.com/themes), Catppuccin Latte, Simple Darker
