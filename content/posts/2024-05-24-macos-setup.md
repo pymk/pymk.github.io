@@ -90,14 +90,12 @@ I want to use this post as reference for setting up my macOS environment from sc
     - Keep folders on top: In windows when sorting by name
   - When performing a search: Search This Mac
 
-## Install
+## Software
 
 - [1Password](https://1password.com/)
 - [Acorn](https://flyingmeat.com/acorn/)
 - [Alacritty](https://alacritty.org/)
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
-- [Aseprite](https://www.aseprite.org/)
-- [Cog](https://github.com/losnoco/cog)
 - [Docker](https://www.docker.com/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
 - [Go](https://go.dev/)
@@ -112,7 +110,6 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Mullvad VPN](https://mullvad.net/en)
 - [Notable](https://notable.app/)
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-- [Positron](https://github.com/posit-dev/positron)
 - [Quarto](https://quarto.org/)
 - [Radiola](https://github.com/SokoloffA/radiola)
 - [Rectangle Pro](https://rectangleapp.com/pro)
@@ -187,7 +184,6 @@ Here are the usual themes I switch between:
 
 - Alacritty: [Kanagawa](https://github.com/alacritty/alacritty-theme)
 - nvim: [Kanagawa](https://github.com/rebelot/kanagawa.nvim)
-- Positron: [Chalice theme](https://github.com/artlaman/chalice-color-theme) and [icons](https://github.com/artlaman/chalice-icon-theme)
 - RStudio: [Gruvbox](https://gist.github.com/pymk/5b3f086ad33a3a055ed612636d3f1408)
 - Sublime: [Gruvbox](https://packagecontrol.io/packages/gruvbox), [Kanagawa](https://github.com/CodeAndGin/kanagawa-sublime-text)
 - VS Code: [Chalice theme](https://github.com/artlaman/chalice-color-theme) and [icons](https://github.com/artlaman/chalice-icon-theme), [Kanagawa](https://github.com/metapho-re/kanagawa-vscode-theme)
