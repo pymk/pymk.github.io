@@ -96,6 +96,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Acorn](https://flyingmeat.com/acorn/)
 - [Alacritty](https://alacritty.org/)
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
+- [Broot](https://github.com/Canop/broot)
 - [Docker](https://www.docker.com/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
 - [Go](https://go.dev/)
