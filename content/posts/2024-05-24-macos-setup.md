@@ -94,11 +94,10 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 - [1Password](https://1password.com/)
 - [Acorn](https://flyingmeat.com/acorn/)
-- [Alacritty](https://alacritty.org/)
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
-- [Broot](https://github.com/Canop/broot)
 - [Docker](https://www.docker.com/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
+- [Ghostty](https://ghostty.org/)
 - [Go](https://go.dev/)
 - [Hidden Bar](https://github.com/dwarvesf/hidden)
 - [IINA](https://iina.io/)
@@ -110,7 +109,6 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Mp3tag](https://mp3tag.app)
 - [Mullvad VPN](https://mullvad.net/en)
 - [Notable](https://notable.app/)
-- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - [Pimosa](https://pimosa.app/)
 - [Quarto](https://quarto.org/)
 - [Radiola](https://github.com/SokoloffA/radiola)
@@ -157,6 +155,10 @@ I want to use this post as reference for setting up my macOS environment from sc
 - Install custom [zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65).
 - VS Code: Install Go tools.
 - pyenv: Install latest and set as global.
+- uv tools:
+  - ruff
+    - install: `uv tool install ruff@latest`
+    - shell autocompletion: `ruff generate-shell-completion zsh > ~/.zfunc/_ruff`
 - Add the PATHS to `/private/etc/paths.d`.
   - go: /usr/local/go/bin
   - pyenv: $HOME/.pyenv/shims
@@ -184,9 +186,9 @@ My user settings are either synced in the program or through [yadm](https://yadm
 
 Here are the usual themes I switch between:
 
-- Alacritty: [Kanagawa](https://github.com/alacritty/alacritty-theme)
+- Ghostty: GruvboxDarkHard
 - nvim: [Kanagawa](https://github.com/rebelot/kanagawa.nvim)
 - RStudio: [Gruvbox](https://gist.github.com/pymk/5b3f086ad33a3a055ed612636d3f1408)
-- Sublime: [Gruvbox](https://packagecontrol.io/packages/gruvbox), [Kanagawa](https://github.com/CodeAndGin/kanagawa-sublime-text)
-- VS Code: [Chalice theme](https://github.com/artlaman/chalice-color-theme) and [icons](https://github.com/artlaman/chalice-icon-theme), [Kanagawa](https://github.com/metapho-re/kanagawa-vscode-theme)
-- Zed: [Gruvbox](https://zed-themes.com/themes), Catppuccin Latte, Simple Darker
+- Sublime: [Kanagawa](https://github.com/CodeAndGin/kanagawa-sublime-text)
+- VS Code: [Chalice theme](https://github.com/artlaman/chalice-color-theme) and [icons](https://github.com/artlaman/chalice-icon-theme)
+- Zed: [Catppuccin Latte, Simple Darker](https://zed-themes.com/themes)
