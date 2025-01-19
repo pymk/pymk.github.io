@@ -110,6 +110,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Mullvad VPN](https://mullvad.net/en)
 - [Notable](https://notable.app/)
 - [Pimosa](https://pimosa.app/)
+- [Oh My Zsh](https://ohmyz.sh/)
 - [Quarto](https://quarto.org/)
 - [Radiola](https://github.com/SokoloffA/radiola)
 - [Rectangle Pro](https://rectangleapp.com/pro)
