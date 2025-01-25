@@ -92,76 +92,74 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 ## Software
 
-- [1Password](https://1password.com/)
-- [Acorn](https://flyingmeat.com/acorn/)
-- [AppCleaner](https://freemacsoft.net/appcleaner/)
-- [Docker](https://www.docker.com/)
-- [Firefox](https://www.mozilla.org/en-US/firefox/)
-- [Ghostty](https://ghostty.org/)
-- [Go](https://go.dev/)
-- [Hidden Bar](https://github.com/dwarvesf/hidden)
-- [IINA](https://iina.io/)
-- [Itsycal](https://github.com/sfsam/Itsycal)
-- [Keka](https://github.com/aonez/Keka)
-- [Little Snitch](https://www.obdev.at/products/littlesnitch/)
-- [Meta](https://www.nightbirdsevolve.com/meta/)
-- [Mimestream](https://mimestream.com/)
-- [Mp3tag](https://mp3tag.app)
-- [Mullvad VPN](https://mullvad.net/en)
-- [Notable](https://notable.app/)
-- [Pimosa](https://pimosa.app/)
-- [Quarto](https://quarto.org/)
-- [Radiola](https://github.com/SokoloffA/radiola)
-- [Rectangle Pro](https://rectangleapp.com/pro)
-- [RStudio](https://posit.co/download/rstudio-desktop/)
-- [Spect](http://stevenf.com/spect/)
-- [Sublime Merge](https://www.sublimemerge.com/)
-- [Sublime Text](https://www.sublimetext.com/)
-- [Swinsian](https://swinsian.com/)
-- [uv](https://github.com/astral-sh/uv/releases)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Zed](https://zed.dev/)
+- [1Password](https://1password.com/): Password manager
+- [Acorn](https://flyingmeat.com/acorn/): Image editor
+- [AppCleaner](https://freemacsoft.net/appcleaner/): App uninstaller
+- [Firefox](https://www.mozilla.org/en-US/firefox/): Web browser
+- [Ghostty](https://ghostty.org/): Terminal emulator
+- [Hidden Bar](https://github.com/dwarvesf/hidden): Menu bar manager
+- [IINA](https://iina.io/): Media player
+- [Itsycal](https://github.com/sfsam/Itsycal): Menu bar calendar
+- [Keka](https://github.com/aonez/Keka): Archive manager
+- [Little Snitch](https://www.obdev.at/products/littlesnitch/): Network monitor
+- [Meta](https://www.nightbirdsevolve.com/meta/): Audio tagger
+- [Mimestream](https://mimestream.com/): Email client
+- [Mp3tag](https://mp3tag.app): Audio tagger
+- [Mullvad VPN](https://mullvad.net/en): VPN service
+- [Notable](https://notable.app/): Note manager
+- [Pimosa](https://pimosa.app/): Media editor
+- [Radiola](https://github.com/SokoloffA/radiola): Menu bar internet radio
+- [Rectangle Pro](https://rectangleapp.com/pro): Window manager
+- [Spect](http://stevenf.com/spect/): Image viewer
+- [Swinsian](https://swinsian.com/): Music player
 
 ## Terminal
 
-- Ensure Xcode is installed: `xcode-select -p`.
+Install [Homebrew](https://brew.sh/) packages:
+
+- `b2-tools`: B2 Cloud storage command-line tools
+- `basictex`: Compact TeX distribution as alternative to the full TeX Live / MacTeX
+- `bat`: Clone of cat(1) with syntax highlighting and Git integration
+- `catimg`: Insanely fast image printing in your terminal
+- `cmus`: Music player with an ncurses based interface
+- `duckdb`: Embeddable SQL OLAP database management system
+- `exiftool`: Perl lib for reading and writing EXIF metadata
+- `eza`: Modern, maintained replacement for ls
+- `fastfetch`: Like neofetch, but much faster because written mostly in C
+- `fzf`: Command-line fuzzy finder written in Go
+- `gh`: GitHub command-line tool
+- `git`: Distributed revision control system
+- `imagemagick`: Tools and libraries to manipulate images in many formats
+- `lftp`: Sophisticated file transfer program
+- `magic-wormhole`: Securely transfers data between computers
+- `neovim`: Ambitious Vim-fork focused on extensibility and agility
+- `nnn`: Tiny, lightning fast, feature-packed file manager
+- `pandoc`: Swiss-army knife of markup format conversion
+- `pyenv`: Python version management
+- `taskwarrior-tui`: Terminal user interface for taskwarrior
+- `wget`: Internet file retriever
+- `yadm`: Yet Another Dotfiles Manager
+- `youplot`: Command-line tool that draw plots on the terminal
+- `yt-dlp`: Feature-rich command-line audio/video downloader
+- `zola`: Fast static site generator in a single binary with everything built-in
+
+## Programming
+
+- Ensure Xcode is installed: `xcode-select -p`
 - Disable accented character when holding down keys: `defaults write -g ApplePressAndHoldEnabled -bool false`
-- Install [Homebrew](https://brew.sh/) and packages.
-  - b2-tools: B2 Cloud storage command-line tools
-  - basictex: Compact TeX distribution as alternative to the full TeX Live / MacTeX
-  - bat: Clone of cat(1) with syntax highlighting and Git integration
-  - catimg: Insanely fast image printing in your terminal
-  - cmus: Music player with an ncurses based interface
-  - duckdb: Embeddable SQL OLAP database management system
-  - exiftool: Perl lib for reading and writing EXIF metadata
-  - eza: Modern, maintained replacement for ls
-  - fastfetch: Like neofetch, but much faster because written mostly in C
-  - fzf: Command-line fuzzy finder written in Go
-  - gh: GitHub command-line tool
-  - git: Distributed revision control system
-  - imagemagick: Tools and libraries to manipulate images in many formats
-  - lftp: Sophisticated file transfer program
-  - magic-wormhole: Securely transfers data between computers
-  - neovim: Ambitious Vim-fork focused on extensibility and agility
-  - nnn: Tiny, lightning fast, feature-packed file manager
-  - pandoc: Swiss-army knife of markup format conversion
-  - pyenv: Python version management
-  - taskwarrior-tui: Terminal user interface for taskwarrior
-  - wget: Internet file retriever
-  - yadm: Yet Another Dotfiles Manager
-  - youplot: Command-line tool that draw plots on the terminal
-  - yt-dlp: Feature-rich command-line audio/video downloader
-  - zola: Fast static site generator in a single binary with everything built-in
-- Install custom [zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65).
-- VS Code: Install Go tools.
-- pyenv: Install latest and set as global.
-- uv tools:
-  - ruff
-    - install: `uv tool install ruff@latest`
-    - shell autocompletion: `ruff generate-shell-completion zsh > ~/.zfunc/_ruff`
+- [Docker](https://www.docker.com/) | [Finch](https://runfinch.com/): Container platforms
+- [Go](https://go.dev/dl) | [R](https://cloud.r-project.org/) : Programming languages
+- [uv](https://docs.astral.sh/uv/) | [ruff](https://docs.astral.sh/ruff/): Python tools
+- [Quarto](https://quarto.org/): Publishing system
+- [Sublime Merge](https://www.sublimemerge.com/): Git client
+- [Zed](https://zed.dev/) | [Visual Studio Code](https://code.visualstudio.com/) | [Sublime Text](https://www.sublimetext.com/): Code editor
+- Go tools:
+  - VS Code > Install Go tools.
+- Python:
+  - Versions: `uv python install`
+  - ruff shell autocompletion: `ruff generate-shell-completion zsh > ~/.zfunc/_ruff`
 - Add the PATHS to `/private/etc/paths.d`.
-  - go: /usr/local/go/bin
-  - pyenv: $HOME/.pyenv/shims
+  - Go: /usr/local/go/bin
 
 ## SSH Key & Github
 
@@ -179,8 +177,8 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 My user settings are either synced in the program or through [yadm](https://yadm.io/), which is stored on my private Github repo.
 
-- Clone the yadm repo for other configs (notes, .vimrc, .zshrc, .config/, etc).
-- VS Code [user settings](https://gist.github.com/pymk/a9a90cc92996cdb7a409f98cfc1e2731) restored through account login.
+- Clone the yadm repo for dot files and other configs (notes, .vimrc, .zshrc, .config/, etc).
+- VS Code user settings restored through account login.
 
 ## Themes
 
@@ -188,7 +186,7 @@ Here are the usual themes I switch between:
 
 - Ghostty: GruvboxDarkHard
 - nvim: [Kanagawa](https://github.com/rebelot/kanagawa.nvim)
-- RStudio: [Gruvbox](https://gist.github.com/pymk/5b3f086ad33a3a055ed612636d3f1408)
 - Sublime: [Kanagawa](https://github.com/CodeAndGin/kanagawa-sublime-text)
-- VS Code: [Chalice theme](https://github.com/artlaman/chalice-color-theme) and [icons](https://github.com/artlaman/chalice-icon-theme)
+- VS Code: [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 - Zed: [Catppuccin Latte, Simple Darker](https://zed-themes.com/themes)
+- zsh: [Custom zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
