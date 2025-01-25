@@ -96,9 +96,9 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Acorn](https://flyingmeat.com/acorn/): Image editor
 - [AppCleaner](https://freemacsoft.net/appcleaner/): App uninstaller
 - [Firefox](https://www.mozilla.org/en-US/firefox/): Web browser
-- [Ghostty](https://ghostty.org/): Terminal emulator
+- [Ghostty](https://github.com/ghostty-org/ghostty): Terminal emulator
 - [Hidden Bar](https://github.com/dwarvesf/hidden): Menu bar manager
-- [IINA](https://iina.io/): Media player
+- [IINA](https://github.com/iina/iina): Media player
 - [Itsycal](https://github.com/sfsam/Itsycal): Menu bar calendar
 - [Keka](https://github.com/aonez/Keka): Archive manager
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/): Network monitor
@@ -106,9 +106,9 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Mimestream](https://mimestream.com/): Email client
 - [Mp3tag](https://mp3tag.app): Audio tagger
 - [Mullvad VPN](https://mullvad.net/en): VPN service
-- [Notable](https://notable.app/): Note manager
+- [Notable](https://github.com/notable/notable): Notes manager
 - [Pimosa](https://pimosa.app/): Media editor
-- [Oh My Zsh](https://ohmyz.sh/): shell configuration
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh): shell configuration
 - [Radiola](https://github.com/SokoloffA/radiola): Menu bar internet radio
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
 - [Spect](http://stevenf.com/spect/): Image viewer
@@ -136,7 +136,6 @@ Install [Homebrew](https://brew.sh/) packages:
 - `neovim`: Ambitious Vim-fork focused on extensibility and agility
 - `nnn`: Tiny, lightning fast, feature-packed file manager
 - `pandoc`: Swiss-army knife of markup format conversion
-- `pyenv`: Python version management
 - `taskwarrior-tui`: Terminal user interface for taskwarrior
 - `wget`: Internet file retriever
 - `yadm`: Yet Another Dotfiles Manager
@@ -158,7 +157,10 @@ Install [Homebrew](https://brew.sh/) packages:
   - VS Code > Install Go tools.
 - Python:
   - Versions: `uv python install`
-  - ruff shell autocompletion: `ruff generate-shell-completion zsh > ~/.zfunc/_ruff`
+  - Shell autocompletion for ruff: `ruff generate-shell-completion zsh > ~/.zfunc/_ruff`
+- Tools: install via `uv tool install`:
+  - `pre-commit`
+  - `spotdl`
 - Add the PATHS to `/private/etc/paths.d`.
   - Go: /usr/local/go/bin
 
@@ -176,7 +178,7 @@ Install [Homebrew](https://brew.sh/) packages:
 
 ## Configs
 
-My user settings are either synced in the program or through [yadm](https://yadm.io/), which is stored on my private Github repo.
+My user settings are either synced in the program or through [yadm](https://github.com/yadm-dev/yadm), which is stored on my private Github repo.
 
 - Clone the yadm repo for dot files and other configs (notes, .vimrc, .zshrc, .config/, etc).
 - VS Code user settings restored through account login.
@@ -185,7 +187,7 @@ My user settings are either synced in the program or through [yadm](https://yadm
 
 Here are the usual themes I switch between:
 
-- Ghostty: GruvboxDarkHard
+- Ghostty: [GruvboxDarkHard](https://ghostty.org/docs/features/theme)
 - nvim: [Kanagawa](https://github.com/rebelot/kanagawa.nvim)
 - Sublime: [Kanagawa](https://github.com/CodeAndGin/kanagawa-sublime-text)
 - VS Code: [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
