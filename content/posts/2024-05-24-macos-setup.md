@@ -149,7 +149,7 @@ Install [Homebrew](https://brew.sh/) packages:
 - Ensure Xcode is installed: `xcode-select -p`
 - Disable accented character when holding down keys: `defaults write -g ApplePressAndHoldEnabled -bool false`
 - [Docker](https://www.docker.com/) | [Finch](https://runfinch.com/): Container platforms
-- [Go](https://go.dev/dl) | [R](https://cloud.r-project.org/) : Programming languages
+- [Go](https://go.dev/dl) | [R](https://cloud.r-project.org/): Programming languages
 - [uv](https://docs.astral.sh/uv/) | [ruff](https://docs.astral.sh/ruff/): Python tools
 - [Quarto](https://quarto.org/): Publishing system
 - [Sublime Merge](https://www.sublimemerge.com/): Git client
