@@ -118,12 +118,10 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 Install [Homebrew](https://brew.sh/) packages:
 
-- `b2-tools`: B2 Cloud storage command-line tools
-- `basictex`: Compact TeX distribution as alternative to the full TeX Live / MacTeX
+- `b2-tools`: B2 Cloud Storage Command-Line Tools
 - `bat`: Clone of cat(1) with syntax highlighting and Git integration
 - `catimg`: Insanely fast image printing in your terminal
-- `cmus`: Music player with an ncurses based interface
-- `duckdb`: Embeddable SQL OLAP database management system
+- `duckdb`: Embeddable SQL OLAP Database Management System
 - `exiftool`: Perl lib for reading and writing EXIF metadata
 - `eza`: Modern, maintained replacement for ls
 - `fastfetch`: Like neofetch, but much faster because written mostly in C
@@ -147,22 +145,22 @@ Install [Homebrew](https://brew.sh/) packages:
 
 - Ensure Xcode is installed: `xcode-select -p`
 - Disable accented character when holding down keys: `defaults write -g ApplePressAndHoldEnabled -bool false`
-- [Docker](https://www.docker.com/) | [Finch](https://runfinch.com/): Container platforms
-- [Go](https://go.dev/dl) | [R](https://cloud.r-project.org/): Programming languages
-- [uv](https://docs.astral.sh/uv/) | [ruff](https://docs.astral.sh/ruff/): Python tools
+- [Docker](https://www.docker.com/): Container platforms
+- [Go](https://go.dev/dl) and [R](https://cloud.r-project.org/): Programming languages
+- [uv](https://docs.astral.sh/uv/) and [ruff](https://docs.astral.sh/ruff/): Python tools
 - [Quarto](https://quarto.org/): Publishing system
 - [Sublime Merge](https://www.sublimemerge.com/): Git client
-- [Zed](https://zed.dev/) | [Visual Studio Code](https://code.visualstudio.com/) | [Sublime Text](https://www.sublimetext.com/): Code editor
-- Go tools:
-  - VS Code > Install Go tools.
-- Python:
+- [Zed](https://zed.dev/), [Visual Studio Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/): Code editors
+- Go tools
+  - VS Code > Install Go tools
+- Python
   - Versions: `uv python install`
   - Shell autocompletion for ruff: `ruff generate-shell-completion zsh > ~/.zfunc/_ruff`
-- Tools: install via `uv tool install`:
+- Tools to install via `uv tool install`
   - `pre-commit`
   - `spotdl`
 - Add the PATHS to `/private/etc/paths.d`.
-  - Go: /usr/local/go/bin
+  - Go: `/usr/local/go/bin`
 
 ## SSH Key & Github
 
