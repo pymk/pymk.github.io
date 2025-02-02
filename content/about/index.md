@@ -4,7 +4,8 @@ title: "::about"
 
 My name is Payam and I am an analytics engineer.
 
-I am interested in automation, ETL processes, creating internal packages, and developing dashboards for insightful data visualization.
+I am detail oriented and excited to learn new skills and tools. My interests include data engineering, automating ELT/ETL processes,
+creating internal tools, and developing dashboards for discovery and data visualization.
 
 On my free time, I enjoy reading, tinkering, working out, coding, and gaming.
 
@@ -14,11 +15,13 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 ## Technical Skills
 
-- Python, R, SQL, Bash, Go
-- Docker, Github Actions, git
-- AWS, Dagster, dbt
+- Python, R, SQL, dbt, Bash
+- Git, Docker, Dagster, Github Actions
+- AWS
 - BI & dashboards
-- ETL/ELT, data cleaning & validation, documentation & standardization
+- ETL/ELT process
+- Data cleaning, transformation, standardization, validation, and documentation
+- Experience working in fast-paced startups
 - Experience handling sensitive data
 
 ## Professional Experience
@@ -36,13 +39,13 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 Analytics engineer for clinical data, ensuring data quality and accessibility across the organization.
 
-- Automated CI/CD infrastructure through Github Actions with Docker images for pipeline deployment.
+- Automated CI/CD pipeline through Github Actions, Docker, and Dagster orchestration.
 - Designed a comprehensive data quality system with automated checks and multi-channel alerting.
-- Developed enterprise R and Python packages for standardized data access and reporting capabilities.
+- Developed R and Python packages for standardized data access and reporting capabilities.
 - Created interactive business intelligence dashboards for visualization and reporting.
 - Implemented standardized dataset architecture and searchable data catalog for cross-team usage.
 - Derived semantic layer and clinical variables adhering to CDISC/ADaM standards.
-- Executed biosample selection programmatically that followed the Statistical Analysis Plan.
+- Executed biosample selection programmatically that followed cross-functional requirements.
 
 ### Program Manager
 
