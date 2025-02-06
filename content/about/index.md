@@ -39,7 +39,7 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 Analytics engineer for clinical data, ensuring data quality and accessibility across the organization.
 
-- Automated CI/CD pipeline through Github Actions, Docker, and Dagster orchestration.
+- Automated ETL pipeline through Github Actions CI, Docker, and Dagster orchestration.
 - Designed a comprehensive data quality system with automated checks and multi-channel alerting.
 - Developed R and Python packages for standardized data access and reporting capabilities.
 - Created interactive business intelligence dashboards for visualization and reporting.
