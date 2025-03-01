@@ -102,13 +102,12 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Keka](https://github.com/aonez/Keka): Archive manager
 - [LibreWolf](https://librewolf.net/): Web browser
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/): Network monitor
-- [Meta](https://www.nightbirdsevolve.com/meta/): Audio tagger
+- [Meta](https://www.nightbirdsevolve.com/meta/) and [Mp3tag](https://mp3tag.app): Audio tagger
 - [Mimestream](https://mimestream.com/): Email client
-- [Mp3tag](https://mp3tag.app): Audio tagger
 - [Mullvad VPN](https://mullvad.net/en): VPN service
 - [Notable](https://github.com/notable/notable): Notes manager
 - [Pimosa](https://pimosa.app/): Media editor
-- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh): shell configuration
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh): Shell configuration
 - [Radiola](https://github.com/SokoloffA/radiola): Menu bar internet radio
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
 - [Spect](http://stevenf.com/spect/): Image viewer
