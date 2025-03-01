@@ -95,7 +95,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [1Password](https://1password.com/): Password manager
 - [Acorn](https://flyingmeat.com/acorn/): Image editor
 - [AppCleaner](https://freemacsoft.net/appcleaner/): App uninstaller
-- [Firefox](https://www.mozilla.org/en-US/firefox/): Web browser
+- [LibreWolf](https://librewolf.net/): Web browser
 - [Ghostty](https://github.com/ghostty-org/ghostty): Terminal emulator
 - [Hidden Bar](https://github.com/dwarvesf/hidden): Menu bar manager
 - [IINA](https://github.com/iina/iina): Media player
@@ -167,10 +167,9 @@ Install [Homebrew](https://brew.sh/) packages:
 - Generate a new SSH key and add it to ssh-agent and Github ([docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)).
 - Test connection with `ssh -T git@github.com`.
 
-## Firefox
+## LibreWolf
 
-- Sign to Firefox.
-- Adjust [privacy](https://github.com/allo-/ffprofile) and extension settings.
+- If using Firefox, adjust [privacy](https://github.com/allo-/ffprofile) and extension settings.
 - Setup [custom userChrome.css](https://gist.github.com/pymk/b9624ed1c4038648b2508df287d3616c).
 - Setup [Density](https://github.com/phil294/density-userstyle), [Github Dark](https://github.com/StylishThemes/GitHub-Dark), and use [dark theme template](https://gist.github.com/pymk/d2052d8e19634d71448bc4421136027a) for Stylus.
 
