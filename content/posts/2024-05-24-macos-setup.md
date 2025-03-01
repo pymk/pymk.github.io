@@ -169,9 +169,10 @@ Install [Homebrew](https://brew.sh/) packages:
 
 ## LibreWolf
 
-- If using Firefox, adjust [privacy](https://github.com/allo-/ffprofile) and extension settings.
-- Setup [custom userChrome.css](https://gist.github.com/pymk/b9624ed1c4038648b2508df287d3616c).
-- Setup [Density](https://github.com/phil294/density-userstyle), [Github Dark](https://github.com/StylishThemes/GitHub-Dark), and use [dark theme template](https://gist.github.com/pymk/d2052d8e19634d71448bc4421136027a) for Stylus.
+- Enable Firefox Sync for bookmarks, addons, and settings.
+- Optional: Setup [Density](https://github.com/phil294/density-userstyle), [Github Dark](https://github.com/StylishThemes/GitHub-Dark), and use [dark theme template](https://gist.github.com/pymk/d2052d8e19634d71448bc4421136027a) for Stylus.
+- Optional: Setup [custom userChrome.css](https://gist.github.com/pymk/b9624ed1c4038648b2508df287d3616c).
+- Optional: Adjust [privacy](https://github.com/allo-/ffprofile) and extension settings.
 
 ## Configs
 
