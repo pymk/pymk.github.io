@@ -95,12 +95,12 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [1Password](https://1password.com/): Password manager
 - [Acorn](https://flyingmeat.com/acorn/): Image editor
 - [AppCleaner](https://freemacsoft.net/appcleaner/): App uninstaller
-- [LibreWolf](https://librewolf.net/): Web browser
 - [Ghostty](https://github.com/ghostty-org/ghostty): Terminal emulator
 - [Hidden Bar](https://github.com/dwarvesf/hidden): Menu bar manager
 - [IINA](https://github.com/iina/iina): Media player
 - [Itsycal](https://github.com/sfsam/Itsycal): Menu bar calendar
 - [Keka](https://github.com/aonez/Keka): Archive manager
+- [LibreWolf](https://librewolf.net/): Web browser
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/): Network monitor
 - [Meta](https://www.nightbirdsevolve.com/meta/): Audio tagger
 - [Mimestream](https://mimestream.com/): Email client
