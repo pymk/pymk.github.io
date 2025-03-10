@@ -124,6 +124,7 @@ Install [Homebrew](https://brew.sh/) packages:
 - `exiftool`: Perl lib for reading and writing EXIF metadata
 - `eza`: Modern, maintained replacement for ls
 - `fastfetch`: Like neofetch, but much faster because written mostly in C
+- `ffmpeg`: Play, record, convert, and stream audio and video
 - `fzf`: Command-line fuzzy finder written in Go
 - `gh`: GitHub command-line tool
 - `git`: Distributed revision control system
