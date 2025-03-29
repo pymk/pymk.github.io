@@ -117,6 +117,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 Install [Homebrew](https://brew.sh/) packages:
 
+- `1password-cli`: Command-line interface for 1Password
 - `b2-tools`: B2 Cloud Storage Command-Line Tools
 - `bat`: Clone of cat(1) with syntax highlighting and Git integration
 - `catimg`: Insanely fast image printing in your terminal
