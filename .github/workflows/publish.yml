@@ -8,7 +8,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
       - name: Build and Deploy Zola
-        uses: shalzz/zola-deploy-action@c5d34028ce487accf758a7c7a2b25c73946d1e99 # vv0.17.2-1
+        uses: shalzz/zola-deploy-action@c5d34028ce487accf758a7c7a2b25c73946d1e99 # v0.17.2-1
         env:
           PAGES_BRANCH: gh-pages
           TOKEN: ${{ secrets.TOKEN }}
