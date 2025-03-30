@@ -163,9 +163,11 @@ Install [Homebrew](https://brew.sh/) packages:
 - Add the PATHS to `/private/etc/paths.d`.
   - Go: `/usr/local/go/bin`
 
-## SSH Key & Github
+## SSH Key and Github
 
-- Generate a new SSH key and add it to ssh-agent and Github ([docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)).
+- Generate a new SSH key and store in [1Password](https://support.1password.com/developer/).
+- Add the SSH key to the [ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- Add public key to Github.
 - Test connection with `ssh -T git@github.com`.
 
 ## Firefox
@@ -180,6 +182,7 @@ My user settings are either synced in the program or through [yadm](https://gith
 
 - Clone the yadm repo for dot files and other configs (notes, .vimrc, .zshrc, .config/, etc).
 - VS Code user settings restored through account login.
+- 1Password for keys, tokens, etc.
 
 ## Themes
 
