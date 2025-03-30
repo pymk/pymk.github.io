@@ -110,8 +110,8 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh): Shell configuration
 - [Radiola](https://github.com/SokoloffA/radiola): Menu bar internet radio
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
-- [Spect](http://stevenf.com/spect/): Image viewer
-- [Swinsian](https://swinsian.com/): Music player
+- [Spect](http://stevenf.com/spect/): Image viewer and organizer
+- [Swinsian](https://swinsian.com/) and [Tiny Player](https://www.catnapgames.com/tiny-player-for-mac/): Music player
 
 ## Terminal
 
