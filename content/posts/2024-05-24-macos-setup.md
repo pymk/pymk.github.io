@@ -148,9 +148,10 @@ Install [Homebrew](https://brew.sh/) packages:
 - Disable accented character when holding down keys: `defaults write -g ApplePressAndHoldEnabled -bool false`
 - [Docker](https://www.docker.com/): Container platforms
 - [Go](https://go.dev/dl) and [R](https://cloud.r-project.org/): Programming languages
-- [uv](https://docs.astral.sh/uv/) and [ruff](https://docs.astral.sh/ruff/): Python tools
+- [MarkEdit](https://github.com/MarkEdit-app/MarkEdit): Markdown editor
 - [Quarto](https://quarto.org/): Publishing system
 - [Sublime Merge](https://www.sublimemerge.com/): Git client
+- [uv](https://docs.astral.sh/uv/) and [ruff](https://docs.astral.sh/ruff/): Python tools
 - [Zed](https://zed.dev/), [Visual Studio Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/): Code editors
 - Go tools
   - VS Code > Install Go tools
