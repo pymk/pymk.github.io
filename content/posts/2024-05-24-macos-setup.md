@@ -168,7 +168,7 @@ Install [Homebrew](https://brew.sh/) packages:
 
 - Generate a new SSH key and store in [1Password](https://support.1password.com/developer/).
 - Add the SSH key to the [ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-- Add public key to Github.
+- Add public key to Github (both Authentication and Signing key types).
 - Test connection with `ssh -T git@github.com`.
 
 ## Firefox
