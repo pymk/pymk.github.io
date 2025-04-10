@@ -16,4 +16,3 @@ Here's the updated subscription table from last year. Other personal categories 
 | Mullvad | VPN | 5 |
 | Fastmail | Email Hosting | 5 |
 | Kagi | Search Engine | 9 |
-| Zed | LLM Service | 10 |
