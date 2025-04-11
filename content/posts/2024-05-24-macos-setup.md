@@ -195,5 +195,5 @@ Here are the usual themes I switch between:
 - nvim: [Kanagawa](https://github.com/rebelot/kanagawa.nvim)
 - Sublime: [Kanagawa](https://github.com/CodeAndGin/kanagawa-sublime-text)
 - VS Code: [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
-- Zed: [Catppuccin Latte, Simple Darker](https://zed-themes.com/themes)
+- Zed: [macOS Classic, Simple Darker](https://zed-themes.com/themes)
 - zsh: [Custom zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
