@@ -97,6 +97,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Acorn](https://flyingmeat.com/acorn/): Image editor
 - [AppCleaner](https://freemacsoft.net/appcleaner/): App uninstaller
 - [Firefox](https://www.mozilla.org/en-US/firefox/): Web browser
+- [ForkLift](https://binarynights.com/): FTP client
 - [Ghostty](https://github.com/ghostty-org/ghostty): Terminal emulator
 - [Hidden Bar](https://github.com/dwarvesf/hidden): Menu bar manager
 - [IINA](https://github.com/iina/iina): Media player
