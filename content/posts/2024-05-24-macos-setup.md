@@ -118,6 +118,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 Install [Homebrew](https://brew.sh/) packages:
 
+- `atuin`: Improved shell history for zsh, bash, fish and nushell
 - `1password-cli`: Command-line interface for 1Password
 - `b2-tools`: B2 Cloud Storage Command-Line Tools
 - `bat`: Clone of cat(1) with syntax highlighting and Git integration
@@ -128,14 +129,12 @@ Install [Homebrew](https://brew.sh/) packages:
 - `f2`: Command-line batch renaming tool
 - `fastfetch`: Like neofetch, but much faster because written mostly in C
 - `ffmpeg`: Play, record, convert, and stream audio and video
-- `fzf`: Command-line fuzzy finder written in Go
 - `gh`: GitHub command-line tool
 - `git`: Distributed revision control system
 - `imagemagick`: Tools and libraries to manipulate images in many formats
 - `lftp`: Sophisticated file transfer program
 - `magic-wormhole`: Securely transfers data between computers
 - `neovim`: Ambitious Vim-fork focused on extensibility and agility
-- `nnn`: Tiny, lightning fast, feature-packed file manager
 - `pandoc`: Swiss-army knife of markup format conversion
 - `taskwarrior-tui`: Terminal user interface for taskwarrior
 - `wget`: Internet file retriever
@@ -166,6 +165,7 @@ Install [Homebrew](https://brew.sh/) packages:
   - `spotdl`
 - Add the PATHS to `/private/etc/paths.d`.
   - Go: `/usr/local/go/bin`
+  - Quarto: `/Applications/quarto/bin`
 
 ## SSH Key and Github
 
