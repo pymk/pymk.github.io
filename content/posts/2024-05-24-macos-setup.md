@@ -184,7 +184,7 @@ Install [Homebrew](https://brew.sh/) packages:
 
 My user settings are either synced in the program or through [yadm](https://github.com/yadm-dev/yadm), which is stored on my private Github repo.
 
-- Clone the yadm repo for dot files and other configs (notes, .vimrc, .zshrc, .config/, etc).
+- Clone the yadm repo for dot files and other configs (*rc, .config/, etc).
 - VS Code user settings restored through account login.
 - 1Password for keys, tokens, etc.
 
@@ -197,4 +197,4 @@ Here are the usual themes I switch between:
 - Sublime: [Kanagawa](https://github.com/CodeAndGin/kanagawa-sublime-text)
 - VS Code: [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 - Zed: [macOS Classic, Simple Darker](https://zed-themes.com/themes)
-- zsh: [Custom zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
+- zsh: [Custom zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65) in ` ~/.zshrc`
