@@ -118,8 +118,8 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 Install [Homebrew](https://brew.sh/) packages:
 
-- `atuin`: Improved shell history for zsh, bash, fish and nushell
 - `1password-cli`: Command-line interface for 1Password
+- `atuin`: Improved shell history for zsh, bash, fish and nushell
 - `b2-tools`: B2 Cloud Storage Command-Line Tools
 - `bat`: Clone of cat(1) with syntax highlighting and Git integration
 - `catimg`: Insanely fast image printing in your terminal
@@ -136,10 +136,8 @@ Install [Homebrew](https://brew.sh/) packages:
 - `magic-wormhole`: Securely transfers data between computers
 - `neovim`: Ambitious Vim-fork focused on extensibility and agility
 - `pandoc`: Swiss-army knife of markup format conversion
-- `taskwarrior-tui`: Terminal user interface for taskwarrior
 - `wget`: Internet file retriever
 - `yadm`: Yet Another Dotfiles Manager
-- `youplot`: Command-line tool that draw plots on the terminal
 - `yt-dlp`: Feature-rich command-line audio/video downloader
 - `zola`: Fast static site generator in a single binary with everything built-in
 
@@ -151,7 +149,6 @@ Install [Homebrew](https://brew.sh/) packages:
 - [Go](https://go.dev/dl) and [R](https://cloud.r-project.org/): Programming languages
 - [Sublime Text](https://www.sublimetext.com/) and [MarkEdit](https://github.com/MarkEdit-app/MarkEdit): Text and markdown editors
 - [Quarto](https://quarto.org/): Publishing system
-- [Sublime Merge](https://www.sublimemerge.com/): Git client
 - [uv](https://docs.astral.sh/uv/) and [ruff](https://docs.astral.sh/ruff/): Python tools
 - [Zed](https://zed.dev/), [Visual Studio Code](https://code.visualstudio.com/), and [Positron](https://positron.posit.co/): Code editors
 - Go tools
@@ -192,9 +189,8 @@ My user settings are either synced in the program or through [yadm](https://gith
 
 Here are the usual themes I switch between:
 
-- Ghostty: [GruvboxDarkHard](https://ghostty.org/docs/features/theme)
-- nvim: [Kanagawa](https://github.com/rebelot/kanagawa.nvim)
-- Sublime: [Kanagawa](https://github.com/CodeAndGin/kanagawa-sublime-text)
+- nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
+- Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - VS Code: [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 - Zed: [macOS Classic, Simple Darker](https://zed-themes.com/themes)
 - zsh: [Custom zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65) in ` ~/.zshrc`
