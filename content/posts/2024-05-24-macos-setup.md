@@ -192,5 +192,5 @@ Here are the usual themes I switch between:
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - VS Code: [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
-- Zed: [macOS Classic, Simple Darker](https://zed-themes.com/themes)
+- Zed: [Minimal](https://gist.github.com/pymk/7c4bd04dee69c864115ae2b1d534da60)
 - zsh: [Custom zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65) in ` ~/.zshrc`
