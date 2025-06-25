@@ -150,9 +150,9 @@ Install [Homebrew](https://brew.sh/) packages:
 - [Sublime Text](https://www.sublimetext.com/) and [MarkEdit](https://github.com/MarkEdit-app/MarkEdit): Text and markdown editors
 - [Quarto](https://quarto.org/): Publishing system
 - [uv](https://docs.astral.sh/uv/) and [ruff](https://docs.astral.sh/ruff/): Python tools
-- [Zed](https://zed.dev/), [Visual Studio Code](https://code.visualstudio.com/), and [Positron](https://positron.posit.co/): Code editors
+- [Zed](https://zed.dev/) and [Positron](https://positron.posit.co/): Code editors
 - Go tools
-  - VS Code > Install Go tools
+  - Run `goup` to update Go tools (custom function in `~/.zfunc`)
 - Python
   - Versions: `uv python install`
   - Shell autocompletion for ruff: `ruff generate-shell-completion zsh > ~/.zfunc/_ruff`
