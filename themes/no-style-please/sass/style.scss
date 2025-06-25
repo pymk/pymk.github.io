@@ -1,30 +1,76 @@
 // -------------- THEME SWITCHER -------------- //
-@mixin dark-appearance {
-  filter: invert(1);
-  img {
-    filter: invert(1);
+// Light mode variables (default)
+$bg-color: rgb(240, 240, 240);
+$text-color: rgb(40, 40, 40);
+$link-color: blue;
+$code-bg-color: rgb(40, 40, 40);
+$code-text-color: rgb(240, 240, 240);
+$border-color: rgb(40, 40, 40);
 
-    &.invertable { filter: invert(0); }
+// Dark mode variables
+$dark-bg-color: rgb(30, 30, 30);
+$dark-text-color: rgb(220, 220, 220);
+$dark-link-color: #4a9bf5; // Nice blue color for links
+$dark-code-bg-color: rgb(60, 60, 60);
+$dark-code-text-color: rgb(220, 220, 220);
+$dark-border-color: rgb(100, 100, 100);
+
+body[theme="dark"] {
+  background-color: $dark-bg-color;
+  color: $dark-text-color;
+
+  a, #theme-toggle {
+    color: $dark-link-color;
+  }
+
+  code {
+    color: $dark-code-text-color;
+    background: $dark-code-bg-color;
+  }
+
+  hr, table, th, td {
+    border-color: $dark-border-color;
+  }
+
+  blockquote {
+    border-left-color: $dark-border-color;
   }
 }
 
-body[theme="dark"] { @include dark-appearance; }
-
-
 @media (prefers-color-scheme: dark) {
-  body[theme="auto"] { @include dark-appearance; }
+  body[theme="auto"] {
+    background-color: $dark-bg-color;
+    color: $dark-text-color;
+
+    a, #theme-toggle {
+      color: $dark-link-color;
+    }
+
+    code {
+      color: $dark-code-text-color;
+      background: $dark-code-bg-color;
+    }
+
+    hr, table, th, td {
+      border-color: $dark-border-color;
+    }
+
+    blockquote {
+      border-left-color: $dark-border-color;
+    }
+  }
 }
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: rgb(240, 240, 240); }
+html, body { background: $bg-color; }
 
 html { height: 100%; }
 
 body {
-  color: rgb(40, 40, 40);
+  color: $text-color;
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -62,14 +108,14 @@ hr {
 table { width: 100%; }
 
 table, th, td {
-  border: thin solid rgb(40, 40, 40);
+  border: thin solid $border-color;
   border-collapse: collapse;
   padding: 0.4rem;
 }
 
 code {
-  color: rgb(240, 240, 240);
-  background: rgb(40, 40, 40);
+  color: $code-text-color;
+  background: $code-bg-color;
 }
 
 pre code {
@@ -82,7 +128,7 @@ pre code {
 blockquote {
   font-style: italic;
   padding: 1rem;
-  border-left: 10px solid #ccc;
+  border-left: 10px solid $border-color;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 
@@ -108,3 +154,25 @@ img {
 }
 
 nav, .taxonomies { text-align: center; }
+
+#theme-toggle {
+  margin-left: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: $link-color;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  min-height: 100%;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

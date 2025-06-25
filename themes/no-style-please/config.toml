@@ -3,13 +3,8 @@ title = "no style, please!"
 description = "A (nearly) no-CSS, fast, minimalist Zola theme."
 
 compile_sass = true
-generate_feed = true
 
-taxonomies = [
-    { name = "tags" },
-    { name = "categories" },
-    { name = "contexts" },
-]
+taxonomies = [{ name = "tags" }, { name = "categories" }, { name = "contexts" }]
 
 [markdown]
 highlight_code = true
@@ -17,6 +12,7 @@ highlight_code = true
 [extra]
 author = "Ahmed Alaa"
 logo = "images/logo.png"
+default_theme = "auto"
 header_nav = [
     { name = "~home", url = "/" },
     { name = "#tags", url = "/tags" },

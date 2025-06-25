@@ -69,7 +69,7 @@
         {% if description %}<meta property="twitter:description" content="{{ description }}">{% endif %}
         {% if image %}<meta property="twitter:image" content="{{ image }}">{% endif %}
         {% endif %}
-        
+
         <link rel="canonical" href="{{ url | safe }}">
         {% if image %}<link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path=config.extra.logo, trailing_slash=false) }}">{% endif %}
         <script type="application/ld+json">
@@ -95,8 +95,9 @@
         {% block css %}
         <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) | safe }}"/>
         {% endblock css %}
+        <script src="{{ get_url(path='theme.js', trailing_slash=false) | safe }}"></script>
     </head>
-    <body theme="light">
+    <body theme="{{ config.extra.default_theme | default(value='light') }}">
         <div class="w">
             <header>
                 {% if config.extra.header_nav %}
@@ -104,6 +105,7 @@
                     {% for nav_item in config.extra.header_nav %}
                     <a href="{{ nav_item.url | safe }}" {% if nav_item.new_tab %}target="_blank" rel="noreferrer noopener"{% endif %}>{{ nav_item.name }}</a>
                     {% endfor %}
+                    <button id="theme-toggle"><span id="theme-toggle-text">theme</span></button>
                 </nav>
                 {% endif %}
                 {% block header %}{% if title %}<h1>{{ config.title }}</h1>{% endif %}{% endblock header %}
@@ -124,4 +126,3 @@
         </div>
     </body>
 </html>
-        
