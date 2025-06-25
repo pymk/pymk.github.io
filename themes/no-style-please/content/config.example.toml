@@ -1,0 +1,33 @@
+base_url = "https://example.com"
+title = "Your Site Title"
+description = "Your site description."
+
+compile_sass = true
+
+taxonomies = [{ name = "tags" }, { name = "categories" }, { name = "contexts" }]
+
+[markdown]
+highlight_code = true
+
+[extra]
+# Theme-specific settings
+author = "Your Name"
+logo = "images/logo.png"
+default_theme = "auto"   # Options: "light", "dark", "auto"
+list_pages = true
+no_list_date = false
+twitter_card = true
+
+# Navigation
+header_nav = [
+    { name = "~home", url = "/" },
+    { name = "#tags", url = "/tags" },
+    { name = "+categories", url = "/categories" },
+    { name = "@contexts", url = "/contexts" },
+    { name = "github", url = "https://github.com/yourusername", new_tab = true },
+]
+
+footer_nav = [
+    { name = "privacy", url = "/privacy" },
+    { name = "contact", url = "/contact" },
+]
