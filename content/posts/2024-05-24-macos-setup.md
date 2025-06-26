@@ -72,7 +72,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - Toolbar: Back/Forward, Path, Search
 - View as columns
 - Sort by name
-- Hide folders with: `chflags hidden ~/foobar`
+- Hide folders with `chflags hidden ~/foobar`
 
 - General
   - Show these items on desktop: External disks
