@@ -6,7 +6,7 @@ taxonomies:
   tags: [mac]
 ---
 
-I want to use this post as reference for setting up my macOS environment from scratch. Things like default settings, modifications, installations, etc. Time will tell, but hopefully I captured everything.
+I want to use this post as reference for setting up my macOS environment from scratch. Things like default settings, modifications, installations, etc. Time will tell, but hopefully I have captured everything.
 
 ![Desktop](/images/2024-05-24/screenshot.jpg)
 
@@ -15,18 +15,18 @@ I want to use this post as reference for setting up my macOS environment from sc
 ## System Settings
 
 - iCloud
-  - Sign into iCloud account.
-  - Disable iCloud Drive backup for Desktop and Documents folders.
+  - Sign into iCloud account
+  - Disable iCloud Drive backup for Desktop and Documents folders
 
 - Notifications
-  - Turn off notifications for everything.
+  - Turn off notifications for everything
 
 - Appearance
   - Show scroll bars: Always
   - Click in the scroll bar to: Jump to spot that's clicked
 
 - Control Center
-  - Hide everything.
+  - Hide everything
 
 - Accessibility
   - Display: Shake mouse pointer to locate: Disable
@@ -38,7 +38,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 - Spotlight
   - Help Apple Improve Search: Disable
-  - Disable Spotlight for everything except Applications, Calculator, and System Settings.
+  - Disable Spotlight for everything except Applications, Calculator, and System Settings
 
 - Desktop & Dock
   - Position: Left
@@ -72,14 +72,14 @@ I want to use this post as reference for setting up my macOS environment from sc
 - Toolbar: Back/Forward, Path, Search
 - View as columns
 - Sort by name
-- Hide folders with `chflags hidden ~/foobar`
+- Hide folders with `chflags hidden <directory>`
 
 - General
   - Show these items on desktop: External disks
   - New Finder windows show: $HOME
 
 - Tags
-  - Turn off everything.
+  - Turn off everything
 
 - Sidebar
   - Show these items in the sidebar: AirDrop, Applications, Desktop, Downloads, $HOME, External disks
@@ -116,7 +116,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 ## Terminal
 
-Install [Homebrew](https://brew.sh/) packages:
+Install [Homebrew](https://brew.sh/) and packages:
 
 - 1password-cli: Command-line interface for 1Password
 - atuin: Improved shell history for zsh, bash, fish and nushell
@@ -159,30 +159,30 @@ Install [Homebrew](https://brew.sh/) packages:
 - Tools to install with `uv tool install <tool>`
   - [ty](https://github.com/astral-sh/ty): Python type checker and language server
   - [pre-commit](https://github.com/pre-commit/pre-commit): A framework for managing pre-commit hooks
-- Add the PATHS to "/private/etc/paths.d".
+- Add the PATHS to "/private/etc/paths.d"
   - Go: "/usr/local/go/bin"
   - Quarto: "/Applications/quarto/bin"
 
 ## SSH Key and Github
 
-- Generate a new SSH key and store in [1Password](https://support.1password.com/developer/).
+- Generate a new SSH key and store in [1Password](https://support.1password.com/developer/)
 - Add the SSH key to the [ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-- Add public key to Github (both Authentication and Signing key types).
-- Test connection with `ssh -T git@github.com`.
+- Add public key to Github (both Authentication and Signing key types)
+- Test connection with `ssh -T git@github.com`
 
 ## Firefox
 
-- Enable Firefox Sync for bookmarks, addons, and settings.
+- Enable Firefox Sync for bookmarks, addons, and settings
   - Extensions: [Kagi](https://github.com/kagisearch/browser_extensions), [Stylus](https://github.com/openstyles/stylus), [Temporary Containers](https://github.com/stoically/temporary-containers), [uBlock Origin](https://github.com/gorhill/uBlock), [Vimium](https://github.com/philc/vimium)
-- Adjust [privacy](https://github.com/allo-/ffprofile) and extension settings.
-- Optional: Setup [Density](https://github.com/phil294/density-userstyle) for Stylus.
+- Adjust [privacy](https://github.com/allo-/ffprofile) and extension settings
+- Optional: Setup [Density](https://github.com/phil294/density-userstyle) for Stylus
 
 ## Configs
 
 My user settings are either synced in the program or through [yadm](https://github.com/yadm-dev/yadm), which is stored on my private Github repo.
 
-- Clone the dotfile repo for settings and configs (.zsh*, *rc, .config/, etc).
-- 1Password for keys, tokens, etc.
+- Clone the dotfile repo for settings and configs (.zsh*, *rc, .config/, etc)
+- 1Password for keys, tokens, etc
 
 ## Themes
 
