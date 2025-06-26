@@ -118,33 +118,34 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 Install [Homebrew](https://brew.sh/) packages:
 
-- `1password-cli`: Command-line interface for 1Password
-- `atuin`: Improved shell history for zsh, bash, fish and nushell
-- `b2-tools`: B2 Cloud Storage Command-Line Tools
-- `bat`: Clone of cat(1) with syntax highlighting and Git integration
-- `catimg`: Insanely fast image printing in your terminal
-- `duckdb`: Embeddable SQL OLAP Database Management System
-- `exiftool`: Perl lib for reading and writing EXIF metadata
-- `eza`: Modern, maintained replacement for ls
-- `f2`: Command-line batch renaming tool
-- `fastfetch`: Like neofetch, but much faster because written mostly in C
-- `ffmpeg`: Play, record, convert, and stream audio and video
-- `gh`: GitHub command-line tool
-- `git`: Distributed revision control system
-- `imagemagick`: Tools and libraries to manipulate images in many formats
-- `lftp`: Sophisticated file transfer program
-- `magic-wormhole`: Securely transfers data between computers
-- `neovim`: Ambitious Vim-fork focused on extensibility and agility
-- `pandoc`: Swiss-army knife of markup format conversion
-- `wget`: Internet file retriever
-- `yadm`: Yet Another Dotfiles Manager
-- `yt-dlp`: Feature-rich command-line audio/video downloader
-- `zola`: Fast static site generator in a single binary with everything built-in
+- 1password-cli: Command-line interface for 1Password
+- atuin: Improved shell history for zsh, bash, fish and nushell
+- b2-tools: B2 Cloud Storage Command-Line Tools
+- bat: Clone of cat(1) with syntax highlighting and Git integration
+- catimg: Insanely fast image printing in your terminal
+- duckdb: Embeddable SQL OLAP Database Management System
+- exiftool: Perl lib for reading and writing EXIF metadata
+- eza: Modern, maintained replacement for ls
+- f2: Command-line batch renaming tool
+- fastfetch: Like neofetch, but much faster because written mostly in C
+- ffmpeg: Play, record, convert, and stream audio and video
+- gh: GitHub command-line tool
+- git: Distributed revision control system
+- imagemagick: Tools and libraries to manipulate images in many formats
+- lftp: Sophisticated file transfer program
+- magic-wormhole: Securely transfers data between computers
+- neovim: Ambitious Vim-fork focused on extensibility and agility
+- pandoc: Swiss-army knife of markup format conversion
+- wget: Internet file retriever
+- yadm: Yet Another Dotfiles Manager
+- yt-dlp: Feature-rich command-line audio/video downloader
+- zola: Fast static site generator in a single binary with everything built-in
 
 ## Programming
 
-- Ensure Xcode is installed: `xcode-select -p`
-- Disable accented character when holding down keys: `defaults write -g ApplePressAndHoldEnabled -bool false`
+- Ensure Xcode is installed with `xcode-select -p`
+- Disable accented character when holding down keys:
+  - `defaults write -g ApplePressAndHoldEnabled -bool false`
 - [Docker](https://www.docker.com/): Container platforms
 - [Go](https://go.dev/dl) and [R](https://cloud.r-project.org/): Programming languages
 - [MarkEdit](https://github.com/MarkEdit-app/MarkEdit): Markdown editor and Preview pane extension
@@ -153,17 +154,14 @@ Install [Homebrew](https://brew.sh/) packages:
 - [uv](https://docs.astral.sh/uv/) and [ruff](https://docs.astral.sh/ruff/): Python tool
 - [Zed](https://zed.dev/) and [Positron](https://positron.posit.co/): Code editors
 - Go tools
-  - Run `goup` to update Go tools (custom function in the `.zfunc` file)
-- Python
-  - Versions: `uv python install`
-  - Add shell autocompletion for ruff: `ruff generate-shell-completion zsh > ~/.zfunc/_ruff`
-- Tools to install via `uv tool install`
-  - `ty`
-  - `pre-commit`
-  - `spotdl`
-- Add the PATHS to `/private/etc/paths.d`.
-  - Go: `/usr/local/go/bin`
-  - Quarto: `/Applications/quarto/bin`
+  - Update Go tools: `goup` (custom function in the .zfunc file)
+- Python versions to install with `uv python install <version>`
+- Tools to install with `uv tool install <tool>`
+  - [ty](https://github.com/astral-sh/ty): Python type checker and language server
+  - [pre-commit](https://github.com/pre-commit/pre-commit): A framework for managing pre-commit hooks
+- Add the PATHS to "/private/etc/paths.d".
+  - Go: "/usr/local/go/bin"
+  - Quarto: "/Applications/quarto/bin"
 
 ## SSH Key and Github
 
@@ -175,6 +173,7 @@ Install [Homebrew](https://brew.sh/) packages:
 ## Firefox
 
 - Enable Firefox Sync for bookmarks, addons, and settings.
+  - Extensions: [Kagi](https://github.com/kagisearch/browser_extensions), [Stylus](https://github.com/openstyles/stylus), [Temporary Containers](https://github.com/stoically/temporary-containers), [uBlock Origin](https://github.com/gorhill/uBlock), [Vimium](https://github.com/philc/vimium)
 - Adjust [privacy](https://github.com/allo-/ffprofile) and extension settings.
 - Optional: Setup [Density](https://github.com/phil294/density-userstyle) for Stylus.
 
@@ -182,14 +181,12 @@ Install [Homebrew](https://brew.sh/) packages:
 
 My user settings are either synced in the program or through [yadm](https://github.com/yadm-dev/yadm), which is stored on my private Github repo.
 
-- Clone the dotfile repo for settings and configs (.zshrc, .zfunc, .zshenv, *rc, .config/, etc).
+- Clone the dotfile repo for settings and configs (.zsh*, *rc, .config/, etc).
 - 1Password for keys, tokens, etc.
 
 ## Themes
 
-Here are the usual themes I switch between:
-
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - Zed: [Minimal](https://gist.github.com/pymk/7c4bd04dee69c864115ae2b1d534da60)
-- zsh: [Custom zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65) in ` ~/.zshrc`
+- zsh: [Custom zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
