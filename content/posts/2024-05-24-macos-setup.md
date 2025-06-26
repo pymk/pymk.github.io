@@ -72,7 +72,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - Toolbar: Back/Forward, Path, Search
 - View as columns
 - Sort by name
-- Hide folders with `chflags hidden ~/foobar`
+- Hide folders with: `chflags hidden ~/foobar`
 
 - General
   - Show these items on desktop: External disks
@@ -112,7 +112,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Radiola](https://github.com/SokoloffA/radiola): Menu bar internet radio
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
 - [Spect](http://stevenf.com/spect/): Image viewer and organizer
-- [Swinsian](https://swinsian.com/) and [Tiny Player](https://www.catnapgames.com/tiny-player-for-mac/): Music player
+- [Swinsian](https://swinsian.com/) and [Tiny Player](https://www.catnapgames.com/tiny-player-for-mac/): Music players
 
 ## Terminal
 
@@ -147,15 +147,16 @@ Install [Homebrew](https://brew.sh/) packages:
 - Disable accented character when holding down keys: `defaults write -g ApplePressAndHoldEnabled -bool false`
 - [Docker](https://www.docker.com/): Container platforms
 - [Go](https://go.dev/dl) and [R](https://cloud.r-project.org/): Programming languages
-- [Sublime Text](https://www.sublimetext.com/) and [MarkEdit](https://github.com/MarkEdit-app/MarkEdit): Text and markdown editors
+- [MarkEdit](https://github.com/MarkEdit-app/MarkEdit): Markdown editor and Preview pane extension
 - [Quarto](https://quarto.org/): Publishing system
-- [uv](https://docs.astral.sh/uv/) and [ruff](https://docs.astral.sh/ruff/): Python tools
+- [Sublime Text](https://www.sublimetext.com/): Text editor
+- [uv](https://docs.astral.sh/uv/) and [ruff](https://docs.astral.sh/ruff/): Python tool
 - [Zed](https://zed.dev/) and [Positron](https://positron.posit.co/): Code editors
 - Go tools
-  - Run `goup` to update Go tools (custom function in `~/.zfunc`)
+  - Run `goup` to update Go tools (custom function in the `.zfunc` file)
 - Python
   - Versions: `uv python install`
-  - Shell autocompletion for ruff: `ruff generate-shell-completion zsh > ~/.zfunc/_ruff`
+  - Add shell autocompletion for ruff: `ruff generate-shell-completion zsh > ~/.zfunc/_ruff`
 - Tools to install via `uv tool install`
   - `ty`
   - `pre-commit`
@@ -175,14 +176,13 @@ Install [Homebrew](https://brew.sh/) packages:
 
 - Enable Firefox Sync for bookmarks, addons, and settings.
 - Adjust [privacy](https://github.com/allo-/ffprofile) and extension settings.
-- Optional: Setup [Density](https://github.com/phil294/density-userstyle), [Github Dark](https://github.com/StylishThemes/GitHub-Dark), and use [dark theme template](https://gist.github.com/pymk/d2052d8e19634d71448bc4421136027a) for Stylus.
+- Optional: Setup [Density](https://github.com/phil294/density-userstyle) for Stylus.
 
 ## Configs
 
 My user settings are either synced in the program or through [yadm](https://github.com/yadm-dev/yadm), which is stored on my private Github repo.
 
-- Clone the yadm repo for dot files and other configs (*rc, .config/, etc).
-- VS Code user settings restored through account login.
+- Clone the dotfile repo for settings and configs (.zshrc, .zfunc, .zshenv, *rc, .config/, etc).
 - 1Password for keys, tokens, etc.
 
 ## Themes
@@ -191,6 +191,5 @@ Here are the usual themes I switch between:
 
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
-- VS Code: [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 - Zed: [Minimal](https://gist.github.com/pymk/7c4bd04dee69c864115ae2b1d534da60)
 - zsh: [Custom zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65) in ` ~/.zshrc`
