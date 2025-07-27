@@ -123,12 +123,14 @@ Install [Homebrew](https://brew.sh/) and packages:
 - b2-tools: B2 Cloud Storage Command-Line Tools
 - bat: Clone of cat(1) with syntax highlighting and Git integration
 - catimg: Insanely fast image printing in your terminal
+- claude-code (--cask): Terminal-based AI coding assistant
 - duckdb: Embeddable SQL OLAP Database Management System
 - exiftool: Perl lib for reading and writing EXIF metadata
 - eza: Modern, maintained replacement for ls
 - f2: Command-line batch renaming tool
 - fastfetch: Like neofetch, but much faster because written mostly in C
 - ffmpeg: Play, record, convert, and stream audio and video
+- gemini-cli: Interact with Google Gemini AI models from the command-line
 - gh: GitHub command-line tool
 - git: Distributed revision control system
 - imagemagick: Tools and libraries to manipulate images in many formats
