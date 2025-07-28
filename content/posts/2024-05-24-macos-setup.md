@@ -138,6 +138,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - magic-wormhole: Securely transfers data between computers
 - neovim: Ambitious Vim-fork focused on extensibility and agility
 - pandoc: Swiss-army knife of markup format conversion
+- starship: Cross-shell prompt for astronauts
 - wget: Internet file retriever
 - yadm: Yet Another Dotfiles Manager
 - yt-dlp: Feature-rich command-line audio/video downloader
@@ -183,12 +184,12 @@ Install [Homebrew](https://brew.sh/) and packages:
 
 My user settings are either synced in the program or through [yadm](https://github.com/yadm-dev/yadm), which is stored on my private Github repo.
 
-- Clone the dotfile repo for settings and configs (.zsh*, *rc, .config/, etc)
+- Clone the dotfile repo for settings and configs (.zsh*, .zfunc/, .config/, etc)
 - 1Password for keys, tokens, etc
 
 ## Themes
 
+- Ghostty: Default theme with [custom minimal Starship config](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
-- Zed: [Minimal](https://gist.github.com/pymk/7c4bd04dee69c864115ae2b1d534da60)
-- zsh: [Custom zsh prompt](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
+- Zed: [Custom minimal theme](https://gist.github.com/pymk/7c4bd04dee69c864115ae2b1d534da60)
