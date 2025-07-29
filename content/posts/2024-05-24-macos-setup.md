@@ -157,7 +157,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - [uv](https://docs.astral.sh/uv/) and [ruff](https://docs.astral.sh/ruff/): Python tool
 - [Zed](https://zed.dev/) and [Positron](https://positron.posit.co/): Code editors
 - Go tools
-  - Update Go tools: `goup` (custom function in the .zfunc file)
+  - Update Go tools: `gup` (custom function in the .zfunc file)
 - Python versions to install with `uv python install <version>`
 - Tools to install with `uv tool install <tool>`
   - [ty](https://github.com/astral-sh/ty): Python type checker and language server
