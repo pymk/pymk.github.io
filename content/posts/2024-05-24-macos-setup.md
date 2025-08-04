@@ -177,7 +177,6 @@ Install [Homebrew](https://brew.sh/) and packages:
 
 - Enable Firefox Sync for bookmarks, addons, and settings
   - Extensions: [Kagi](https://github.com/kagisearch/browser_extensions), [Stylus](https://github.com/openstyles/stylus), [Temporary Containers](https://github.com/stoically/temporary-containers), [uBlock Origin](https://github.com/gorhill/uBlock), [Vimium](https://github.com/philc/vimium)
-- Adjust [privacy](https://github.com/allo-/ffprofile) and extension settings
 - Optional: Setup [Density](https://github.com/phil294/density-userstyle) for Stylus
 
 ## Configs
@@ -193,3 +192,5 @@ My user settings are either synced in the program or through [yadm](https://gith
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - Zed: [Custom minimal theme](https://gist.github.com/pymk/7c4bd04dee69c864115ae2b1d534da60)
+- The macOS folder icons can be used to customize other folders. `mkdir -p ~/Pictures/icons/ && cp /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/*FolderIcon.icns ~/Pictures/icons/
+`.
