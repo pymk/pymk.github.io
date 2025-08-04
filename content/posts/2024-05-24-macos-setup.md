@@ -192,5 +192,5 @@ My user settings are either synced in the program or through [yadm](https://gith
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - Zed: [Custom minimal theme](https://gist.github.com/pymk/7c4bd04dee69c864115ae2b1d534da60)
-- The macOS folder icons can be used to customize other folders. `mkdir -p ~/Pictures/icons/ && cp /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/*FolderIcon.icns ~/Pictures/icons/
-`.
+- The macOS folder icons can be used to customize other folders: `mkdir -p ~/Pictures/icons/ && cp /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/*FolderIcon.icns ~/Pictures/icons/
+`
