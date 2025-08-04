@@ -189,8 +189,9 @@ My user settings are either synced in the program or through [yadm](https://gith
 
 ## Themes
 
+- eza: [Custom minimal theme](https://gist.github.com/pymk/9a3591e5ada0e964b4e5b5b744fcb85b)
 - Ghostty: Default theme with [custom minimal Starship config](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
+- macOS: custom folder icons with [folderify](https://github.com/lgarron/folderify)
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - Zed: [Custom minimal theme](https://gist.github.com/pymk/7c4bd04dee69c864115ae2b1d534da60)
-- Customize macOS folder icons with [folderify](https://github.com/lgarron/folderify)
