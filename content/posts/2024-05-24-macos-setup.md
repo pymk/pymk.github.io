@@ -130,6 +130,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - f2: Command-line batch renaming tool
 - fastfetch: Like neofetch, but much faster because written mostly in C
 - ffmpeg: Play, record, convert, and stream audio and video
+- folderify: Generate pixel-perfect macOS folder icons in the native style
 - gemini-cli: Interact with Google Gemini AI models from the command-line
 - gh: GitHub command-line tool
 - git: Distributed revision control system
@@ -192,5 +193,4 @@ My user settings are either synced in the program or through [yadm](https://gith
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - Zed: [Custom minimal theme](https://gist.github.com/pymk/7c4bd04dee69c864115ae2b1d534da60)
-- The macOS folder icons can be used to customize other folders: `mkdir -p ~/Pictures/icons/ && cp /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/*FolderIcon.icns ~/Pictures/icons/
-`
+- Customize macOS folder icons with [folderify](https://github.com/lgarron/folderify)
