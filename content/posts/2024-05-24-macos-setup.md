@@ -122,6 +122,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - atuin: Improved shell history for zsh, bash, fish and nushell
 - b2-tools: B2 Cloud Storage Command-Line Tools
 - bat: Clone of cat(1) with syntax highlighting and Git integration
+- broot: New way to see and navigate directory trees
 - catimg: Insanely fast image printing in your terminal
 - claude-code (--cask): Terminal-based AI coding assistant
 - duckdb: Embeddable SQL OLAP Database Management System
