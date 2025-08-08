@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Update button text based on current theme
     if (themeToggleText) {
       if (theme === "dark") {
-        themeToggleText.textContent = "D";
+        themeToggleText.textContent = "☾";
       } else if (theme === "light") {
-        themeToggleText.textContent = "L";
+        themeToggleText.textContent = "☀";
       } else {
-        themeToggleText.textContent = "A";
+        themeToggleText.textContent = "⚙";
       }
     }
   };
