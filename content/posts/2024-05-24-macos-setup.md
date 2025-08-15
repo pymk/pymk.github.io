@@ -164,6 +164,8 @@ Install [Homebrew](https://brew.sh/) and packages:
 - Tools to install with `uv tool install <tool>`
   - [ty](https://github.com/astral-sh/ty): Python type checker and language server
   - [pre-commit](https://github.com/pre-commit/pre-commit): A framework for managing pre-commit hooks
+  - [spotdl](https://github.com/spotDL/spotify-downloader): CLI for downloading Spotify playlists
+  - [gallery-dl](https://github.com/mikf/gallery-dl/): CLI for downloading image galleries (needs `--with yt-dlp` flag)
 - Add the PATHS to "/private/etc/paths.d"
   - Go: "/usr/local/go/bin"
   - Quarto: "/Applications/quarto/bin"
