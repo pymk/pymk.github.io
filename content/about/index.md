@@ -21,6 +21,7 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 - BI & dashboards
 - ETL/ELT process
 - Data cleaning, transformation, standardization, validation, and documentation
+- Experience working with agentic coding tools (Claude Code, Gemini CLI)
 - Experience working in fast-paced startups
 - Experience handling sensitive data
 
@@ -40,9 +41,10 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 Analytics engineer for clinical data, ensuring data quality and accessibility across the organization.
 
 - Automated ETL pipeline through Github Actions CI, Docker, and Dagster orchestration.
+- Built an LLM chatbot with DuckDB MCP server integration for natural language querying of analytical datasets.
 - Designed a comprehensive data quality system with automated checks and multi-channel alerting.
-- Developed R and Python packages for standardized data access and reporting capabilities.
-- Created interactive business intelligence dashboards for visualization and reporting.
+- Developed internal R and Python packages for cross-team centralized data access.
+- Created business intelligence (BI) dashboards for visualization and reporting.
 - Implemented standardized dataset architecture and searchable data catalog for cross-team usage.
 - Derived semantic layer and clinical variables adhering to CDISC/ADaM standards.
 - Executed biosample selection programmatically that followed cross-functional requirements.
