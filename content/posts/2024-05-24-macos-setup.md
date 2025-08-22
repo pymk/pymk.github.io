@@ -134,6 +134,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - gemini-cli: Interact with Google Gemini AI models from the command-line
 - gh: GitHub command-line tool
 - git: Distributed revision control system
+- jj: Git-compatible distributed version control system
 - imagemagick: Tools and libraries to manipulate images in many formats
 - lftp: Sophisticated file transfer program
 - magic-wormhole: Securely transfers data between computers
@@ -196,4 +197,4 @@ My user settings are either synced in the program or through [yadm](https://gith
 - macOS: custom folder icons with [folderify](https://github.com/lgarron/folderify)
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
-- Zed: [Custom minimal theme](https://gist.github.com/pymk/7c4bd04dee69c864115ae2b1d534da60)
+- Zed: Default theme ("One Dark/Light")
