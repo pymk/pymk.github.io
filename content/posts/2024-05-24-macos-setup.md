@@ -187,8 +187,10 @@ Install [Homebrew](https://brew.sh/) and packages:
 
 My user settings are either synced in the program or through [yadm](https://github.com/yadm-dev/yadm), which is stored on my private Github repo.
 
-- Clone the dotfile repo for settings and configs (.zsh*, .zfunc/, .config/, etc)
 - 1Password for keys, tokens, etc
+- Clone the dotfile repo for settings and configs (.zsh*, .zfunc/, .config/, etc)
+- Create a symlink for Positron config file:
+  - `ln -sf "$XDG_CONFIG_HOME/positron/settings.json" "$HOME/Library/Application Support/Positron/User/settings.json"`
 
 ## Themes
 
