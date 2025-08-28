@@ -189,8 +189,6 @@ My user settings are either synced in the program or through [yadm](https://gith
 
 - 1Password for keys, tokens, etc
 - Clone the dotfile repo for settings and configs (.zsh*, .zfunc/, .config/, etc)
-- Create a symlink for Positron config file:
-  - `ln -sf "$XDG_CONFIG_HOME/positron/settings.json" "$HOME/Library/Application Support/Positron/User/settings.json"`
 
 ## Themes
 
@@ -200,3 +198,8 @@ My user settings are either synced in the program or through [yadm](https://gith
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - Zed: Default theme ("One Dark/Light")
+
+## Misc
+
+- Disable npm install scripts: `npm config set ignore-scripts true`
+- Create a symlink for Positron config file: `ln -sf "$XDG_CONFIG_HOME/positron/settings.json" "$HOME/Library/Application Support/Positron/User/settings.json"`
