@@ -202,4 +202,5 @@ My user settings are either synced in the program or through [yadm](https://gith
 ## Misc
 
 - Disable npm install scripts: `npm config set ignore-scripts true`
+- Create a symlink for Claude Code: `ln -s /opt/homebrew/bin/claude ~/.local/bin/claude`
 - Create a symlink for Positron config file: `ln -sf "$XDG_CONFIG_HOME/positron/settings.json" "$HOME/Library/Application Support/Positron/User/settings.json"`
