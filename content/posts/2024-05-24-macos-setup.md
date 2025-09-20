@@ -134,11 +134,11 @@ Install [Homebrew](https://brew.sh/) and packages:
 - gemini-cli: Interact with Google Gemini AI models from the command-line
 - gh: GitHub command-line tool
 - git: Distributed revision control system
-- jj: Git-compatible distributed version control system
 - imagemagick: Tools and libraries to manipulate images in many formats
 - lftp: Sophisticated file transfer program
 - magic-wormhole: Securely transfers data between computers
 - neovim: Ambitious Vim-fork focused on extensibility and agility
+- ollama: Create, run, and share large language models (LLMs)
 - pandoc: Swiss-army knife of markup format conversion
 - starship: Cross-shell prompt for astronauts
 - wget: Internet file retriever
