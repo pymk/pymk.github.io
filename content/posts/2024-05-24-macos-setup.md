@@ -134,6 +134,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - gemini-cli: Interact with Google Gemini AI models from the command-line
 - gh: GitHub command-line tool
 - git: Distributed revision control system
+- terraform: Terraform
 - imagemagick: Tools and libraries to manipulate images in many formats
 - lftp: Sophisticated file transfer program
 - magic-wormhole: Securely transfers data between computers
