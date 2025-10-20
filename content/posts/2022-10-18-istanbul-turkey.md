@@ -2,8 +2,8 @@
 title: "Istanbul, Turkey"
 date: "2022-10-18"
 taxonomies:
-  categories: [travel]
-  tags: [none]
+  categories: [private]
+  tags: [travel]
 ---
 
 The second destination was Istanbul. My cousin and her family (and cat!) moved here a couple of years ago, so she really knew where to take us. She had lived here before when she was younger, so she even spoke the language. It was like having a personal concierge!

@@ -2,8 +2,8 @@
 title: "Athens, Greece"
 date: "2022-10-22"
 taxonomies:
-  categories: [travel]
-  tags: [none]
+  categories: [private]
+  tags: [travel]
 ---
 
 I picked Athens next because of all the historical places it has to offer. Plus, it was a quick 1.5 hour flight.

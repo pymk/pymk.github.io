@@ -2,8 +2,8 @@
 title: "Zurich, Switzerland"
 date: "2022-10-29"
 taxonomies:
-  categories: [travel]
-  tags: [none]
+  categories: [private]
+  tags: [travel]
 ---
 
 Instead of flying, I took an 8-hour train ride from Vanna to Zurich. Was it worth it? Yup! The tickets for the first-class was still a whole lot cheaper than flying, but the main beauty of it was the scenery, especially when passing through towns like Salzburg or as you get closer to Switzerland.

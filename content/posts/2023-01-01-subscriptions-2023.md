@@ -2,7 +2,7 @@
 title: "Subscriptions 2023"
 date: "2023-01-01"
 taxonomies:
-  categories: [update]
+  categories: [private]
   tags: [code, r, subscriptions]
 ---
 

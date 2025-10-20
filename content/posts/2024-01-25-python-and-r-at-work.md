@@ -2,8 +2,8 @@
 title: "Python and R at Work"
 date: "2024-01-25"
 taxonomies:
-  categories: [work]
-  tags: [r, python, code]
+  categories: [opinion]
+  tags: [python, r]
 ---
 
 I really enjoy doing data wrangling and analysis in R, primarly because of the `dplyr` and its sister Tidyverse packages, like `tidyr` and `purrr`, thanks to their [wonderful API](https://dplyr.tidyverse.org/).

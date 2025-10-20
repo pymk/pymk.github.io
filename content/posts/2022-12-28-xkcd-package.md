@@ -2,8 +2,8 @@
 title: "xkcdr Package"
 date: "2022-12-28"
 taxonomies:
-  categories: [code]
-  tags: [code, r]
+  categories: [project]
+  tags: [r]
 ---
 
 I wanted to get more practice using the [{covr}](https://covr.r-lib.org) package, so I built a small R package that uses the _xkcd_ comic's API.

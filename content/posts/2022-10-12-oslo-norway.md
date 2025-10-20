@@ -2,8 +2,8 @@
 title: "Oslo, Norway"
 date: "2022-10-12"
 taxonomies:
-  categories: [travel]
-  tags: [none]
+  categories: [private]
+  tags: [travel]
 ---
 
 I started off with Oslo. I know a lot of folks come here and enjoy the sceneries and the hikes, but I was visiting family, so didn't do any of that. Just mainly walked around the city and saw some of its museums and art scenes.

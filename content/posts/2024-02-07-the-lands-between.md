@@ -2,7 +2,7 @@
 title: "The Lands Between"
 date: "2024-02-07"
 taxonomies:
-  categories: [gaming]
+  categories: [private]
   tags: [elden-ring]
 ---
 

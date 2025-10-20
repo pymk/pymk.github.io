@@ -2,8 +2,8 @@
 title: "dbt Tutorial"
 date: "2022-12-31"
 taxonomies:
-  categories: [code]
-  tags: [code, dbt]
+  categories: [tutorial]
+  tags: [dbt]
 ---
 
 We were thinking about using [dbt](https://www.getdbt.com/product/what-is-dbt/) at work to help with our data pipeline, so I thought this winter break would be a good time to learn the basics.

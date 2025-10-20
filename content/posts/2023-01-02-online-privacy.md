@@ -2,7 +2,7 @@
 title: "Online Privacy"
 date: "2023-01-02"
 taxonomies:
-  categories: [tech]
+  categories: [private]
   tags: [privacy]
 ---
 

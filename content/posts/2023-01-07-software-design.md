@@ -2,8 +2,8 @@
 title: "Software Design"
 date: "2023-01-07"
 taxonomies:
-  categories: [tech]
-  tags: [notes]
+  categories: [opinion]
+  tags: [software-design]
 ---
 
 Found this great book called *A Philosophy of Software Design* by John Ousterhout and I am thoroughly enjoying it. I will use this post to write down my notes and summary to help retain the information.

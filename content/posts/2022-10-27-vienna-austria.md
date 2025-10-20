@@ -2,8 +2,8 @@
 title: "Vienna, Austria"
 date: "2022-10-27"
 taxonomies:
-  categories: [travel]
-  tags: [none]
+  categories: [private]
+  tags: [travel]
 ---
 
 By far my favorite city has been Vienna. The art, the architecture, the cleanliness, the ease of commuting (very pedestrian- and bike-friendly place)...

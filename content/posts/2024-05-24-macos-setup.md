@@ -2,8 +2,8 @@
 title: "macOS Setup"
 date: "2024-05-24"
 taxonomies:
-  categories: [tech]
-  tags: [mac]
+  categories: [guide]
+  tags: [macos, setup]
 ---
 
 I want to use this post as reference for setting up my macOS environment from scratch. Things like default settings, modifications, installations, etc. Time will tell, but hopefully I have captured everything.
