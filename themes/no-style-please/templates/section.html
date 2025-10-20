@@ -15,11 +15,13 @@
 {% endif %}
 <ul>
 {% for page in pages %}
+    {% if not page.taxonomies.categories or "private" not in page.taxonomies.categories %}
     <li>
         <a href="{{ page.permalink | safe }}">{{ page.date }} - {{ page.title }}</a>
         <br />
         {{ page.description }}
     </li>
+    {% endif %}
 {% endfor %}
 </ul>
 {% if paginator %}
