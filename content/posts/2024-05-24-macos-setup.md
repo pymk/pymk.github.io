@@ -100,6 +100,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [ForkLift](https://binarynights.com/): FTP client
 - [Ghostty](https://github.com/ghostty-org/ghostty): Terminal emulator
 - [Hidden Bar](https://github.com/dwarvesf/hidden): Menu bar manager
+- [iA Writer](https://ia.net/writer): Notes and writing editor
 - [IINA](https://github.com/iina/iina): Media player
 - [Itsycal](https://github.com/sfsam/Itsycal): Menu bar calendar
 - [Keka](https://github.com/aonez/Keka): Archive manager
@@ -107,7 +108,6 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Meta](https://www.nightbirdsevolve.com/meta/) and [Mp3tag](https://mp3tag.app): Audio tagger
 - [Mimestream](https://mimestream.com/): Email client
 - [Mullvad VPN](https://mullvad.net/en): VPN service
-- [Nota](https://nota.md/): Notes manager
 - [Pimosa](https://pimosa.app/): Media editor
 - [Radiola](https://github.com/SokoloffA/radiola): Menu bar internet radio
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
