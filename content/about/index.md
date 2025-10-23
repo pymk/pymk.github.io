@@ -2,10 +2,7 @@
 title: "::about"
 ---
 
-My name is Payam and I am an analytics engineer.
-
-I am detail oriented and excited to learn new skills and tools. My interests include data engineering, automating ELT/ETL processes,
-creating internal tools, and developing dashboards for discovery and data visualization.
+I'm eager to deepen my data engineering skills by using modern data platforms to build ETL pipelines, tackle data transformation challenges, and create BI dashboards. I prioritize data governance, documentation, and writing simple, readable code.
 
 On my free time, I enjoy reading, tinkering, working out, coding, and gaming.
 
@@ -15,39 +12,37 @@ For complete resume, please reach out to me at `pymkdb@gmail.com`.
 
 ## Technical Skills
 
-- Python, R, SQL, dbt, Bash
-- Git, Docker, Dagster, Github Actions
-- AWS
-- BI & dashboards
-- ETL/ELT process
-- Data cleaning, transformation, standardization, validation, and documentation
-- Experience working with agentic coding tools (Claude Code, Gemini CLI)
-- Experience working in fast-paced startups
-- Experience handling sensitive data
+- Platforms: AWS, Github
+- Languages: R, Python, SQL, Go (learning)
+- Tools: git, dbt, DuckDB, Github Actions (CI/CD), Docker, Terraform (IaC), Claude Code (agentic coding tool)
+- Experiences:Working in fast-paced startups, handling sensitive data (PHI and HR data)
 
-## Professional Experience
+## Professional Experiences
 
 | Title | Company | Dates |
 | --- | --- | --- |
-| Analytics Engineer | Delfi Diagnostics | Apr 2022 - Present |
+| Data Engineer | Delfi Diagnostics | Apr 2022 - Present |
 | Program Manager | N-Power Medicine | Oct 2021 - Apr 2022 |
 | Data Analyst | GRAIL | Jan 2018 - Oct 2021 |
 | Clinical Data Manager | Gilead Sciences | Nov 2015 - Jan 2018 |
+| Biosample Coordinator | Genentech | Dec 2012 - Aug 2013 |
 
-### Analytics Engineer
+### Data Engineer
 
 **Delfi Diagnostics** :: Apr 2022 - Present
 
-Analytics engineer for clinical data, ensuring data quality and accessibility across the organization.
+Specializing in pipeline automation, data integration, and making data more accessible across the organization.
 
-- Automated ETL pipeline through Github Actions CI, Docker, and Dagster orchestration.
-- Built an LLM chatbot with DuckDB MCP server integration for natural language querying of analytical datasets.
-- Designed a comprehensive data quality system with automated checks and multi-channel alerting.
-- Developed internal R and Python packages for cross-team centralized data access.
-- Created business intelligence (BI) dashboards for visualization and reporting.
-- Implemented standardized dataset architecture and searchable data catalog for cross-team usage.
-- Derived semantic layer and clinical variables adhering to CDISC/ADaM standards.
-- Executed biosample selection programmatically that followed cross-functional requirements.
+- Built and maintained CI/CD pipelines for data workflows and infrastructure deployments.
+- Automated ETL processes using GitHub Actions, Docker, and Dagster orchestration.
+- Integrated data from diverse external sources including APIs, SFTP servers, and email.
+- Designed and implemented a data quality system with validation checks, monitoring reports, and alerts.
+- Developed internal Python and R packages.
+- Created BI dashboards for data visualization and reporting.
+- Derived semantic layers and clinical variables following CDISC/ADaM standards.
+- Executed programmatic biosample selection aligned with cross-functional requirements.
+- Contributed to team documentation, including technical guides, best practices, and onboarding materials.
+- Built an LLM chatbot with DuckDB MCP server integration, enabling natural language queries of internal data.
 
 ### Program Manager
 
@@ -64,20 +59,24 @@ Drove cross-functional program management and software development initiatives.
 
 **GRAIL** :: Jan 2018 - Oct 2021
 
-Led the development and workflows of biosample management systems.
+Led the workflow development of biosample management operations.
 
-- Designed and implemented automated data quality pipelines for clinical and biosample data.
+- Designed and deployed data quality pipeline with end-to-end biospecimen tracking and data reconciliation.
 - Developed custom R packages and interactive dashboards for business intelligence reporting.
 - Worked on AWS-based data warehouse, utilizing S3, Glue, Athena, and QuickSight.
 - Worked with software engineers as a project manager for technical development of internal biosample management systems.
-- Established SOP for external partner sample workflows.
-- Designed and deployed end-to-end biospecimen tracking and reconciliation processes.
 
 ### Clinical Data Manager
 
 **Gilead Sciences** :: Nov 2015 - Jan 2018
 
 Managed data operations for Phase I clinical trials with focus on biomarker data.
+
+### Biosample Coordinator
+
+**Genentech** :: Dec 2012 - Aug 2013
+
+Coordinated biosample management operations for clinical studies while maintaining data accuracy.
 
 ## Education
 
