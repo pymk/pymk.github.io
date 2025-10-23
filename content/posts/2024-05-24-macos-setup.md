@@ -130,7 +130,6 @@ Install [Homebrew](https://brew.sh/) and packages:
 - f2: Command-line batch renaming tool
 - fastfetch: Like neofetch, but much faster because written mostly in C
 - ffmpeg: Play, record, convert, and stream audio and video
-- folderify: Generate pixel-perfect macOS folder icons in the native style
 - gemini-cli: Interact with Google Gemini AI models from the command-line
 - gh: GitHub command-line tool
 - git: Distributed revision control system
@@ -164,10 +163,11 @@ Install [Homebrew](https://brew.sh/) and packages:
   - Update Go tools: `gup` (custom function in the .zfunc file)
 - Python versions to install with `uv python install <version>`
 - Tools to install with `uv tool install <tool>`
-  - [ty](https://github.com/astral-sh/ty): Python type checker and language server
   - [pre-commit](https://github.com/pre-commit/pre-commit): A framework for managing pre-commit hooks
-  - [spotdl](https://github.com/spotDL/spotify-downloader): CLI for downloading Spotify playlists
   - [gallery-dl](https://github.com/mikf/gallery-dl/): CLI for downloading image galleries (needs `--with yt-dlp` flag)
+  - [spotdl](https://github.com/spotDL/spotify-downloader): CLI for downloading Spotify playlists
+  - [ty](https://github.com/astral-sh/ty): Python type checker and language server
+  - [yt-dlp](https://github.com/yt-dlp/yt-dlp): A command-line audio/video downloader
 - Add the PATHS to "/private/etc/paths.d"
   - Go: "/usr/local/go/bin"
   - Quarto: "/Applications/quarto/bin"
@@ -196,7 +196,6 @@ My user settings are either synced in the program or through [yadm](https://gith
 
 - eza: [Custom minimal theme](https://gist.github.com/pymk/9a3591e5ada0e964b4e5b5b744fcb85b)
 - Ghostty: Default theme with [custom minimal Starship config](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
-- macOS: custom folder icons with [folderify](https://github.com/lgarron/folderify)
 - nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - Zed: Default theme ("One Dark/Light")
