@@ -30,7 +30,9 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 - Accessibility
   - Display: Shake mouse pointer to locate: Disable
+  - Increase contrast: Enable
   - Display: Reduce transparency: Enable
+  - Differentiate without color: Enable
 
 - Apple Intelligence & Siri
   - Disable Apple Intelligence
