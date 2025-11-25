@@ -137,6 +137,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - git: Distributed revision control system
 - terraform: Terraform
 - imagemagick: Tools and libraries to manipulate images in many formats
+- lf: Terminal file manager
 - lftp: Sophisticated file transfer program
 - magic-wormhole: Securely transfers data between computers
 - neovim: Ambitious Vim-fork focused on extensibility and agility
