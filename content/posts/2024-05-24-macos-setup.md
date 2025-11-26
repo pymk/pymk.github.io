@@ -114,7 +114,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Radiola](https://github.com/SokoloffA/radiola): Menu bar internet radio
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
 - [Spect](http://stevenf.com/spect/): Image viewer and organizer
-- [Swinsian](https://swinsian.com/) and [Tiny Player](https://www.catnapgames.com/tiny-player-for-mac/): Music players
+- [Swinsian](https://swinsian.com/) and [Cog](https://github.com/losnoco/Cog): Music players
 
 ## Terminal
 
