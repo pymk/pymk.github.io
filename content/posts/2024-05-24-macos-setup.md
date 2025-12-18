@@ -160,17 +160,14 @@ Install [Homebrew](https://brew.sh/) and packages:
 - [MarkEdit](https://github.com/MarkEdit-app/MarkEdit): Markdown editor and Preview pane extension
 - [Quarto](https://quarto.org/): Publishing system
 - [Sublime Text](https://www.sublimetext.com/): Text editor
-- [uv](https://docs.astral.sh/uv/) and [ruff](https://docs.astral.sh/ruff/): Python tool
+- [uv](https://docs.astral.sh/uv/), [ruff](https://docs.astral.sh/ruff/), and [ty](https://docs.astral.sh/ty/): Python tools
 - [Zed](https://zed.dev/) and [Positron](https://positron.posit.co/): Code editors
 - Go tools
-  - Update Go tools: `gup` (custom function in the .zfunc file)
+  - Update Go tools: `guop` (custom function in the .zfunc file)
 - Python versions to install with `uv python install <version>`
 - Tools to install with `uv tool install <tool>`
-  - [pre-commit](https://github.com/pre-commit/pre-commit): A framework for managing pre-commit hooks
   - [gallery-dl](https://github.com/mikf/gallery-dl/): CLI for downloading image galleries (needs `--with yt-dlp` flag)
   - [spotdl](https://github.com/spotDL/spotify-downloader): CLI for downloading Spotify playlists
-  - [ty](https://github.com/astral-sh/ty): Python type checker and language server
-  - [yt-dlp](https://github.com/yt-dlp/yt-dlp): A command-line audio/video downloader
 - Add the PATHS to "/private/etc/paths.d"
   - Go: "/usr/local/go/bin"
   - Quarto: "/Applications/quarto/bin"
