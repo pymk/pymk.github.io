@@ -163,7 +163,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - [uv](https://docs.astral.sh/uv/), [ruff](https://docs.astral.sh/ruff/), and [ty](https://docs.astral.sh/ty/): Python tools
 - [Zed](https://zed.dev/) and [Positron](https://positron.posit.co/): Code editors
 - Go tools
-  - Update Go tools: `guop` (custom function in the .zfunc file)
+  - Update Go tools: `goup` (custom function in the .zfunc file)
 - Python versions to install with `uv python install <version>`
 - Tools to install with `uv tool install <tool>`
   - [gallery-dl](https://github.com/mikf/gallery-dl/): CLI for downloading image galleries (needs `--with yt-dlp` flag)
@@ -202,6 +202,6 @@ My user settings are either synced in the program or through [yadm](https://gith
 
 ## Misc
 
-- Disable npm install scripts: `npm config set ignore-scripts true`
+- Prevents npm from automatically running lifecycle scripts: `echo 'ignore-scripts=true' > ~/.npmrc`
 - Create a symlink for Claude Code: `ln -s /opt/homebrew/bin/claude ~/.local/bin/claude`
 - Create a symlink for Positron config file: `ln -sf "$XDG_CONFIG_HOME/positron/settings.json" "$HOME/Library/Application Support/Positron/User/settings.json"`
