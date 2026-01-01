@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta name="robots" content="noindex">
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        <title>Software Design</title>
+        
+        <meta name="title" content="Software Design">
+        <meta name="author" content="pymk">
+        <meta name="description" content="p::y::m::k">
+        <meta name="generator" content="Zola">
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://pymk.dev/posts/software-design/">
+        <meta property="og:site_name" content="pymk">
+        <meta property="og:title" content="Software Design">
+        <meta property="og:description" content="p::y::m::k">
+        <meta property="og:image" content="https:&#x2F;&#x2F;pymk.dev&#x2F;images&#x2F;logo.png">
+
+        
+        
+
+        <link rel="canonical" href="https://pymk.dev/posts/software-design/">
+        <link rel="shortcut icon" type="image/x-icon" href="https://pymk.dev/images/logo.png">
+        <script type="application/ld+json">
+            {
+                "description":"p::y::m::k",
+                "url":"https://pymk.dev/posts/software-design/",
+                "@type":"WebSite",
+                "headline":"Software Design",
+                "name":"Software Design",
+                "author":{
+                    "@type":"Person",
+                    "name":"pymk"
+                },
+                "@context":"https://schema.org"
+            }
+        </script>
+        
+        
+        
+        <link rel="stylesheet" href="https://pymk.dev/style.css"/>
+        
+        <script src="https://pymk.dev/theme.js"></script>
+    </head>
+    <body theme="light">
+        <div class="w">
+            <header>
+                
+                <nav>
+                    
+                    <a href="/" >~</a>
+                    
+                    <a href="/posts" >ls</a>
+                    
+                    <button id="theme-toggle"><span id="theme-toggle-text">theme</span></button>
+                </nav>
+                
+                
+<p><a href="..">..</a>/software-design</p>
+<p class="post-meta"><time datetime="2023-01-07">2023-01-07</time></p>
+<h1>Software Design</h1>
+
+            </header>
+            <main class="page-content" aria-label="Content">
+                
+
+
+
+<p>Found this great book called <em>A Philosophy of Software Design</em> by John Ousterhout and I am thoroughly enjoying it. I will use this post to write down my notes and summary to help retain the information.</p>
+<h3 id="code-complexity">Code Complexity</h3>
+<p>A complex code can be identified by the amount of time the developer has to spend learning and understanding the code (&quot;cognitive load&quot;) in order to make even simple changes. An example would be when making a simple update requires a lot of code modification throughout the code base. Or when updating part of the code unintentionally changes or breaks something else.</p>
+<p>In order to reduce complexity, we can do a few things:</p>
+<ol>
+<li>Having a simpler code by writing obvious code vs a clever, more complex ones</li>
+<li>Reduce special cases, which helps reduce cognitive load</li>
+<li>Abstractions and encapsulation of complexities, so developers are only expose to it when needed</li>
+</ol>
+<p>Complexities are introduced incrementally, so a &quot;zero tolerance&quot; philosophy (more on this later) is required to stay vigilant. The two main culprits of code complexity are <em>dependencies</em> and <em>obscurity</em>. An example of dependency would be when a piece of code cannot be modified without having to update other code pieces and making changes. An example of obscurity would be lack of documentation or when important information in the code is not obvious.</p>
+<p>Instead of quickly pushing out code just to get the job done or meet a deadline (and accumulate technical debt), we should spend some time to come up with a design for the system. Think through a few alternative approaches before deciding the right one. When mistakes are identified, they should be fixed rather than patched around it.</p>
+<h3 id="modular-design-and-abstractions">Modular Design and Abstractions</h3>
+<p>Modular design is a way of breaking down a system into smaller parts. Abstraction is a way to hide away unimportant information or details that allow for easier understanding of the system.</p>
+<p>Ideally, each module should be independent of the other ones, so the complexities of a given module are self-contained. But interactivity and dependencies between modules are unavoidable, so the goal should be to minimize these dependencies.</p>
+<p>When creating a model, we should think about the <em>interface</em> (what it does) and <em>implementation</em> (how it does it) of the module. The module's interface should be simple to reduce complexity of the overall system. We should also create &quot;deep&quot; module/classes/functions (powerful functionality, but simple interface) rather than &quot;shallow&quot; ones (complex interface, but simple functionality).</p>
+<h3 id="design-it-twice">Design it Twice</h3>
+<p>Rather than implementing the first idea that comes to your head, spend some time and think about alternative approaches. For a more complex system, make a list of pros and cons. This should be applied to system, modules, or functions. It is better to spend some time up front to think about the design instead of spending days or weeks refactoring a bad design.</p>
+
+
+            </main>
+            <footer>
+                
+<p style="color: #797979;" class="taxonomies">
+<small>
+    
+    
+    #software-design
+    
+    
+    
+    +opinion
+    
+    
+    
+    
+</small>
+</p>
+
+                
+            </footer>
+        </div>
+    </body>
+</html>
