@@ -133,6 +133,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - fastfetch: Like neofetch, but much faster because written mostly in C
 - ffmpeg: Play, record, convert, and stream audio and video
 - gh: GitHub command-line tool
+- gibo: Access GitHub's .gitignore boilerplates
 - git: Distributed revision control system
 - imagemagick: Tools and libraries to manipulate images in many formats
 - lf: Terminal file manager
