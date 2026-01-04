@@ -147,7 +147,6 @@ Install [Homebrew](https://brew.sh/) and packages:
 - wget: Internet file retriever
 - yadm: Yet Another Dotfiles Manager
 - yt-dlp: Feature-rich command-line audio/video downloader
-- zola: Fast static site generator in a single binary with everything built-in
 
 ## Programming
 
