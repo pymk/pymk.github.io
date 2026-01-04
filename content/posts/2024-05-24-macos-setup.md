@@ -131,6 +131,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - eza: Modern, maintained replacement for ls
 - f2: Command-line batch renaming tool
 - fastfetch: Like neofetch, but much faster because written mostly in C
+- fd: Simple, fast and user-friendly alternative to find
 - ffmpeg: Play, record, convert, and stream audio and video
 - gh: GitHub command-line tool
 - gibo: Access GitHub's .gitignore boilerplates
@@ -141,6 +142,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - magic-wormhole: Securely transfers data between computers
 - neovim: Ambitious Vim-fork focused on extensibility and agility
 - pandoc: Swiss-army knife of markup format conversion
+- ripgrep: Search tool like grep and The Silver Searcher
 - starship: Cross-shell prompt for astronauts
 - wget: Internet file retriever
 - yadm: Yet Another Dotfiles Manager
@@ -166,6 +168,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - Tools to install with `uv tool install <tool>`
   - [gallery-dl](https://github.com/mikf/gallery-dl/): CLI for downloading image galleries (needs `--with yt-dlp` flag)
   - [spotdl](https://github.com/spotDL/spotify-downloader): CLI for downloading Spotify playlists
+- [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim): Helpful starter configuration for Neovim
 - Add the PATHS to "/private/etc/paths.d"
   - Go: "/usr/local/go/bin"
   - Quarto: "/Applications/quarto/bin"
@@ -194,7 +197,7 @@ My user settings are either synced in the program or through [yadm](https://gith
 
 - eza: [Custom minimal theme](https://gist.github.com/pymk/9a3591e5ada0e964b4e5b5b744fcb85b)
 - Ghostty: Default theme with [custom minimal Starship config](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
-- nvim: [Paper Color](https://github.com/NLKNguyen/papercolor-theme)
+- Neovim: [One Dark](https://github.com/navarasu/onedark.nvim)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - Zed: Default theme ("One Dark/Light")
 
