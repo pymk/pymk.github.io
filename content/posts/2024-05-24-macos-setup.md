@@ -115,6 +115,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
 - [Spect](http://stevenf.com/spect/): Image viewer and organizer
 - [Swinsian](https://swinsian.com/) and [Cog](https://github.com/losnoco/Cog): Music players
+- [TaskPaper](https://www.taskpaper.com/): Task manager
 
 ## Terminal
 
