@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta name="robots" content="noindex">
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        <title>dbt Tutorial</title>
+        
+        <meta name="title" content="dbt Tutorial">
+        <meta name="author" content="pymk">
+        <meta name="description" content="p::y::m::k">
+        <meta name="generator" content="Zola">
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://pymk.dev/posts/dbt-tutorial/">
+        <meta property="og:site_name" content="pymk">
+        <meta property="og:title" content="dbt Tutorial">
+        <meta property="og:description" content="p::y::m::k">
+        <meta property="og:image" content="https:&#x2F;&#x2F;pymk.dev&#x2F;images&#x2F;logo.png">
+
+        
+        
+
+        <link rel="canonical" href="https://pymk.dev/posts/dbt-tutorial/">
+        <link rel="shortcut icon" type="image/x-icon" href="https://pymk.dev/images/logo.png">
+        <script type="application/ld+json">
+            {
+                "description":"p::y::m::k",
+                "url":"https://pymk.dev/posts/dbt-tutorial/",
+                "@type":"WebSite",
+                "headline":"dbt Tutorial",
+                "name":"dbt Tutorial",
+                "author":{
+                    "@type":"Person",
+                    "name":"pymk"
+                },
+                "@context":"https://schema.org"
+            }
+        </script>
+        
+        
+        
+        <link rel="stylesheet" href="https://pymk.dev/style.css"/>
+        
+        <script src="https://pymk.dev/theme.js"></script>
+    </head>
+    <body theme="light">
+        <div class="w">
+            <header>
+                
+                <nav>
+                    
+                    <a href="/" >~</a>
+                    
+                    <a href="/posts" >ls</a>
+                    
+                    <button id="theme-toggle"><span id="theme-toggle-text">theme</span></button>
+                </nav>
+                
+                
+<p><a href="..">..</a>/dbt-tutorial</p>
+<p class="post-meta"><time datetime="2022-12-31">2022-12-31</time></p>
+<h1>dbt Tutorial</h1>
+
+            </header>
+            <main class="page-content" aria-label="Content">
+                
+
+
+
+<p>We were thinking about using <a href="https://www.getdbt.com/product/what-is-dbt/">dbt</a> at work to help with our data pipeline, so I thought this winter break would be a good time to learn the basics.</p>
+<p>They offer two products: dbt Cloud and dbt Core. As the name suggests, dbt Cloud is their subscription service and dbt Core is free CLI tool.</p>
+<p>I really like what they offer with this tool. Setting up models and creating tables with documentation and tests is really simple. Just gotta get used to writing SQL or Python commands instead of beautiful <code>dplyr</code> with pipes.</p>
+<hr />
+<p>They have lots of nice guides, docs, and tutorials for learning. The one I started with is their <code>jaffle_shop</code> <a href="https://docs.getdbt.com/docs/get-started/getting-started-dbt-core">dbt Core tutorial</a>.</p>
+<p>One of the prerequisites is to set up BigQuery to access the data, but for learning purposes, I just wanted to run things locally. Could not find a guide or the dataset on their official channels, but I found the original CSV files for the tables in their <a href="https://github.com/dbt-labs/jaffle_shop/tree/f72efd299dea41b17d84e02d49d364631cca2709">repo history</a>. It was probably from their earlier version of the tutorial.</p>
+<p>Anyway, I created this guide to use a local Postgres dataset for the <code>jaffle_shop</code> tutorial.</p>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Copy the <a href="https://github.com/dbt-labs/jaffle_shop/tree/f72efd299dea41b17d84e02d49d364631cca2709">data/</a> directory and its content to the project directory.</li>
+<li>Ensure you are in the project directory (i.e. <code>/dbt-tutorial/jaffle_shop/</code>) for running the Postgres and <code>dbt</code> commands below.</li>
+</ul>
+<hr />
+<p>First, install <a href="https://www.postgresql.org/download/">Postgres</a> (I'm using <a href="https://postgresapp.com">Postgres app</a> for macOS).</p>
+<p>In terminal, we can login to Postgres as sudo with:</p>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">psql -U</span><span> postgres
+</span></code></pre>
+<p>And use the command <code>\l</code> to list of current databases available.</p>
+<p>Next, we create a user and database for <code>jaffle_shop</code>. In my example, the user is <code>dbt_test</code> (password: <code>dbt_test</code>) and the database is called <code>jaffle_shop</code>.</p>
+<pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span style="color:#b48ead;">CREATE USER </span><span>dbt_test WITH PASSWORD &#39;</span><span style="color:#8fa1b3;">adb_test</span><span>&#39;;
+</span><span style="color:#b48ead;">CREATE DATABASE </span><span>jaffle_shop WITH OWNER &#39;</span><span style="color:#8fa1b3;">dbt_test</span><span>&#39;;
+</span></code></pre>
+<p>Using <code>\l</code>, we can see the new database is created. Now we can exist sudo with <code>\q</code>.</p>
+<p>Now we can update the <code>~/.dbt/profiles.yml</code> config file with:</p>
+<pre data-lang="yaml" style="background-color:#2b303b;color:#c0c5ce;" class="language-yaml "><code class="language-yaml" data-lang="yaml"><span style="color:#bf616a;">type</span><span>: </span><span style="color:#a3be8c;">postgres
+</span><span style="color:#bf616a;">threads</span><span>: </span><span style="color:#d08770;">4
+</span><span style="color:#bf616a;">host</span><span>: </span><span style="color:#a3be8c;">localhost
+</span><span style="color:#bf616a;">port</span><span>: </span><span style="color:#d08770;">5432
+</span><span style="color:#bf616a;">user</span><span>: </span><span style="color:#a3be8c;">dbt_test
+</span><span style="color:#bf616a;">pass</span><span>: </span><span style="color:#a3be8c;">dbt_test
+</span><span style="color:#bf616a;">dbname</span><span>: </span><span style="color:#a3be8c;">jaffle_shop
+</span><span style="color:#bf616a;">schema</span><span>: </span><span style="color:#a3be8c;">public
+</span></code></pre>
+<p>Next, we login to <code>jaffle_shop</code> database as the new user (<code>dbt_test</code>) we just created:</p>
+<pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span>psql -U dbt_test jaffle_shop
+</span></code></pre>
+<p>We can use <code>\dt</code> command to list all available tables (should be none right now) in this database.</p>
+<p>The following commands create our tables (schema is based on the CSV files in the <code>data/</code> folder).</p>
+<pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span style="color:#b48ead;">CREATE TABLE </span><span style="color:#8fa1b3;">customers
+</span><span> (id </span><span style="color:#b48ead;">INTEGER</span><span>, first_name </span><span style="color:#b48ead;">TEXT</span><span>, last_name </span><span style="color:#b48ead;">TEXT</span><span>, email </span><span style="color:#b48ead;">TEXT</span><span>);
+</span><span>
+</span><span style="color:#b48ead;">CREATE TABLE </span><span style="color:#8fa1b3;">orders
+</span><span> (id </span><span style="color:#b48ead;">INTEGER</span><span>, user_id </span><span style="color:#b48ead;">INTEGER</span><span>, order_date </span><span style="color:#b48ead;">DATE</span><span>, status </span><span style="color:#b48ead;">TEXT</span><span>);
+</span><span>
+</span><span style="color:#b48ead;">CREATE TABLE </span><span style="color:#8fa1b3;">payments
+</span><span> (id </span><span style="color:#b48ead;">INTEGER</span><span>, order_id </span><span style="color:#b48ead;">INTEGER</span><span>, payment_method </span><span style="color:#b48ead;">TEXT</span><span>, amount </span><span style="color:#b48ead;">BigInt</span><span>);
+</span></code></pre>
+<p>Now we can run <code>\dt</code> again to see a list of newly created tables.</p>
+<p>To copy the contents of the CSV files into these tables, we use these commands:</p>
+<pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span>\COPY customers(id,first_name,last_name,email)
+</span><span style="color:#b48ead;">FROM </span><span>&#39;</span><span style="color:#a3be8c;">./data/raw_customers.csv</span><span>&#39;
+</span><span style="color:#b48ead;">WITH</span><span> DELIMITER &#39;</span><span style="color:#a3be8c;">,</span><span>&#39;
+</span><span>CSV HEADER;
+</span><span>
+</span><span>\COPY orders(id,user_id,order_date,status)
+</span><span style="color:#b48ead;">FROM </span><span>&#39;</span><span style="color:#a3be8c;">./data/raw_orders.csv</span><span>&#39;
+</span><span style="color:#b48ead;">WITH</span><span> DELIMITER &#39;</span><span style="color:#a3be8c;">,</span><span>&#39;
+</span><span>CSV HEADER;
+</span><span>
+</span><span>\COPY payments(id,order_id,payment_method,amount)
+</span><span style="color:#b48ead;">FROM </span><span>&#39;</span><span style="color:#a3be8c;">./data/raw_payments.csv</span><span>&#39;
+</span><span style="color:#b48ead;">WITH</span><span> DELIMITER &#39;</span><span style="color:#a3be8c;">,</span><span>&#39;
+</span><span>CSV HEADER;
+</span></code></pre>
+<p>And a quick sanity check to ensure we have the data:</p>
+<pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span style="color:#b48ead;">SELECT </span><span style="color:#bf616a;">* </span><span style="color:#b48ead;">FROM</span><span> customers </span><span style="color:#b48ead;">ORDER BY</span><span> id </span><span style="color:#b48ead;">ASC LIMIT </span><span style="color:#d08770;">10</span><span>;
+</span><span style="color:#b48ead;">SELECT </span><span style="color:#bf616a;">* </span><span style="color:#b48ead;">FROM</span><span> orders </span><span style="color:#b48ead;">ORDER BY</span><span> id </span><span style="color:#b48ead;">ASC LIMIT </span><span style="color:#d08770;">10</span><span>;
+</span><span style="color:#b48ead;">SELECT </span><span style="color:#bf616a;">* </span><span style="color:#b48ead;">FROM</span><span> payments </span><span style="color:#b48ead;">ORDER BY</span><span> id </span><span style="color:#b48ead;">ASC LIMIT </span><span style="color:#d08770;">10</span><span>;
+</span></code></pre>
+<p>And that's it. We can quit at anytime with <code>\q</code> and continue with the tutorial.</p>
+<p>The example models created for this tutorial are also in <a href="https://github.com/pymk/dbt-tutorial/tree/master/jaffle_shop">here</a> for reference.</p>
+
+
+            </main>
+            <footer>
+                
+<p style="color: #797979;" class="taxonomies">
+<small>
+    
+    
+    #dbt
+    
+    
+    
+    +tutorial
+    
+    
+    
+    
+</small>
+</p>
+
+                
+            </footer>
+        </div>
+    </body>
+</html>
