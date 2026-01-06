@@ -98,11 +98,12 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [1Password](https://1password.com/): Password manager
 - [Acorn](https://flyingmeat.com/acorn/): Image editor
 - [AppCleaner](https://freemacsoft.net/appcleaner/): App uninstaller
+- [Antinote](https://antinote.io/): Menu bar scratchpad
 - [Firefox](https://www.mozilla.org/en-US/firefox/): Web browser
 - [ForkLift](https://binarynights.com/): FTP client
 - [Ghostty](https://github.com/ghostty-org/ghostty): Terminal emulator
 - [Hidden Bar](https://github.com/dwarvesf/hidden): Menu bar manager
-- [iA Writer](https://ia.net/writer): Notes and writing editor
+- [iA Writer](https://ia.net/writer): Writing editor
 - [IINA](https://github.com/iina/iina): Media player
 - [Itsycal](https://github.com/sfsam/Itsycal): Menu bar calendar
 - [Keka](https://github.com/aonez/Keka): Archive manager
@@ -115,7 +116,6 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
 - [Spect](http://stevenf.com/spect/): Image viewer and organizer
 - [Swinsian](https://swinsian.com/) and [Cog](https://github.com/losnoco/Cog): Music players
-- [TaskPaper](https://www.taskpaper.com/): Task manager
 
 ## Terminal
 
