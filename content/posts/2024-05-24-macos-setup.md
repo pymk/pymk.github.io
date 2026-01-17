@@ -144,10 +144,12 @@ Install [Homebrew](https://brew.sh/) and packages:
 - neovim: Ambitious Vim-fork focused on extensibility and agility
 - pandoc: Swiss-army knife of markup format conversion
 - ripgrep: Search tool like grep and The Silver Searcher
+- serie: Rich git commit graph in your terminal
 - starship: Cross-shell prompt for astronauts
 - wget: Internet file retriever
 - yadm: Yet Another Dotfiles Manager
 - yt-dlp: Feature-rich command-line audio/video downloader
+- zellij: Pluggable terminal workspace, with terminal multiplexer as the base feature
 
 ## Programming
 
