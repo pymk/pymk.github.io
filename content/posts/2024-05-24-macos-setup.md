@@ -111,7 +111,6 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Meta](https://www.nightbirdsevolve.com/meta/) and [Mp3tag](https://mp3tag.app): Audio tagger
 - [Mimestream](https://mimestream.com/): Email client
 - [Mullvad VPN](https://mullvad.net/en): VPN service
-- [Pimosa](https://pimosa.app/): Media editor
 - [Radiola](https://github.com/SokoloffA/radiola): Menu bar internet radio
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
 - [Spect](http://stevenf.com/spect/): Image viewer and organizer
