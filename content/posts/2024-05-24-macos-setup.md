@@ -168,6 +168,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - Python versions to install with `uv python install <version>`
 - Tools to install with `uv tool install <tool>`
   - [gallery-dl](https://github.com/mikf/gallery-dl/): CLI for downloading image galleries (needs `--with yt-dlp` flag)
+  - [prek](pre-commit framework to run hooks)
   - [spotdl](https://github.com/spotDL/spotify-downloader): CLI for downloading Spotify playlists
 - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim): Helpful starter configuration for Neovim
 - Add the PATHS to "/private/etc/paths.d"
