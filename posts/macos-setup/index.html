@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta name="robots" content="noindex">
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        <title>macOS Setup</title>
+        
+        <meta name="title" content="macOS Setup">
+        <meta name="author" content="pymk">
+        <meta name="description" content="p::y::m::k">
+        <meta name="generator" content="Zola">
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://pymk.dev/posts/macos-setup/">
+        <meta property="og:site_name" content="pymk">
+        <meta property="og:title" content="macOS Setup">
+        <meta property="og:description" content="p::y::m::k">
+        <meta property="og:image" content="https:&#x2F;&#x2F;pymk.dev&#x2F;images&#x2F;logo.png">
+
+        
+        
+
+        <link rel="canonical" href="https://pymk.dev/posts/macos-setup/">
+        <link rel="shortcut icon" type="image/x-icon" href="https://pymk.dev/images/logo.png">
+        <script type="application/ld+json">
+            {
+                "description":"p::y::m::k",
+                "url":"https://pymk.dev/posts/macos-setup/",
+                "@type":"WebSite",
+                "headline":"macOS Setup",
+                "name":"macOS Setup",
+                "author":{
+                    "@type":"Person",
+                    "name":"pymk"
+                },
+                "@context":"https://schema.org"
+            }
+        </script>
+        
+        
+        
+        <link rel="stylesheet" href="https://pymk.dev/style.css"/>
+        
+        <script src="https://pymk.dev/theme.js"></script>
+    </head>
+    <body theme="light">
+        <div class="w">
+            <header>
+                
+                <nav>
+                    
+                    <a href="/" >~</a>
+                    
+                    <a href="/posts" >ls</a>
+                    
+                    <button id="theme-toggle"><span id="theme-toggle-text">theme</span></button>
+                </nav>
+                
+                
+<p><a href="..">..</a>/macos-setup</p>
+<p class="post-meta"><time datetime="2024-05-24">2024-05-24</time></p>
+<h1>macOS Setup</h1>
+
+            </header>
+            <main class="page-content" aria-label="Content">
+                
+
+
+
+<p>I want to use this post as reference for setting up my macOS environment from scratch. Things like default settings, modifications, installations, etc. Time will tell, but hopefully I have captured everything.</p>
+<p><img src="/images/2024-05-24/screenshot.jpg" alt="Desktop" /></p>
+<hr />
+<h2 id="system-settings">System Settings</h2>
+<ul>
+<li>
+<p>iCloud</p>
+<ul>
+<li>Sign into iCloud account</li>
+<li>Disable iCloud Drive backup for Desktop and Documents folders</li>
+</ul>
+</li>
+<li>
+<p>Notifications</p>
+<ul>
+<li>Turn off notifications for everything</li>
+</ul>
+</li>
+<li>
+<p>Appearance</p>
+<ul>
+<li>Show scroll bars: Always</li>
+<li>Click in the scroll bar to: Jump to spot that's clicked</li>
+</ul>
+</li>
+<li>
+<p>Control Center</p>
+<ul>
+<li>Hide everything</li>
+</ul>
+</li>
+<li>
+<p>Accessibility</p>
+<ul>
+<li>Display: Shake mouse pointer to locate: Disable</li>
+<li>Increase contrast: Enable</li>
+<li>Display: Reduce transparency: Enable</li>
+<li>Differentiate without color: Enable</li>
+</ul>
+</li>
+<li>
+<p>Apple Intelligence &amp; Siri</p>
+<ul>
+<li>Disable Apple Intelligence</li>
+<li>Disable Siri</li>
+</ul>
+</li>
+<li>
+<p>Spotlight</p>
+<ul>
+<li>Help Apple Improve Search: Disable</li>
+<li>Disable Spotlight for everything except Applications, Calculator, and System Settings</li>
+</ul>
+</li>
+<li>
+<p>Desktop &amp; Dock</p>
+<ul>
+<li>Position: Left</li>
+<li>Minimize windows: Genie Effect</li>
+<li>Double-click a window title: Do Nothing</li>
+<li>Minimize windows into application icon: Disable</li>
+<li>Automatically hide and show the Dock: Enable</li>
+<li>Show suggested and recent apps in Dock: Disable</li>
+<li>Disable Desktop &amp; Stage Manager: Show on Desktop</li>
+<li>Click wallpaper to reveal desktop: Only in Stage Manager</li>
+<li>Stage Manager: Disable</li>
+<li>Widgets: Disable</li>
+<li>Hot Corners: top-right: Mission Control, bottom-right: Desktop</li>
+</ul>
+</li>
+<li>
+<p>Game Center</p>
+<ul>
+<li>Disable</li>
+</ul>
+</li>
+<li>
+<p>Keyboard</p>
+<ul>
+<li>Key repeat rate: fastest</li>
+<li>Delay until repeat: shortest</li>
+<li>Press fn key to: Do Nothing</li>
+</ul>
+</li>
+<li>
+<p>Mouse</p>
+<ul>
+<li>Tracking speed: 70%</li>
+<li>Natural scrolling: Disable</li>
+<li>Secondary click: Right Side</li>
+<li>Smart zoom: Disable</li>
+</ul>
+</li>
+</ul>
+<h2 id="finder-settings">Finder Settings</h2>
+<ul>
+<li>
+<p>Toolbar: Back/Forward, Path, Search</p>
+</li>
+<li>
+<p>View as columns</p>
+</li>
+<li>
+<p>Sort by name</p>
+</li>
+<li>
+<p>Hide folders with <code>chflags hidden &lt;directory&gt;</code></p>
+</li>
+<li>
+<p>General</p>
+<ul>
+<li>Show these items on desktop: External disks</li>
+<li>New Finder windows show: $HOME</li>
+</ul>
+</li>
+<li>
+<p>Tags</p>
+<ul>
+<li>Turn off everything</li>
+</ul>
+</li>
+<li>
+<p>Sidebar</p>
+<ul>
+<li>Show these items in the sidebar: AirDrop, Applications, Desktop, Downloads, $HOME, External disks</li>
+<li>Recent Tags: Disable</li>
+</ul>
+</li>
+<li>
+<p>Advanced</p>
+<ul>
+<li>Uncheck everything except
+<ul>
+<li>Show all filename extensions: Enable</li>
+<li>Keep folders on top: In windows when sorting by name</li>
+</ul>
+</li>
+<li>When performing a search: Search This Mac</li>
+</ul>
+</li>
+</ul>
+<h2 id="software">Software</h2>
+<ul>
+<li><a href="https://1password.com/">1Password</a>: Password manager</li>
+<li><a href="https://flyingmeat.com/acorn/">Acorn</a>: Image editor</li>
+<li><a href="https://freemacsoft.net/appcleaner/">AppCleaner</a>: App uninstaller</li>
+<li><a href="https://antinote.io/">Antinote</a>: Menu bar scratchpad</li>
+<li><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>: Web browser</li>
+<li><a href="https://binarynights.com/">ForkLift</a>: FTP client</li>
+<li><a href="https://github.com/ghostty-org/ghostty">Ghostty</a>: Terminal emulator</li>
+<li><a href="https://github.com/dwarvesf/hidden">Hidden Bar</a>: Menu bar manager</li>
+<li><a href="https://ia.net/writer">iA Writer</a>: Writing editor</li>
+<li><a href="https://github.com/iina/iina">IINA</a>: Media player</li>
+<li><a href="https://github.com/sfsam/Itsycal">Itsycal</a>: Menu bar calendar</li>
+<li><a href="https://github.com/aonez/Keka">Keka</a>: Archive manager</li>
+<li><a href="https://www.obdev.at/products/littlesnitch/">Little Snitch</a>: Network monitor</li>
+<li><a href="https://www.nightbirdsevolve.com/meta/">Meta</a> and <a href="https://mp3tag.app">Mp3tag</a>: Audio tagger</li>
+<li><a href="https://mimestream.com/">Mimestream</a>: Email client</li>
+<li><a href="https://mullvad.net/en">Mullvad VPN</a>: VPN service</li>
+<li><a href="https://github.com/SokoloffA/radiola">Radiola</a>: Menu bar internet radio</li>
+<li><a href="https://rectangleapp.com/pro">Rectangle Pro</a>: Window manager</li>
+<li><a href="http://stevenf.com/spect/">Spect</a>: Image viewer and organizer</li>
+<li><a href="https://swinsian.com/">Swinsian</a> and <a href="https://github.com/losnoco/Cog">Cog</a>: Music players</li>
+</ul>
+<h2 id="terminal">Terminal</h2>
+<p>Install <a href="https://brew.sh/">Homebrew</a> and packages:</p>
+<ul>
+<li>1password-cli: Command-line interface for 1Password</li>
+<li>atuin: Improved shell history for zsh, bash, fish and nushell</li>
+<li>b2-tools: B2 Cloud Storage Command-Line Tools</li>
+<li>bat: Clone of cat(1) with syntax highlighting and Git integration</li>
+<li>catimg: Insanely fast image printing in your terminal</li>
+<li>claude-code (--cask): Terminal-based AI coding assistant</li>
+<li>duckdb: Embeddable SQL OLAP Database Management System</li>
+<li>exiftool: Perl lib for reading and writing EXIF metadata</li>
+<li>eza: Modern, maintained replacement for ls</li>
+<li>f2: Command-line batch renaming tool</li>
+<li>fastfetch: Like neofetch, but much faster because written mostly in C</li>
+<li>fd: Simple, fast and user-friendly alternative to find</li>
+<li>ffmpeg: Play, record, convert, and stream audio and video</li>
+<li>gh: GitHub command-line tool</li>
+<li>gibo: Access GitHub's .gitignore boilerplates</li>
+<li>git: Distributed revision control system</li>
+<li>imagemagick: Tools and libraries to manipulate images in many formats</li>
+<li>lf: Terminal file manager</li>
+<li>lftp: Sophisticated file transfer program</li>
+<li>magic-wormhole: Securely transfers data between computers</li>
+<li>neovim: Ambitious Vim-fork focused on extensibility and agility</li>
+<li>pandoc: Swiss-army knife of markup format conversion</li>
+<li>ripgrep: Search tool like grep and The Silver Searcher</li>
+<li>serie: Rich git commit graph in your terminal</li>
+<li>starship: Cross-shell prompt for astronauts</li>
+<li>wget: Internet file retriever</li>
+<li>yadm: Yet Another Dotfiles Manager</li>
+<li>yt-dlp: Feature-rich command-line audio/video downloader</li>
+<li>zellij: Pluggable terminal workspace, with terminal multiplexer as the base feature</li>
+</ul>
+<h2 id="programming">Programming</h2>
+<ul>
+<li>Ensure Xcode is installed with <code>xcode-select -p</code></li>
+<li>Disable accented character when holding down keys:
+<ul>
+<li><code>defaults write -g ApplePressAndHoldEnabled -bool false</code></li>
+</ul>
+</li>
+<li><a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html">AWS CLI</a>: AWS CLI</li>
+<li><a href="https://www.docker.com/">Docker</a>: Container platforms</li>
+<li><a href="https://go.dev/dl">Go</a> and <a href="https://cloud.r-project.org/">R</a>: Programming languages</li>
+<li><a href="https://github.com/MarkEdit-app/MarkEdit">MarkEdit</a>: Markdown editor and Preview pane extension</li>
+<li><a href="https://quarto.org/">Quarto</a>: Publishing system</li>
+<li><a href="https://www.sublimetext.com/">Sublime Text</a>: Text editor</li>
+<li><a href="https://docs.astral.sh/uv/">uv</a>, <a href="https://docs.astral.sh/ruff/">ruff</a>, and <a href="https://docs.astral.sh/ty/">ty</a>: Python tools</li>
+<li><a href="https://zed.dev/">Zed</a> and <a href="https://positron.posit.co/">Positron</a>: Code editors</li>
+<li>Go tools
+<ul>
+<li>Update Go tools: <code>goup</code> (custom function in the .zfunc file)</li>
+</ul>
+</li>
+<li>Python versions to install with <code>uv python install &lt;version&gt;</code></li>
+<li>Tools to install with <code>uv tool install &lt;tool&gt;</code>
+<ul>
+<li><a href="https://github.com/mikf/gallery-dl/">gallery-dl</a>: CLI for downloading image galleries (needs <code>--with yt-dlp</code> flag)</li>
+<li>[prek](pre-commit framework to run hooks)</li>
+<li><a href="https://github.com/spotDL/spotify-downloader">spotdl</a>: CLI for downloading Spotify playlists</li>
+</ul>
+</li>
+<li><a href="https://github.com/nvim-lua/kickstart.nvim">kickstart.nvim</a>: Helpful starter configuration for Neovim</li>
+<li>Add the PATHS to &quot;/private/etc/paths.d&quot;
+<ul>
+<li>Go: &quot;/usr/local/go/bin&quot;</li>
+<li>Quarto: &quot;/Applications/quarto/bin&quot;</li>
+</ul>
+</li>
+</ul>
+<h2 id="ssh-key-and-github">SSH Key and Github</h2>
+<ul>
+<li>Generate a new SSH key and store in <a href="https://support.1password.com/developer/">1Password</a></li>
+<li>Add the SSH key to the <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">ssh-agent</a></li>
+<li>Add public key to Github (both Authentication and Signing key types)</li>
+<li>Test connection with <code>ssh -T git@github.com</code></li>
+</ul>
+<h2 id="firefox">Firefox</h2>
+<ul>
+<li>Enable Firefox Sync for bookmarks, addons, and settings
+<ul>
+<li>Extensions: <a href="https://github.com/kagisearch/browser_extensions">Kagi</a>, <a href="https://github.com/openstyles/stylus">Stylus</a>, <a href="https://github.com/stoically/temporary-containers">Temporary Containers</a>, <a href="https://github.com/gorhill/uBlock">uBlock Origin</a>, <a href="https://github.com/philc/vimium">Vimium</a></li>
+</ul>
+</li>
+<li>Optional: Setup <a href="https://github.com/phil294/density-userstyle">Density</a> for Stylus</li>
+</ul>
+<h2 id="configs">Configs</h2>
+<p>My user settings are either synced in the program or through <a href="https://github.com/yadm-dev/yadm">yadm</a>, which is stored on my private Github repo.</p>
+<ul>
+<li>1Password for keys, tokens, etc</li>
+<li>Clone the dotfile repo for settings and configs (.zsh*, .zfunc/, .config/, etc)</li>
+</ul>
+<h2 id="themes">Themes</h2>
+<ul>
+<li>eza: <a href="https://gist.github.com/pymk/9a3591e5ada0e964b4e5b5b744fcb85b">Custom minimal theme</a></li>
+<li>Ghostty: Default theme with <a href="https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65">custom minimal Starship config</a></li>
+<li>Neovim: <a href="https://github.com/navarasu/onedark.nvim">One Dark</a></li>
+<li>Sublime: <a href="https://github.com/mauroreisvieira/github-sublime-theme/">GitHub Adaptive</a></li>
+<li>Zed: <a href="https://gist.github.com/pymk/d622a0a7c7046f8ecb8adb12a59bcaf1">Custom theme</a></li>
+</ul>
+<h2 id="misc">Misc</h2>
+<ul>
+<li>Prevents npm from automatically running lifecycle scripts: <code>echo 'ignore-scripts=true' &gt; ~/.npmrc</code></li>
+<li>Create a symlink for Claude Code: <code>ln -s /opt/homebrew/bin/claude ~/.local/bin/claude</code></li>
+<li>Create a symlink for Positron config file: <code>ln -sf &quot;$XDG_CONFIG_HOME/positron/settings.json&quot; &quot;$HOME/Library/Application Support/Positron/User/settings.json&quot;</code></li>
+</ul>
+
+
+            </main>
+            <footer>
+                
+<p style="color: #797979;" class="taxonomies">
+<small>
+    
+    
+    #macos
+    
+    #setup
+    
+    
+    
+    +guide
+    
+    
+    
+    
+</small>
+</p>
+
+                
+            </footer>
+        </div>
+    </body>
+</html>
