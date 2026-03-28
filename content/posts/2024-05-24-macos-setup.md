@@ -131,10 +131,8 @@ Install [Homebrew](https://brew.sh/) and packages:
 - eza: Modern, maintained replacement for ls
 - f2: Command-line batch renaming tool
 - fastfetch: Like neofetch, but much faster because written mostly in C
-- fd: Simple, fast and user-friendly alternative to find
 - ffmpeg: Play, record, convert, and stream audio and video
 - gh: GitHub command-line tool
-- gibo: Access GitHub's .gitignore boilerplates
 - git: Distributed revision control system
 - imagemagick: Tools and libraries to manipulate images in many formats
 - lf: Terminal file manager
@@ -142,13 +140,11 @@ Install [Homebrew](https://brew.sh/) and packages:
 - magic-wormhole: Securely transfers data between computers
 - neovim: Ambitious Vim-fork focused on extensibility and agility
 - pandoc: Swiss-army knife of markup format conversion
-- ripgrep: Search tool like grep and The Silver Searcher
 - serie: Rich git commit graph in your terminal
 - starship: Cross-shell prompt for astronauts
 - wget: Internet file retriever
 - yadm: Yet Another Dotfiles Manager
 - yt-dlp: Feature-rich command-line audio/video downloader
-- zellij: Pluggable terminal workspace, with terminal multiplexer as the base feature
 
 ## Programming
 
@@ -168,9 +164,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - Python versions to install with `uv python install <version>`
 - Tools to install with `uv tool install <tool>`
   - [gallery-dl](https://github.com/mikf/gallery-dl/): CLI for downloading image galleries (needs `--with yt-dlp` flag)
-  - [prek](pre-commit framework to run hooks)
   - [spotdl](https://github.com/spotDL/spotify-downloader): CLI for downloading Spotify playlists
-- [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim): Helpful starter configuration for Neovim
 - Add the PATHS to "/private/etc/paths.d"
   - Go: "/usr/local/go/bin"
   - Quarto: "/Applications/quarto/bin"
