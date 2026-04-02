@@ -151,6 +151,9 @@ Install [Homebrew](https://brew.sh/) and packages:
 - Ensure Xcode is installed with `xcode-select -p`
 - Disable accented character when holding down keys:
   - `defaults write -g ApplePressAndHoldEnabled -bool false`
+- Compact menu bar items:
+  - `defaults -currentHost write -globalDomain NSStatusItemSpacing -int 2`
+  - `defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 2`
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html): AWS CLI
 - [Docker](https://www.docker.com/): Container platforms
 - [Go](https://go.dev/dl) and [R](https://cloud.r-project.org/): Programming languages
