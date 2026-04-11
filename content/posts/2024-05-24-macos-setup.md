@@ -122,7 +122,6 @@ Install [Homebrew](https://brew.sh/) and packages:
 
 - 1password-cli: Command-line interface for 1Password
 - atuin: Improved shell history for zsh, bash, fish and nushell
-- b2-tools: B2 Cloud Storage Command-Line Tools
 - bat: Clone of cat(1) with syntax highlighting and Git integration
 - catimg: Insanely fast image printing in your terminal
 - claude-code (--cask): Terminal-based AI coding assistant
