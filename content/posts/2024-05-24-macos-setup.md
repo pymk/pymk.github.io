@@ -166,7 +166,6 @@ Install [Homebrew](https://brew.sh/) and packages:
 - Python versions to install with `uv python install <version>`
 - Tools to install with `uv tool install <tool>`
   - [gallery-dl](https://github.com/mikf/gallery-dl/): CLI for downloading image galleries (needs `--with yt-dlp` flag)
-  - [spotdl](https://github.com/spotDL/spotify-downloader): CLI for downloading Spotify playlists
 - Add the PATHS to "/private/etc/paths.d"
   - Go: "/usr/local/go/bin"
   - Quarto: "/Applications/quarto/bin"
