@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta name="robots" content="noindex">
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        <title>xkcdr Package</title>
+        
+        <meta name="title" content="xkcdr Package">
+        <meta name="author" content="pymk">
+        <meta name="description" content="p::y::m::k">
+        <meta name="generator" content="Zola">
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://pymk.dev/posts/xkcd-package/">
+        <meta property="og:site_name" content="pymk">
+        <meta property="og:title" content="xkcdr Package">
+        <meta property="og:description" content="p::y::m::k">
+        <meta property="og:image" content="https:&#x2F;&#x2F;pymk.dev&#x2F;images&#x2F;logo.png">
+
+        
+        
+
+        <link rel="canonical" href="https://pymk.dev/posts/xkcd-package/">
+        <link rel="shortcut icon" type="image/x-icon" href="https://pymk.dev/images/logo.png">
+        <script type="application/ld+json">
+            {
+                "description":"p::y::m::k",
+                "url":"https://pymk.dev/posts/xkcd-package/",
+                "@type":"WebSite",
+                "headline":"xkcdr Package",
+                "name":"xkcdr Package",
+                "author":{
+                    "@type":"Person",
+                    "name":"pymk"
+                },
+                "@context":"https://schema.org"
+            }
+        </script>
+        
+        
+        
+        <link rel="stylesheet" href="https://pymk.dev/style.css"/>
+        
+        <script src="https://pymk.dev/theme.js"></script>
+    </head>
+    <body theme="light">
+        <div class="w">
+            <header>
+                
+                <nav>
+                    
+                    <a href="/" >~</a>
+                    
+                    <a href="/posts" >ls</a>
+                    
+                    <button id="theme-toggle"><span id="theme-toggle-text">theme</span></button>
+                </nav>
+                
+                
+<p><a href="..">..</a>/xkcd-package</p>
+<p class="post-meta"><time datetime="2022-12-28">2022-12-28</time></p>
+<h1>xkcdr Package</h1>
+
+            </header>
+            <main class="page-content" aria-label="Content">
+                
+
+
+
+<p>I wanted to get more practice using the <a href="https://covr.r-lib.org">{covr}</a> package, so I built a small R package that uses the <em>xkcd</em> comic's API.</p>
+<p>You can install the package from Github:</p>
+<pre data-lang="r" style="background-color:#2b303b;color:#c0c5ce;" class="language-r "><code class="language-r" data-lang="r"><span>pak::</span><span style="color:#bf616a;">pak</span><span>(&quot;</span><span style="color:#a3be8c;">pymk/xkcdr</span><span>&quot;)
+</span></code></pre>
+<p>There is only one exported function for this package: <code>get_xkcd()</code>. There is an optional parameter that can be passed to get a specific comic. Without it, the latest comic will be returned.</p>
+<p>What is returned is a {gt} table, which looks very polished as an HTML output.</p>
+<p>For example, to view the comic 936, &quot;Password Strength&quot;, we run:</p>
+<pre data-lang="r" style="background-color:#2b303b;color:#c0c5ce;" class="language-r "><code class="language-r" data-lang="r"><span>xkcdr::</span><span style="color:#bf616a;">get_xkcd</span><span>(</span><span style="color:#d08770;">936</span><span>)
+</span></code></pre>
+<p>Source: <a href="https://github.com/pymk/xkcdr">pymk/xkcdr</a></p>
+
+
+            </main>
+            <footer>
+                
+<p style="color: #797979;" class="taxonomies">
+<small>
+    
+    
+    #r
+    
+    
+    
+    +project
+    
+    
+    
+    
+</small>
+</p>
+
+                
+            </footer>
+        </div>
+    </body>
+</html>

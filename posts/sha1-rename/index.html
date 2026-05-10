@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta name="robots" content="noindex">
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        <title>SHA-1 Rename</title>
+        
+        <meta name="title" content="SHA-1 Rename">
+        <meta name="author" content="pymk">
+        <meta name="description" content="p::y::m::k">
+        <meta name="generator" content="Zola">
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://pymk.dev/posts/sha1-rename/">
+        <meta property="og:site_name" content="pymk">
+        <meta property="og:title" content="SHA-1 Rename">
+        <meta property="og:description" content="p::y::m::k">
+        <meta property="og:image" content="https:&#x2F;&#x2F;pymk.dev&#x2F;images&#x2F;logo.png">
+
+        
+        
+
+        <link rel="canonical" href="https://pymk.dev/posts/sha1-rename/">
+        <link rel="shortcut icon" type="image/x-icon" href="https://pymk.dev/images/logo.png">
+        <script type="application/ld+json">
+            {
+                "description":"p::y::m::k",
+                "url":"https://pymk.dev/posts/sha1-rename/",
+                "@type":"WebSite",
+                "headline":"SHA-1 Rename",
+                "name":"SHA-1 Rename",
+                "author":{
+                    "@type":"Person",
+                    "name":"pymk"
+                },
+                "@context":"https://schema.org"
+            }
+        </script>
+        
+        
+        
+        <link rel="stylesheet" href="https://pymk.dev/style.css"/>
+        
+        <script src="https://pymk.dev/theme.js"></script>
+    </head>
+    <body theme="light">
+        <div class="w">
+            <header>
+                
+                <nav>
+                    
+                    <a href="/" >~</a>
+                    
+                    <a href="/posts" >ls</a>
+                    
+                    <button id="theme-toggle"><span id="theme-toggle-text">theme</span></button>
+                </nav>
+                
+                
+<p><a href="..">..</a>/sha1-rename</p>
+<p class="post-meta"><time datetime="2024-05-19">2024-05-19</time></p>
+<h1>SHA-1 Rename</h1>
+
+            </header>
+            <main class="page-content" aria-label="Content">
+                
+
+
+
+<p>I started looking into Go out of curiosity and I really like it. It's simple and elegant. I don't have a CS background, so it has been a good learning opportunity. There are new concepts I need to learn, such as Goroutines and generics, but until then, I wanted to start with simple projects.</p>
+<p>To start off, I thought of creating a program that renames files based on their SHA-1 checksum. With this implementation, it only renames images files, but it's easy enough to modify to include other file extensions.</p>
+<p>As a comparison, I also wrote the same program in Python and R. Obviously, R is not something I would use for this sort of thing, but I just wanted to write the program in all 3 languages. I had the most fun in Go.</p>
+<p>Project structure and unit tests were courtesy of ChatGPT.</p>
+<h2 id="go">Go</h2>
+<pre data-lang="go" style="background-color:#2b303b;color:#c0c5ce;" class="language-go "><code class="language-go" data-lang="go"><span style="color:#b48ead;">go </span><span style="color:#bf616a;">run </span><span>. /</span><span style="color:#bf616a;">path</span><span>/</span><span style="color:#bf616a;">to</span><span>/</span><span style="color:#bf616a;">your</span><span>/</span><span style="color:#bf616a;">image</span><span>/</span><span style="color:#bf616a;">directory
+</span></code></pre>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>&gt; go-rename ~/Pictures/Wallpapers
+</span><span>
+</span><span>Original      New
+</span><span>-----------   -----------
+</span><span>image_1.jpg   7a241a57d2475cad94811f78ed16bca6f4211c9d.jpg
+</span><span>image_2.png   0ce1279ff93f6aa62f1bb37c9bd8354038041e5c.png
+</span></code></pre>
+<p>Source: <a href="https://github.com/pymk/go-rename">pymk/go-rename</a></p>
+<h2 id="python">Python</h2>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">poetry</span><span> run python pyrename/main.py /path/to/your/image/directory
+</span></code></pre>
+<p>Source: <a href="https://github.com/pymk/pyrename">pymk/pyrename</a></p>
+<h2 id="r">R</h2>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">Rscript</span><span> main.R /path/to/your/image/directory
+</span></code></pre>
+<pre data-lang="r" style="background-color:#2b303b;color:#c0c5ce;" class="language-r "><code class="language-r" data-lang="r"><span>renamer::</span><span style="color:#bf616a;">sha1</span><span>(&quot;</span><span style="color:#a3be8c;">/path/to/your/image/directory</span><span>&quot;)
+</span></code></pre>
+<p>Source: <a href="https://github.com/pymk/renamer">pymk/renamer</a></p>
+
+
+            </main>
+            <footer>
+                
+<p style="color: #797979;" class="taxonomies">
+<small>
+    
+    
+    #go
+    
+    #python
+    
+    #r
+    
+    
+    
+    +project
+    
+    
+    
+    
+</small>
+</p>
+
+                
+            </footer>
+        </div>
+    </body>
+</html>
