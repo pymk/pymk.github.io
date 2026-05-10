@@ -196,7 +196,7 @@ My user settings are either synced in the program or through [yadm](https://gith
 - Ghostty: Default theme with [custom minimal Starship config](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
 - Neovim: [One Dark](https://github.com/navarasu/onedark.nvim)
 - Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
-- Zed: [Custom theme](https://gist.github.com/pymk/d622a0a7c7046f8ecb8adb12a59bcaf1)
+- Zed: [Custom theme](https://github.com/pymk/zed-theme-minimal-go)
 
 ## Misc
 
